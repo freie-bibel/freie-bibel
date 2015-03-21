@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+Copyright (C) 2012-2013  Stephan Kreutzer
+
+This file is part of Freie Bibel.
+
+Freie Bibel is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License version 3 or any later version,
+as published by the Free Software Foundation.
+
+Freie Bibel is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License 3 for more details.
+
+You should have received a copy of the GNU General Public License
+along with Freie Bibel. If not, see <http://www.gnu.org/licenses/>.
+-->
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+
+  <head>
+
+
+      <title>Haggai XML Bible Markup Language</title>
+
+      <meta name="copyright" content="Stephan Kreutzer" />
+      <meta name="author" content="Stephan Kreutzer" />
+      <meta http-equiv="expires" content="1296000" />
+      <meta http-equiv="content-type" content="application/xhtml+xml; charset=UTF-8" />
+
+
+  </head>
+
+
+  <body>
+
+
+      <div>
+        <h1>Haggai XML Bible Markup Language</h1>
+        <div>
+          <h2>Copyright</h2>
+          <pre>
+Copyright (C) 2012-2013  Stephan Kreutzer
+
+This file is part of Freie Bibel.
+
+Freie Bibel is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License version 3 or any later version,
+as published by the Free Software Foundation.
+
+Freie Bibel is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License 3 for more details.
+
+You should have received a copy of the GNU General Public License
+along with Freie Bibel. If not, see &lt;<a href="http://www.gnu.org/licenses/">http://www.gnu.org/licenses/</a>&gt;.
+
+The complete source code of this file is available at &lt;<a href="http://www.freie-bibel.de">http://www.freie-bibel.de</a>&gt;.
+          </pre>
+        </div>
+        <div>
+          <h2>Unterschiede zu Zefania XML</h2>
+          <p>
+            &bdquo;Haggai XML Bible Markup Language&ldquo; basiert auf der &bdquo;Zefania XML Bible Markup Language&ldquo;, welche von Wolfgang Schultz entwickelt wurde und von ihm gepflegt wird. Die aktuelle Version des Haggai-XML-Schemas korrespondiert grundsätzlich mit dem <a href="http://code.google.com/p/elberfelder1871/source/browse/trunk/zef2005.xsd">Zefania-XML-Schema-Äquivalent</a> und reflektiert den dort definierten Standard. Haggai XML enthält jedoch einige Verbesserungen hinsichtlich der Struktur und historischen Eigenheiten von Zefania XML. Ferner liegt von der Ausrichtung her das Hauptaugenmerk nicht allein auf verarbeitenden Bibelprogrammen, sondern auf einer vielfältigeren, universalen Nutzung, um etwa auch den Anforderungen für automatisierten Textsatz gerecht werden zu können.
+          </p>
+          <div>
+            <h3>Version 20130620</h3>
+            <ul>
+              <li>
+                Schema UTF-8-encodiert.
+              </li>
+              <li>
+                Copyright-Informationen hinzugefügt (Anwendung der GNU GPL 3).
+              </li>
+              <li>
+                Dokumentation vereinheitlicht und stellenweise verbessert.
+              </li>
+              <li>
+                Kleinere strukturelle Änderungen, etwa <code>minOccurs</code>- vor <code>maxOccurs</code>-Attributen oder Verwendung von integralen Datentypen laut XML Schema.
+              </li>
+              <li>
+                Element <code>XMLBIBLE/PROLOG</code> jetzt erlaubt (Vorwort zur gesamten Bibel).
+              </li>
+              <li>
+                Element <code>XMLBIBLE/REMARK</code> jetzt erlaubt (inhaltliche Anmerkungen über die gesamte Bibel).
+              </li>
+              <li>
+                Attribut <code>XMLBIBLE[@x-bible]</code> entfallen (es handelt sich immer um <code>x-bible</code>; <code>x-quran</code> würde Suren erfordern, bei <code>x-mormon</code> würde das Buch Mormon als ein weiteres Buch hinzukommen, <code>x-other</code> kommt nicht vor, <code>x-cult</code> kommt nicht vor &ndash; die beispielhaft erwähnte Neue-Welt-Übersetzung wäre eine codierbare christliche Bibel).
+              </li>
+              <li>
+                Element <code>BIBLEBOOK/CAPTION</code> jetzt erlaubt (Überschrift des Buches, z.B. Langname wie &bdquo;Evangelium nach Johannes&ldquo;).
+              </li>
+              <li>
+                Element <code>BIBLEBOOK/PROLOG</code> jetzt erlaubt (Vorwort über das gesamte Buch).
+              </li>
+              <li>
+                Element <code>BIBLEBOOK/REMARK</code> jetzt erlaubt (inhaltliche Anmerkung über das gesamte Buch).
+              </li>
+              <li>
+                Element <code>APPINFO</code> entfallen (keine Client-Informationen im XML-Modul).
+              </li>
+              <li>
+                Element <code>CHAPTER/CAPTION</code> jetzt nur noch max. 1&times; erlaubt (Überschrift des Kapitels, z.B. Langname wie &bdquo;1. Kapitel&ldquo;).
+              </li>
+              <li>
+                Element <code>CHAPTER/PARAGRAPH</code> jetzt erlaubt.
+              </li>
+              <li>
+                Element <code>CHAPTER/PROLOG</code> jetzt nur noch max. 1&times; erlaubt (Vorwort betrifft immer das Kapitel insgesamt).
+              </li>
+              <li>
+                Element <code>CHAPTER/REMARK</code> jetzt nur noch max. 1&times; erlaubt (inhaltliche Anmerkungen betreffen immer das Kapitel insgesamt).
+              </li>
+              <li>
+                Element <code>VERS</code> umbenannt zu <code>VERSE</code> (Englisch).
+              </li>
+              <li>
+                Element <code>VERSE/REMARK</code> jetzt erlaubt (inhaltliche Studienanmerkungen zum Vers oder an bestimmter Position des Verses).
+              </li>
+              <li>
+                Attribut <code>VERSE[@v]</code> entfallen (Kurzform für <code>vnumber</code> zur Unterstützung von Mobilgeräten, fehlt jedoch analog dazu bei <code>BIBLEBOOK</code> und <code>CHAPTER</code>).
+              </li>
+              <li>
+                Attribut <code>VERSE[@e]</code> entfallen (bei "Vers-Span" fehlen ohnehin die nachfolgend enthaltenen Verse im XML-Modul und können nicht explizit referenziert werden).
+              </li>
+              <li>
+                Attribut <code>VERSE[@aix]</code> entfallen (keine Referenzierung von Halbsätzen).
+              </li>
+              <li>
+                Attribut <code>VERSE[@p]</code> entfallen (keine Veröffentlichung von nicht korrekturgelesenen Bibelmodulen. Kein <code>p="true"</code> und dennoch übersehene Fehler im Vers. Kein bool bei potentiell mehrmaligem Korrekturlesen).
+              </li>
+              <li>
+                Attribut <code>PROLOG[@vref]</code> entfallen (keine Referenzierung des zugehörigen Verses mehr nötig).
+              </li>
+              <li>
+                Element <code>MEDIA</code> entfallen (Haggai XML ist für Bibeltexte konzipiert, Multimedia-Verweise können höchstens textuell erfolgen).
+              </li>
+              <li>
+                Element <code>CAPTION/GRAM</code> entfallen (keine Strongnummern noch RMAC in Überschriften).
+              </li>
+              <li>
+                Element <code>CAPTION/XREF</code> entfallen (keine Parallelstellen in Überschriften).
+              </li>
+              <li>
+                Attribut <code>CAPTION[@vref]</code> entfallen (die Überschrift gilt für den kompletten Verbund, in dem sie als Unterelement enthalten ist).
+              </li>
+              <li>
+                Attribut <code>CAPTION[@count]</code> entfallen (die Überschrift gilt für den kompletten Verbund, in dem sie als Unterelement enthalten ist).
+              </li>
+              <li>
+                Attribut <code>CAPTION[@type]</code> entfallen (Ordnung der Überschrift ergibt sich aus der Ebene, in welcher die Überschrift als Unterelement enthalten ist).
+              </li>
+              <li>
+                Attribut <code>REMARK[@vref]</code> entfallen (die inhaltliche Anmerkung gilt für den kompletten Verbund, in dem sie als Unterelement enthalten ist).
+              </li>
+              <li>
+                Attribut <code>REMARK[@art]</code> entfallen (Nutzen unbekannt, vielleicht identisch mit neuem <code>REMARK[@type]</code>?).
+              </li>
+              <li>
+                Attribut <code>REMARK[@aix]</code> entfallen (keine Referenzierung von Halbsätzen).
+              </li>
+              <li>
+                Attribut <code>REMARK[@type]</code> hinzugefügt (um inhaltliche Anmerkungen eigenständig zu gruppieren).
+              </li>
+              <li>
+                Element <code>PARAGRAPH</code> hinzugefügt.
+              </li>
+              <li>
+                Attribut <code>NOTE[@type]</code> jetzt optional (wenn keiner der vorgegebenen Typen zutrifft, dieser nicht zweifelsfrei festgestellt werden kann oder es sich um eine schlichte Fußnote ohne besondere Bedeutung handelt).
+              </li>
+              <li>
+                Attribut <code>NOTE[@n1]</code> entfallen (keine mehrfachen Typen für ein- und dieselbe Fußnote).
+              </li>
+              <li>
+                Attribut <code>NOTE[@n2]</code> entfallen (keine mehrfachen Typen für ein- und dieselbe Fußnote).
+              </li>
+              <li>
+                Attribut <code>NOTE[@n3]</code> entfallen (keine mehrfachen Typen für ein- und dieselbe Fußnote).
+              </li>
+              <li>
+                Attribut <code>NOTE[@n4]</code> entfallen (keine mehrfachen Typen für ein- und dieselbe Fußnote).
+              </li>
+              <li>
+                Attribut <code>NOTE[@n5]</code> entfallen (keine mehrfachen Typen für ein- und dieselbe Fußnote).
+              </li>
+              <li>
+                Attribut <code>NOTE[@ex]</code> entfallen (Nutzen unbekannt, womöglich für eigene Typen?).
+              </li>
+              <li>
+                Attribut <code>XREF[@vef]</code> entfallen (die Parallelstelle gilt für den kompletten Verbund, in dem sie als Unterelement enthalten ist).
+              </li>
+              <li>
+                Attribut <code>XREF[@aix]</code> entfallen (keine Referenzierung von Halbsätzen).
+              </li>
+              <li>
+                Element <code>GRAM/GRAM</code> entfallen (keine Strongnummern/RMAC innerhalb von Strongnummern/RMAC).
+              </li>
+              <li>
+                Element <code>STYLE/GRAM</code> entfallen (keine Strongnummern/RMAC innerhalb von rohem style-formatiertem Text).
+              </li>
+              <li>
+                Element <code>STYLE/BR</code> jetzt erlaubt (<code>BR</code> als Teil des rohen Textes).
+              </li>
+              <li>
+                Attribut <code>STYLE[@css]</code> entfallen (war deprecated).
+              </li>
+              <li>
+                Element <code>SUP</code> entfallen (siehe <code>STYLE[@fs=super]</code>).
+              </li>
+              <li>
+                Attribut <code>BR[@art]</code> entfallen (immer <code>x-nl</code>, für Absatz siehe <code>PARAGRAPH</code>).
+              </li>
+              <li>
+                Attribut <code>BR[@count]</code> entfallen.
+              </li>
+              <li>
+                Element <code>INFORMATION/creator</code> jetzt nur noch max. 1&times; erlaubt (Komma-separierte Liste aller Ersteller).
+              </li>
+              <li>
+                Element <code>INFORMATION/description</code> jetzt nur noch max. 1&times; erlaubt (kann nur einmal beschrieben werden).
+              </li>
+              <li>
+                Element <code>INFORMATION/publisher</code> jetzt nur noch max. 1&times; erlaubt (Komma-separierte Liste aller an der Veröffentlichung beteiligten Personen/Organisationen).
+              </li>
+              <li>
+                Element <code>INFORMATION/subject</code> entfallen (ziemlich nutzlos in Anbetracht der sonstigen Meta-Informationen).
+              </li>
+              <li>
+                Element <code>INFORMATION/contributors</code> umbenannt zu <code>contributor</code> gemäß Dublin Core.
+              </li>
+              <li>
+                Element <code>INFORMATION/type</code> auf <code>Text</code> festgelegt.
+              </li>
+              <li>
+                Element <code>INFORMATION/format</code> auf <code>Haggai XML Bible Markup Language</code> festgelegt.
+              </li>
+              <li>
+                Typ des Elements <code>INFORMATION/identifier</code> geändert (um Sonderzeichen aus der ID auszuschließen).
+              </li>
+              <li>
+                Element <code>INFORMATION/rights</code> jetzt obligatorisch.
+              </li>
+              <li>
+                Typ <code>TMedia</code> entfallen (siehe Element <code>MEDIA</code>).
+              </li>
+              <li>
+                Typ <code>TVref</code> entfallen (kein Grund mehr für Referenzierung von Versen).
+              </li>
+              <li>
+                Typ <code>TAix</code> entfallen (Nutzen unbekannt).
+              </li>
+              <li>
+                Typ <code>TCss</code> entfallen (weil <code>STYLE[@css]</code> deprecated).
+              </li>
+              <li>
+                Typ <code>TNoteExternClass</code> entfallen (weil <code>NOTE[@ex]</code> entfallen).
+              </li>
+              <li>
+                Typ <code>SupType</code> entfallen (weil <code>SUP</code> entfallen).
+              </li>
+              <li>
+                Typ <code>MediaType</code> entfallen (weil <code>MEDIA</code> entfallen).
+              </li>
+              <li>
+                Typ <code>BreakType</code> enfallen (weil <code>BR[@art]</code> entfallen, Art ist immer <code>x-nl</code>).
+              </li>
+              <li>
+                Typ <code>ModuleType</code> entfallen (weil <code>XMLBIBLE[@x-bible]</code> entfallen, Typ ist immer <code>x-bible</code>).
+              </li>
+              <li>
+                Typ <code>CaptionType</code> entfallen (weil <code>CAPTION[@type]</code> entfallen).
+              </li>
+              <li>
+                Enum <code>TNotesFix::x-studynote</code> entfallen (weil deprecated).
+              </li>
+              <li>
+                Enum <code>TNotesFix::n-studynote</code> entfallen (weil deprecated).
+              </li>
+              <li>
+                Typ <code>UniqueIDText</code> hinzugefügt (siehe <code>INFORMATION/identifier</code>).
+              </li>
+              <li>
+                Element <code>gr</code> entfallen (weil deprecated).
+              </li>
+              <li>
+                Element <code>st</code> entfallen (weil deprecated).
+              </li>
+              <li>
+                Element <code>g</code> entfallen (Abkürzung <code>GRAM</code> für Mobile Devices).
+              </li>
+              <li>
+                Element <code>s</code> entfallen (Abkürzung <code>STYLE</code> für Mobile Devices).
+              </li>
+              <li>
+                Element <code>ai</code> entfallen (Abkürzung <code>APPINFO</code> für Mobile Devices).
+              </li>
+              <li>
+                Element <code>b</code> entfallen (Abkürzung <code>BIBLEBOOK</code> für Mobile Devices).
+              </li>
+              <li>
+                Element <code>ca</code> entfallen (Abkürzung <code>CAPTION</code> für Mobile Devices).
+              </li>
+              <li>
+                Element <code>c</code> entfallen (Abkürzung <code>CHAPTER</code> für Mobile Devices).
+              </li>
+              <li>
+                Element <code>i</code> entfallen (Abkürzung <code>INFORMATION</code> für Mobile Devices).
+              </li>
+              <li>
+                Element <code>media</code> entfallen (siehe <code>MEDIA</code>).
+              </li>
+              <li>
+                Element <code>m</code> entfallen (siehe <code>MEDIA</code>).
+              </li>
+              <li>
+                Element <code>n</code> entfallen (Abkürzung <code>NOTE</code> für Mobile Devices).
+              </li>
+              <li>
+                Element <code>paragraph</code> hinzugefügt.
+              </li>
+              <li>
+                Element <code>p</code> entfallen (Abkürzung <code>PROLOG</code> für Mobile Devices).
+              </li>
+              <li>
+                Element <code>r</code> entfallen (Abkürzung <code>REMARK</code> für Mobile Devices).
+              </li>
+              <li>
+                Element <code>v</code> entfallen (Abkürzung <code>VERSE</code> für Mobile Devices).
+              </li>
+              <li>
+                Element <code>x</code> entfallen (Abkürzung <code>XMLBIBLE</code> für Mobile Devices).
+              </li>
+              <li>
+                Element <code>xr</code> entfallen (Abkürzung <code>XREF</code> für Mobile Devices).
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+
+  </body>
+
+
+</html>

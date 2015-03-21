@@ -1,0 +1,68 @@
+Copyright (C) 2013  Stephan Kreutzer
+
+This file is part of Freie Bibel.
+
+Freie Bibel is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License version 3 or any later version,
+as published by the Free Software Foundation.
+
+Freie Bibel is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License 3 for more details.
+
+You should have received a copy of the GNU General Public License
+along with Freie Bibel. If not, see <http://www.gnu.org/licenses/>.
+
+
+
+Description
+-----------
+
+hag2latex7 is free software to generate LaTeX output from Haggai
+XML Bible Markup Language files for typesetting a parallel bible.
+
+
+Requirements
+------------
+
+A proper JDK [1] must be installed to produce the *.class files.
+The source code is compatible with Java 1.5 and 1.6.
+
+
+Build instructions
+------------------
+
+Either just type
+
+    make
+
+or, in case your build environment is missing "make", type
+
+    javac ParallelProcessor.java
+    javac hag2latex7.java
+
+in the directory containing the package's source code. If you need to
+cross-compile for a JRE [2] in a different version (check with
+
+    java -version
+
+on the target machine), type
+
+    javac -source 1.6 -target 1.6 ParallelProcessor.java
+    javac -source 1.6 -target 1.6 hag2latex7.java
+
+where "1.6" should be the corresponding version number.
+
+
+Execution
+---------
+
+Type
+
+    java hag2latex7 haggai-file-left haggai-file-right latex-file-out
+
+
+
+[1] JDK = Java Development Kit, i.e. http://openjdk.java.net/install/index.html.
+[2] JRE = Java Runtime Environment.

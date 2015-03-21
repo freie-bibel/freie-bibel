@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Copyright (C) 2011-2013  Stephan Kreutzer
+
+This file is part of Freie Bibel.
+
+Freie Bibel is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License version 3 or any later version,
+as published by the Free Software Foundation.
+
+Freie Bibel is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License 3 for more details.
+
+You should have received a copy of the GNU General Public License
+along with Freie Bibel. If not, see <http://www.gnu.org/licenses/>.
+-->
+
+
+<textvergleichung-config>
+  <in>
+    <inFile><!-- Relative or absolute path to a Haggai XML Bible Markup Language file --></inFile>
+    <inFile><!-- Another relative or absolute path to a Haggai XML Bible Markup Language file --></inFile>
+    <annotationDirectory><!-- Relative or absolute path of the directory containing annotation files --></annotationDirectory>
+  </in>
+  <out>
+    <outDirectory><!-- Relative or absolute path of the output directory --></outDirectory>
+    <bookmappings>
+      <!-- Display names of the bible books: -->
+      <mapping bnumber="1">1. Mose</mapping>
+      <mapping bnumber="2">2. Mose</mapping>
+      <mapping bnumber="3">3. Mose</mapping>
+      <mapping bnumber="4">4. Mose</mapping>
+      <mapping bnumber="5">5. Mose</mapping>
+      <mapping bnumber="6">Josua</mapping>
+      <mapping bnumber="7">Richter</mapping>
+      <mapping bnumber="8">Rut</mapping>
+      <mapping bnumber="9">1. Samuel</mapping>
+      <mapping bnumber="10">2. Samuel</mapping>
+      <mapping bnumber="11">1. Könige</mapping>
+      <mapping bnumber="12">2. Könige</mapping>
+      <mapping bnumber="13">1. Chronik</mapping>
+      <mapping bnumber="14">2. Chronik</mapping>
+      <mapping bnumber="15">Esra</mapping>
+      <mapping bnumber="16">Nehemia</mapping>
+      <mapping bnumber="17">Ester</mapping>
+      <mapping bnumber="18">Hiob</mapping>
+      <mapping bnumber="19">Psalmen</mapping>
+      <mapping bnumber="20">Sprüche</mapping>
+      <mapping bnumber="21">Prediger</mapping>
+      <mapping bnumber="22">Hohelied</mapping>
+      <mapping bnumber="23">Jesaja</mapping>
+      <mapping bnumber="24">Jeremia</mapping>
+      <mapping bnumber="25">Klagelieder</mapping>
+      <mapping bnumber="26">Hesekiel</mapping>
+      <mapping bnumber="27">Daniel</mapping>
+      <mapping bnumber="28">Hosea</mapping>
+      <mapping bnumber="29">Joel</mapping>
+      <mapping bnumber="30">Amos</mapping>
+      <mapping bnumber="31">Obadja</mapping>
+      <mapping bnumber="32">Jona</mapping>
+      <mapping bnumber="33">Micha</mapping>
+      <mapping bnumber="34">Nahum</mapping>
+      <mapping bnumber="35">Habakuk</mapping>
+      <mapping bnumber="36">Zephanja</mapping>
+      <mapping bnumber="37">Haggai</mapping>
+      <mapping bnumber="38">Sacharja</mapping>
+      <mapping bnumber="39">Maleachi</mapping>
+      <mapping bnumber="40">Matthäus</mapping>
+      <mapping bnumber="41">Markus</mapping>
+      <mapping bnumber="42">Lukas</mapping>
+      <mapping bnumber="43">Johannes</mapping>
+      <mapping bnumber="44">Apostelgeschichte</mapping>
+      <mapping bnumber="45">Römer</mapping>
+      <mapping bnumber="46">1. Korinther</mapping>
+      <mapping bnumber="47">2. Korinther</mapping>
+      <mapping bnumber="48">Galater</mapping>
+      <mapping bnumber="49">Epheser</mapping>
+      <mapping bnumber="50">Philipper</mapping>
+      <mapping bnumber="51">Kolosser</mapping>
+      <mapping bnumber="52">1. Thessalonicher</mapping>
+      <mapping bnumber="53">2. Thessalonicher</mapping>
+      <mapping bnumber="54">1. Timotheus</mapping>
+      <mapping bnumber="55">2. Timotheus</mapping>
+      <mapping bnumber="56">Titus</mapping>
+      <mapping bnumber="57">Philemon</mapping>
+      <mapping bnumber="58">Hebräer</mapping>
+      <mapping bnumber="59">Jakobus</mapping>
+      <mapping bnumber="60">1. Petrus</mapping>
+      <mapping bnumber="61">2. Petrus</mapping>
+      <mapping bnumber="62">1. Johannes</mapping>
+      <mapping bnumber="63">2. Johannes</mapping>
+      <mapping bnumber="64">3. Johannes</mapping>
+      <mapping bnumber="65">Judas</mapping>
+      <mapping bnumber="66">Offenbarung</mapping>
+    </bookmappings>
+  </out>
+</textvergleichung-config>

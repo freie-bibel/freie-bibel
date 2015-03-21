@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+Copyright (C) 2012-2013  Stephan Kreutzer
+
+This file is part of Freie Bibel.
+
+Freie Bibel is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License version 3 or any later version,
+as published by the Free Software Foundation.
+
+Freie Bibel is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License 3 for more details.
+
+You should have received a copy of the GNU General Public License
+along with Freie Bibel. If not, see <http://www.gnu.org/licenses/>.
+-->
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+
+  <head>
+
+
+      <title>Hinweise für Entwickler</title>
+
+      <meta name="copyright" content="Stephan Kreutzer" />
+      <meta name="author" content="Stephan Kreutzer" />
+      <meta http-equiv="expires" content="1296000" />
+      <meta http-equiv="content-type" content="application/xhtml+xml; charset=UTF-8" />
+
+
+  </head>
+
+
+  <body>
+
+
+      <div>
+        <h1>Hinweise für Entwickler</h1>
+        <div>
+          <h2>Copyright</h2>
+          <pre>
+Copyright (C) 2012-2013  Stephan Kreutzer
+
+This file is part of Freie Bibel.
+
+Freie Bibel is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License version 3 or any later version,
+as published by the Free Software Foundation.
+
+Freie Bibel is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License 3 for more details.
+
+You should have received a copy of the GNU General Public License
+along with Freie Bibel. If not, see &lt;<a href="http://www.gnu.org/licenses/">http://www.gnu.org/licenses/</a>&gt;.
+
+The complete source code of this file is available at &lt;<a href="http://www.freie-bibel.de">http://www.freie-bibel.de</a>&gt;.
+          </pre>
+        </div>
+        <div>
+          <h2>Bibeldigitalisierung</h2>
+          <p style="text-align:justify;">
+            Die Bibeldigitalisierung an sich wird bisher durch Abfotografieren und nachträgliche Bildbearbeitung realisiert. Eine Bibel-Seite wird zunächst in Graustufen umgewandelt und dann mit möglichst hohem Kontrast-Ausgleich versehen, wobei die einzelnen Buchstaben an den Rändern von der Helligkeit nicht übertönt werden sollen und gleichzeitig die dunkelste Stelle noch lesbar bleiben muss. Mit intelligenter Skalierung (nicht gerastert, d.h. mit Antialiasing) wird die Bildbreite auf ca. 1000 Pixel gebracht<a name="fussnote_1_verwendung_1"></a><sup><a href="#fussnote_1">1</a></sup>, im Zweifel sollte die Breite lieber etwas darüber liegen als darunter. Nach der Bearbeitung werden die Bilder als *.png für verlustlose Kompression mit 256 Farben gespeichert.
+          </p>
+          <p style="text-align:justify;">
+            Die Übertragung in eine Haggai-XML-Bibel-Datei geschieht bisweilen durch buchstabenäquivalentes Abtippen. Haggai-XML als Format-Basis für die Erfassung von Bibeltexten wird deshalb bevorzugt, weil der Schwerpunkt nicht auf einer Auszeichnung von Satzstrukturen oder einer originalgetreuen Wiedergabe des zugrundeliegenden Exemplars beruht, sondern den reinen Übersetzungstext ohne Ausgabe-spezifischen Eigenheiten (Beigaben etc.) aufzunehmen vermag, was besonders für die spätere Print-Verarbeitung von Bedeutung ist. Ferner existieren eine Reihe von weiteren Regeln, die zwecks exakter Wiedergabe der Textfassung berücksichtigt werden müssen &ndash; hier einige davon:
+          </p style="text-align:justify;">
+          <ul>
+            <li>
+              <p style="text-align:justify;">
+                Druckfehler müssen unverändert übernommen werden. Sie müssen auf jeden Fall für die spätere Nennung im Datenblatt notiert und gesammelt werden.
+              </p>
+            </li>
+            <li>
+              <p style="text-align:justify;">
+                Für die Anzahl der Leerzeichen zwischen zwei Wörtern wird grundsätzlich &bdquo;1&ldquo; angenommen. Die Abwesenheit oder Anwesenheit eines Leerzeichens zwischen einem Wort und einer Fußnoten-Nummerierung muss jedoch wiederum beibehalten bleiben.
+              </p>
+            </li>
+            <li>
+              <p style="text-align:justify;">
+                Die Auszeichnung von Wörtern oder Absätzen durch den Schriftsatz müssen so genau wie möglich wiedergegeben werden. Für
+              </p>
+              <div>
+                <img src="haggai_xml_buchstabenaequivalent_komma_in_auszeichnung.png" width="139px" height="37px" alt="Komma innerhalb einer Einfügung, Fraktursatz" title="Komma innerhalb einer Einfügung, Fraktursatz" />
+              </div>
+              <p style="text-align:justify;">
+                (entnommen der Elberfelder 1885 NT auf Seite 130 bei Lukas 13,9) lautet das Haggai-XML-Äquivalent unter besonderer Berücksichtigung des zweiten Kommas
+              </p>
+              <pre><code>
+                wird, &lt;STYLE fs="super"&gt;gut,&lt;/STYLE&gt;
+              </code></pre>
+            </li>
+            <li>
+              <p style="text-align:justify;">
+                Absätze müssen mit dem <tt>&lt;PARAGRAPH&gt;</tt>-Tag ausgezeichnet werden. Da momentan im Haggai-XML-Standard noch kein <tt>&lt;PARAGRAPHMARK&gt;</tt>-Tag für Absatzumbrüche mitten in einem Vers vorgesehen sind, sollten diese Stellen durch einen XML-Kommentar wie
+              </p>
+              <pre><code>
+                &lt;!-- Zwischen "Colonie. In" befindet sich ein Absatz mitten im Vers. --&gt;
+              </code></pre>
+              <p style="text-align:justify;">
+                über dem betroffenen Vers gekennzeichnet werden. Außerdem kann es vorkommen, dass ein Absatz Kapitelgrenzen überspannt:
+              </p>
+              <div>
+                <img src="absatz_ueberspannt_kapitel.png" width="396px" height="163px" alt="Absatz überspannt Kapitel." title="Absatz überspannt Kapitel."/>
+              </div>
+              <p style="text-align:justify;">
+                (entnommen der Elberfelder 1871 auf Seite 30 NT bei Matthäus 19,29-20,2). In Ermangelung eines Attributs <tt>spanschapter="true"</tt> am <tt>&lt;PARAGRAPH&gt;</tt>-Tag sollten solche Stellen momentan noch mit einem XML-Kommentar am Kapitel-Ende und Anfang gekennzeichnet werden:
+              </p>
+              <pre><code>
+                    &lt;!-- Der Absatz überspannt das Kapitel-Ende. --&gt;
+                  &lt;/PARAGRAPH&gt;
+                &lt;/CHAPTER&gt;
+                &lt;CHAPTER cnumber="20"&gt;
+                  &lt;PARAGRAPH&gt;
+                    &lt;!-- Der Absatz überspannt den Kapitel-Anfang. --&gt;
+              </code></pre>
+              <p style="text-align:justify;">
+                Bei der Digitalisierung sollte berücksichtigt werden, dass Absätze erst in modernerer Zeit vermehrt durch eine Leerzeile abgesetzt werden, wie es ursprünglich eher in der Belletristik üblich war (um ein aufgelockertes Schriftbild zu erhalten). Für längere Texte ist in anderen Bereichen aber der Normalfall, dass Absätze durch ein Einrücken der ersten Zeile des Absatzes (alt: auch im ersten Absatz eines Kapitels, modern: nicht im ersten Absatz eines Kapitels) und durch die linksbündige letzte Zeile des Absatzes gekennzeichnet werden. Falls die letzte Zeile eines Absatzes rechts bündig ausfallen sollte, bleibt zur Identifikation des Absatzes nur die Einrückung zu Beginn des folgenden Absatzes.
+              </p>
+              <div>
+                <img src="absaetze_fraktursatz.png" width="660px" height="527px" alt="Kennzeichnung von Absätzen durch Einrückung der ersten Zeile in längeren Texten." title="Kennzeichnung von Absätzen durch Einrückung der ersten Zeile in längeren Texten."/>
+              </div>
+              <p style="text-align:justify;">
+                (entnommen der Elberfelder 1871 auf Seite 121 NT bei Johannes 1,31-36).
+              </p>
+            </li>
+            <li>
+              <p style="text-align:justify;">
+                Insbesondere modernere Übersetzungen halten sich vermehrt nicht mehr unbedingt konsequent an das traditionelle Referenzierungssystem nach Kapitel/Versen, was natürlich zu Problemen führt, wenn statt eines neuen, konsistenten Referenzierungssystems Ausnahmen zum herkömmlichen System hinzugefügt werden:
+              </p>
+              <div>
+                <img src="zusammengefasste_verse.png" width="1100px" height="300px" alt="Zusammengefasste Bibelverse im traditionellen Referenzierungssystem." title="Zusammengefasste Bibelverse im traditionellen Referenzierungssystem."/>
+              </div>
+              <p style="text-align:justify;">
+                (entnommen der Neuen Genfer Übersetzung, 1. Auflage 2000, Seite 274 bei Apostelgeschichte 3,9-10). Was sonst der separate Vers 9 ist, wird hier inmitten dessen wiedergegeben, was üblicherweise zu Vers 10 gezählt werden würde. Die Übersetzer haben sich wahrscheinlich gegen eine neue Einteilung entschieden, damit keine Versnummerierung wie 10a, 9, 10b entsteht, und dass gleichzeitig nicht zu Vers 9 hinzugezählt werden muss, was der Leser im Vers 10 erwarten würde. Auf diese Weise (Verse 9 und 10 als Verbund) ist jedoch die Abgrenzung zwischen 9 und 10 nicht mehr identifizierbar, was Schwierigkeiten für verarbeitende Bibelprogramme hervorruft. Numerisch kann nicht mehr länger auf die Existenz der Verse 9 und 10 geprüft werden, auch können diese Verse nicht mehr separat referenziert und angesprungen werden, sondern müssten über den Verbund 9-10 angesprochen werden. Eine vermeintliche Lösung bestünde darin, in Haggai XML solche Vers-Verbunde einzuführen, indem ein &bdquo;Vers-Span&ldquo; für eine Anzahl Verse vorgesehen wäre, in etwa Vers 9 + 2 weitere Verse. Alternativ könnte Beginn und Ende eines Vers-Verbundes angegeben werden. Mit diesem Verfahren würde jedoch das bisherige Referenzierungssystem an sich ad absurdum geführt werden, weil die kleinste identifizierbare Einheit nicht mehr länger der Vers wäre, sondern im Zweifel der Vers-Verbund. Die logische Konsequenz daraus wäre, den gesamten Bibeltext nur noch in Vers-Verbunden abzubilden, wobei die meisten Verse dann durch einen Verbund bestehend aus genau einem Vers repräsentiert werden würden, damit sich auslesende Software darauf beschränken könnte, nur noch zu prüfen, ob ein gesuchter Vers innerhalb eines Vers-Verbunds liegt. In Haggai XML soll vorübergehend ein solcher Fall als ein einzelner Vers 9 wiedergegeben werden, während der Vers 10 dann fehlen darf.
+              </p>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h2>Tools</h2>
+          <p style="text-align:justify;">
+            Im Verzeichnis <tt>$/tools/</tt> befinden sich die Quelldateien verschiedener Werkzeuge, die entweder lediglich angewendet, eventuell angepasst oder schließlich sogar gemäß eigener Anforderungen erweitert werden können:
+          </p>
+          <div>
+            <h3>textvergleicher</h3>
+            <p style="text-align:justify;">
+              Damit der <tt>textvergleicher</tt> ausgeführt werden kann, müssen die *.java-Dateien in Java-Bytecode für eine Java-VM überführt werden. Evtl. ist hierfür zunächst das Java SDK (siehe freie Implementierung <a href="http://openjdk.java.net/install/index.html">OpenJDK</a>) zu installieren. Wenn mangels einer typischen Build-Umgebung der Aufruf des makefiles im <tt>textvergleicher</tt>-Verzeichnis nicht möglich ist, können die *.java-Dateien alternativ manuell einzeln kompiliert werden:
+            </p>
+            <pre>
+              javac ConfigProcessor.java
+              javac BibleProcessor.java
+              javac HtmlProcessor.java
+              javac textvergleicher.java
+            </pre>
+            <p style="text-align:justify;">
+              Sollte auf einem Zielsystem das installierte Java SDK (zu prüfen mittels <tt>javac -version</tt>) von der Java-VM abweichen (zu prüfen mittels <tt>java -version</tt>) und ferner keine Möglichkeit bestehen, auf die Installation Einfluss zu nehmen, kann mit
+            </p>
+            <pre>
+              javac -source 1.6 -target 1.6 ConfigProcessor.java
+            </pre>
+            <p style="text-align:justify;">
+              die einzelne Quelldatei <tt>ConfigProcessor.java</tt> für Java 1.6 kompiliert werden. Wenn dann pro *.java-Datei eine entsprechende *.class-Bytecode-Datei erzeugt wurde, kann <tt>textvergleicher</tt> mit
+            </p>
+            <pre>
+              java textvergleicher config.xml
+            </pre>
+            <p style="text-align:justify;">
+              aufgerufen werden. Allerdings sollte vorher die <tt>config.xml</tt>-Datei angepasst worden sein, dort sind nämlich die Quell-Haggai-XML-Dateien (<tt>&lt;inFile&gt;</tt>), das Quell-Verzeichnis für Annotationen (<tt>&lt;annotationDirectory&gt;</tt>) als auch das Ausgabe-Verzeichnis (<tt>&lt;outDirectory&gt;</tt>) plus die gewünschten Bibelbuch-Namen (<tt>&lt;bookmappings&gt;</tt>) zu hinterlegen. Im Annotations-Verzeichnis müssen die Annotationen als einzelne Dateien mit folgender Benennung
+            </p>
+            <pre>
+              &lt;buchnummer&gt;_&lt;kapitelnummer&gt;_&lt;versnummer&gt;.html
+            </pre>
+            <p style="text-align:justify;">
+              (Nummern ohne führende Nullen) abgelegt sein. Der dort enthaltene HTML-Text wird vom <tt>textvergleicher</tt> unmittelbar in die Ausgabe übernommen. Da die Ausgabe-Dateien auf eine nicht automatisch generierte <tt>index.html</tt>-Datei verweisen, sollte diese manuell angelegt werden.
+            </p>
+          </div>
+          <div>
+            <h3>hag2latex7</h3>
+            <p style="text-align:justify;">
+              <tt>hag2latex7</tt> verhält sich ziemlich ähnlich wie der <tt>textvergleicher</tt>, nur dass in Ermangelung von <tt>make</tt> weniger Dateien einzeln kompiliert werden müssen:
+            </p>
+            <pre>
+              javac ParallelProcessor.java
+              javac hag2latex7.java
+            </pre>
+            <p style="text-align:justify;">
+              Der Aufruf erfolgt anschließend mit
+            </p>
+            <pre>
+              java hag2latex7 haggai_links.xml haggai_rechts.xml out.tex
+            </pre>
+            <p style="text-align:justify;">
+              Daraufhin muss die Ausgabe nur noch wie sonst bei der Gruppe der hag2latex-Tools auch mit
+            </p>
+            <pre>
+              pdflatex out.tex
+              pdflatex out.tex
+              pdflatex out.tex
+              pdflatex out.tex
+            </pre>
+            <p style="text-align:justify;">
+              von LaTeX zum PDF verarbeitet werden.
+            </p>
+          </div>
+          <div>
+            <h3>hag2html</h3>
+            <p style="text-align:justify;">
+              Soll einmalig eine HTML-Ausgabe erzeugt werden, kann ein entsprechender XML-Transformator aufgerufen werden. Für <a href="http://xmlstar.sourceforge.net/">XMLStarlet Toolkit</a> genügt
+            </p>
+            <pre>
+              xmlstarlet transform hag2html.xsl input.xml > output.html
+            </pre>
+            <p style="text-align:justify;">
+              Für denselben Zweck kann aber auch der <a href="http://xmlgraphics.apache.org/fop/">Apache FOP</a> eingesetzt werden:
+            </p>
+            <pre>
+              fop -xml input.xml -xsl hag2html.xsl -foout output.html
+            </pre>
+            <p style="text-align:justify;">
+              Wenn diese Art der Verarbeitung nicht erwünscht ist, kann alternativ auf den expliziten Aufruf eines Prozessors ganz verzichtet und stattdessen in der hypothetischen <tt>input.xml</tt> direkt unter der XML-Processing-Instruction (<tt>&lt;?xml ?&gt;</tt>) ein anzuwendendes Stylesheet angegeben werden:
+            </p>
+            <pre><code>
+              &lt;?xml version="1.0" encoding="UTF-8"?&gt;
+              &lt;?xml-stylesheet type="text/xsl" href="hag2html.xsl"?&gt;
+              &lt;XMLBIBLE ... &gt;
+                ...
+              &lt;/XMLBIBLE&gt;
+            </code></pre>
+            <p style="text-align:justify;">
+              Wird die <tt>input.xml</tt> nun im Browser geöffnet, erfolgt die Darstellung nun Stylesheet-kontrolliert. Um die Nutzung für Endanwender zu vereinfachen, empfiehlt es sich, eine <tt>index.html</tt> mit Weiterleitung anzulegen:
+            </p>
+            <pre><code>
+              &lt;html&gt;
+                &lt;head&gt;
+                  &lt;meta http-equiv="refresh" content="0; URL=input.xml"&gt;
+                &lt;/head&gt;
+                &lt;body&gt;
+                  &lt;p&gt;
+                    Falls die automatische Weiterleitung nicht funktioniert,
+                    bitte einfach &lt;a href="input.xml"&gt;hier&lt;/a&gt; klicken.
+                  &lt;/p&gt;
+                &lt;/body&gt;
+              &lt;/html&gt;
+            </code></pre>
+          </div>
+          <div>
+            <h3>hag2fo</h3>
+            <p style="text-align:justify;">
+              Zur Erzeugung der PDF-Druckvorlage genügt der Aufruf des <a href="http://xmlgraphics.apache.org/fop/">Apache FOP</a> wie folgt:
+            </p>
+            <pre>
+              fop -c fop.xconf -xml input.xml -xsl hag2fo.xsl -pdf output.pdf
+            </pre>
+            <p style="text-align:justify;">
+              Die Datei <tt>fop.xconf</tt> wird zur Schriftarten-Konfiguration verwendet, wo standardmäßig in den installierten Schriftarten des Systems gesucht werden soll, alternativ aber auch absolute Pfade zu Schriftart-Dateien angegeben werden können.
+            </p>
+          </div>
+          <div>
+            <h3>hag2latex</h3>
+            <p style="text-align:justify;">
+              Im ersten Schritt wird über das <a href="http://xmlstar.sourceforge.net/">XMLStarlet Toolkit</a> die LaTeX-Ausgabe erzeugt:
+            </p>
+            <pre>
+              xmlstarlet transform hag2latex1.xsl input.xml > output.tex
+            </pre>
+            <!-- TODO: Empfehlungen fuer Mikro-Typografie, Uebernahme der Haggai-XML-Besonderheiten-Kommentare, manuelle Anordnungen etc. -->
+            <p style="text-align:justify;">
+              Sodann kann manuelle Mikro-Typografie an der <tt>output.tex</tt> vorgenommen werden. Da in der Ausgabe jeder Vers auf eine eigene Zeile gesetzt wird, können über die GNU Diffutils die eingepflegten Änderungen gesichert werden, um bei einem späteren erneuten Lauf diese wieder einzupatchen. Um zum Endergebnis zu gelangen, muss LaTeX das Dokument mehrmals verarbeiten, um etwa alle Fußnoten und Zusätze am Seitenrand an der richtigen Stelle platzieren zu können:
+            </p>
+            <pre>
+              pdflatex output.tex
+              pdflatex output.tex
+              pdflatex output.tex
+              pdflatex output.tex
+            </pre>
+            <p style="text-align:justify;">
+              Je nach <tt>hag2latex</tt>-Version sind teils umfangreichere manuelle Anpassungen notwendig, um zur optimalen Print-Vorlage zu gelangen, was auf die jeweils eingesetzten LaTeX-Pakete und deren Fähigkeiten sowie evtl. entstehende Konflikte zurückzuführen ist. Da sich durch die Anpassungen der Fließtext sehr wahrscheinlich verschieben wird, empfiehlt es sich, vorn anzufangen und sich Seite für Seite vorzuarbeiten bei gleichzeitiger ständiger Kontrolle des Ergebnisses, denn eine übersehene Unschönheit könnte den Text und somit die Positionierung von Gestaltungselementen auf allen nachfolgenden Seiten verschieben. Darum sollte vom Vorgehen her der Text linear gelesen und je nach Auftreten einer potentiellen Anpassungsstelle modifiziert werden abhängig davon, welcher Anpassungsfall der Reihe nach auftritt. Zum Schluss können noch globale Modifikationen eingepflegt werden. Bei <tt>hag2latex4.xsl</tt> wäre beispielsweise im Johannes-Evangelium der Elberfelder 1885 NT (Stand der Haggai-XML-Datei 2012-10-26 oder später, sofern das Bibelbuch seither nicht verändert wurde) auf der ersten Seite ein solcher Anwendungsfall die Vereinheitlichung der Fußnoten. Das <tt>bigfoot</tt>-Paket hat keine Möglichkeit, textuell gleiche Fußnotentexte zu identifizieren, um dann pro Ergebnis-Seite doppelte Nennungen auszusortieren, wo infolge des Seitenumbruchs gleichlautende Fußnoten auf der nächsten Seite neu erwähnt werden müssten und auf der gegenwärtigen Seite entfallen würden.
+            </p>
+            <div>
+              <img src="hag2latex4_doppelte_fussnoten.png" width="418px" height="235px" alt="Doppelte Fußnoten in der hag2latex4.xsl-Ausgabe" title="Doppelte Fußnoten in der hag2latex4.xsl-Ausgabe" />
+            </div>
+            <p style="text-align:justify;">
+              <tt>hag2latex4.xsl</tt> führt in der *.tex-Datei alle Fußnoten im vollen Textlaut an ihrer Position gemäß der Haggai-XML-Datei an, sodass die betroffene Zeile der *.tex-Datei leicht aufgefunden werden kann, zumal Verse immer mit einer neuen Zeile beginnen und der Befehl
+            </p>
+            <pre><code>
+              \putmarginpar{versepos:43:1:3}
+            </code></pre>
+            <p style="text-align:justify;">
+              nach <code>versepos</code> erst die Nummer des Bibelbuches, dann das Kapitel und zuletzt die Versnummer angibt, wodurch man nach dem betroffenen Vers suchen kann. In der Zeile ist dann auch schnell
+            </p>
+            <pre><code>
+              dasselbe,\footnote{O. ihn.} und ohne dasselbe\footnote{O. ihn.} ward
+            </code></pre>
+            <p style="text-align:justify;">
+              aufgefunden, die Ursache für die doppelte Fußnote. Die zweite Erwähnung wird dann einfach durch <code>\footnotemark[2]</code> ersetzt, wobei <code>2</code> die Fußnotennummer der ersten Erwähnung ist. Der Ausschnitt lautet dann
+            </p>
+            <pre><code>
+              dasselbe,\footnote{O. ihn.} und ohne dasselbe\footnotemark[2] ward
+            </code></pre>
+            <p style="text-align:justify;">
+              und hat
+            </p>
+            <div>
+              <img src="hag2latex4_doppelte_fussnoten_korrigiert.png" width="414px" height="227px" alt="Korrigierte doppelte Fußnoten in der hag2latex4.xsl-Ausgabe" title="Korrigierte doppelte Fußnoten in der hag2latex4.xsl-Ausgabe" />
+            </div>
+            <p style="text-align:justify;">
+              zur Folge. Dabei muss berücksichtigt werden, dass alle nachfolgenden Fußnotennummern durch die nun fehlende, ehemals doppelte Fußnote um 1 dekrementiert wurden, sodass etwa die frühere Fußnote 4 nun die Nummer 3 aufweist. Wenn also händisch doppelte Fußnoten durch <code>\footnotemark</code> ersetzt werden, hängt die als Argument übergebene Fußnotennummer unmittelbar von allen übrigen Fußnoten der Seite ab und eine Änderung an Reihenfolge oder Anzahl würde das Argument hinfällig machen &ndash; dies trifft übrigens auch zu, wenn infolge von Textänderungen die Fußnotenposition auf die nächste Seite wandert. Als weiterer Effekt kann durch die Eliminierung der doppelten Fußnoten der Fußnotenapparat Zeilen verlieren, sodass LaTeX für den Fließtext mehr Raum zur Verfügung hat, evtl. mehr Zeilen auf die Seite nimmt und somit den gesamten nachfolgenden Text um die Anzahl der zusätzlich untergebrachten Zeilen verschiebt.
+            </p>
+            <p style="text-align:justify;">
+              Ein weiteres Problem betrifft den automatischen Spaltenausgleich, der teilweise schlichtweg unterbleibt. In manchen Fällen kann die Fußnotenpositionierung ursächlich sein &ndash; wenn sie es aber nicht ist, genügt eine einfache Unterstützung des Spaltenausgleichs durch manuelles Setzen des Seitenumbruchs. Ein Beispiel dafür ist beispielsweise die erste Seite des Philipperbriefs der Elberfelder 1907 (Stand der Haggai-XML-Datei 2012-11-19 oder später, sofern das Bibelbuch seither nicht verändert wurde):
+            </p>
+            <div>
+              <img src="hag2latex4_kein_automatischer_spaltenausgleich.png" width="457px" height="146px" alt="Kein automatischer Spaltenausgleich in der hag2latex4.xsl-Ausgabe" title="Kein automatischer Spaltenausgleich in der hag2latex4.xsl-Ausgabe"/>
+            </div>
+            <p style="text-align:justify;">
+              Da offenbar die hier fehlende Zeile auf die nächste Seite verschoben wurde, kann dort die eigentlich erwünschte Seitenumbruch-Position im Text identifiziert werden:
+            </p>
+            <div>
+              <img src="hag2latex4_kein_automatischer_spaltenausgleich_loesungshinweis.png" width="471px" height="95px" alt="Wünschenswerte Seitenumbruch-Position für den automatischen Spaltenausgleich der hag2latex4.xsl-Ausgabe" title="Wünschenswerte Seitenumbruch-Position für den automatischen Spaltenausgleich der hag2latex4.xsl-Ausgabe"/>
+            </div>
+            <p style="text-align:justify;">
+              Um nun das Ergebnis entsprechend zu beeinflussen, muss nun direkt im Anschluss des letzten Wortes der Zeile ein <code>\pagebreak{}</code> hinzugefügt werden. Dabei ist unbedingt zu beachten, dass das dazwischenliegende Leerzeichen von LaTeX bereits als auf der nächsten Seite liegend angesehen wird, sodass
+            </p>
+            <pre><code>
+              auf daß euer \pagebreak{}Rühmen in Christo
+            </code></pre>
+            <p style="text-align:justify;">
+              den Umbruch nach der kompletten zweiten Zeile platzieren würde, da dieser ganz an deren Anfang festgelegt wurde. Stattdessen muss die Korrektur unter Beibehaltung des dazwischenliegenden Leerzeichens wie folgt lauten:
+            </p>
+            <pre><code>
+              auf daß euer\pagebreak{} Rühmen in Christo
+            </code></pre>
+            <p style="text-align:justify;">
+              womit das gewünschte Ergebnis
+            </p>
+            <div>
+              <img src="hag2latex4_kein_automatischer_spaltenausgleich_loesung.png" width="490px" height="146px" alt="Spaltenausgleich durch manuellen Seitenumbruch in der hag2latex4.xsl-Ausgabe erzielt" title="Spaltenausgleich durch manuellen Seitenumbruch in der hag2latex4.xsl-Ausgabe erzielt"/>
+            </div>
+            <p style="text-align:justify;">
+              erreicht ist.
+            </p>
+          </div>
+          <div>
+            <h3>hag2epub</h3>
+            <p style="text-align:justify;">
+              Um eine EPUB-Datei vollautomatisch zu erstellen, genügt in dem Unterordner der jeweiligen <tt>hag2epub</tt>-Version folgender Aufruf, solange mindestens eine Shell, das <a href="http://xmlstar.sourceforge.net/">XMLStarlet Toolkit</a> und <tt>zip</tt> installiert sind:
+            </p>
+            <pre>
+              ./hag2epub.sh input.xml output
+            </pre>
+            <p style="text-align:justify;">
+              <tt>output</tt> ist dabei das Ausgabe-Verzeichnis, in welchem bei Erfolg die Datei <tt>out.epub</tt> abgestellt werden wird. Bei Bedarf können alle Aufrufe des Shell-Scripts auch separat und unter Ersetzung durch ein Programm-Äquivalent durchgeführt werden, wenn daraus ebenfalls eine gültige EPUB-Datei resultiert. Eine Validierung des Ergebnisses kann mit dem <a href="http://validator.idpf.org/">EPUB-Validator des IDPF</a> vorgenommen werden.
+            </p>
+          </div>
+        </div>
+        <div>
+          <h2>Weiterverarbeitung</h2>
+          <p style="text-align:justify;">
+            Die durch die oben beschriebenen Tools erzeugten Resultate stellen noch nicht das Ende des Verarbeitungsprozesses dar. Oft sind weitere Schritte nötig, um das gewünschte Ergebnis letztendlich zu erreichen, was aber nicht mehr in den Aufgabenbereich des Projekts &bdquo;Freie Bibel&ldquo; fällt und darum hier nur grob angedeutet werden kann. Meistens handelt es sich dann auch um reine Nutzungsfragen, die durchaus individuell beantwortet werden können.
+          </p>
+          <p style="text-align:justify;">
+            Ein häufiger Anwendungsfall betrifft die Ausgabe als PDF in DIN A4-Format, womit ein Druck als DIN A3-Heft mithilfe der <a href="http://www.knackered.org/angus/psutils/">psutils</a> wie folgt realisiert werden kann:
+          </p>
+          <pre>
+            pdf2ps 1.pdf
+            psbook 1.ps 2.ps
+            psnup -Pa4 -l -pa3 -2 -s1 2.ps 3.ps
+            ps2pdf -sPAPERSIZE=a3 3.ps
+          </pre>
+          <p style="text-align:justify;">
+            <tt>pdf2ps</tt> konvertiert das PDF erstmal nach 1.ps, um die PostScript-Manipulationen der psutils darauf anwenden zu können. Mit <tt>psbook</tt> werden die Seiten &bdquo;ausgeschossen&ldquo;, sodass die Seitenfolge mit der letzten Seite beginnt, dann folgt die erste, dann die zweite, dann die vorletzte, dann die vorvorletzte, dann die dritte, dann die vierte, dann die vorvorvorletzte, und in diesem 4er-Rhytmus so weiter, bis sich die Seiten in der Mitte treffen. Grund hierfür ist, dass die A3-Seitenbögen später in der Mitte gefaltet und gebunden werden, was von demselben Bogen die eine Ursprungsseite als links von der Mitte und die andere als rechts von der Mitte enden lässt. Von der Mitte des Hefts aus gesehen liegen sich die Folgeseiten direkt gegenüber auf demselben Blatt Papier, fallen aber links in der Seitenzahl ab und steigen rechts an, was bei separater Betrachtung der einzelnen Papierblätter zu der geschilderten Aufteilung führt. Insofern ist es ratsam, als Gesamtseitenzahl 4 oder ein vielfaches von 4 anzustreben, da eine A3-Papierseite 4 A4-Ursprungsseiten aufnehmen wird. <tt>psnup</tt> kümmert sich dann um die Anordnung auf dem A3-Blatt, indem <tt>-Pa4</tt> das Eingangsformat A4 nennt, <tt>-l</tt> &bdquo;landscape orientation&ldquo; (Querformat, d.h. Ursprungsseite um 90&#x00B0; im Gegenuhrzeigersinn drehen) definiert, <tt>-pa3</tt> DIN A3 aus Ausgangsformat festlegt, <tt>-2</tt> angibt, dass zwei Ursprungsseiten auf einer Ergebnisseite untergebracht werden sollen und <tt>-s1</tt> die Skalierung um Faktor 1.0 (d.h. gleichbleibend &ndash; wenn die Option fehlt, wird automatisch berechnet, welche Skalierung notwendig ist, um die Ausgangsseiten auf dem Ziel unterzubringen) veranlasst. Bei Bedarf könnte auch noch die Option <tt>-d</tt> angegeben werden, was einen Rahmen zu Überprüfungszwecken zur Folge hat, um etwa die Anordnung der Ursprungsseiten optisch nachzuvollziehen. <tt>ps2pdf</tt> konvertiert die manipulierte PostScript-Datei 3.ps zurück nach 3.pdf, wo durch <tt>-sPAPERSIZE=a3</tt> nochmal für PDF die Abmessungen angegeben werden müssen. Der DIN A3-Duplexdruck an der kurzen Seitenseite sollte dann zu den Heftseiten führen, die nur noch in der Mitte gefalzt und gebunden zu werden brauchen. Mit einem Langarmhefter (mind. DIN A3!) können solche Hefte auch getackert werden &ndash; dabei empfiehlt es sich, erst zu heften und danach zu falten.
+          </p>
+          <p style="text-align:justify;">
+            Seit <tt>hag2latex8.xsl</tt> können aber ebenso auch kleinere Heftchen mit DIN A5-Seitenformat auf gewöhnliches DIN A4-Papier gedruckt werden, indem die Verarbeitung mithilfe der <tt>psutils</tt> wie folgt abgeändert wird:
+          </p>
+          <pre>
+            pdf2ps 1.pdf
+            psbook 1.ps 2.ps
+            psnup -Pa5 -l -pa4 -2 -s1 2.ps 3.ps
+            ps2pdf 3.ps
+          </pre>
+          <p style="text-align:justify;">
+            <tt>hag2latex10.xsl</tt> für kleine DIN A6-Verteilheftchen (gedruckt auf DIN A4) hingegen bedarf etwas anderer Verarbeitungsaufrufe:
+          </p>
+          <pre>
+            pdf2ps 1.pdf
+            psbook 1.ps 2.ps
+            pstops '2:0+1(10.5cm,0)' 2.ps 3.ps
+            pstops '4:0(0,14.8cm)+2,1(0,14.8cm)+3' 3.ps 4.ps
+            ps2pdf 4.ps
+          </pre>
+          <p style="text-align:justify;">
+            Anschließend kann der Ausruck mit einer Hebel-Schneidemaschine oder einer Schere geschnitten werden. Von den beiden DIN A5-Stapeln, die sich daraus ergeben, können, mit Seite 1 beginnend, die Seiten beider Stapel jeweils im Wechsel zusammengelegt werden. Das Ergebnis kann daraufhin wie sonst auch mit einem Langarmhefter getackert und zu DIN A6 gefaltet werden.
+          </p>
+          <p style="text-align:justify;">
+            Nach deutschem Recht ist der Herausgeber einer Publikation verpflichtet, sog. &bdquo;<a href="http://de.wikipedia.org/wiki/Pflichtexemplar">Pflichtexemplare</a>&ldquo; mindestens an die <a href="http://www.dnb.de/DE/Home/home_node.html">Deutsche Nationalbibliothek</a> und ggf. auch an die zuständige(n) Landesbibliothek(en) abzuliefern. Die Bestimmungen dazu gehen auf die &bdquo;<a href="http://www.gesetze-im-internet.de/pflav/index.html">Verordnung über die Pflichtablieferung von Medienwerken an die Deutsche Nationalbibliothek</a>&ldquo; zurück, wo insbesondere unter &bdquo;<a href="http://www.gesetze-im-internet.de/pflav/__4.html">§ 4 Einschränkung der Ablieferungspflicht für bestimmte Gattungen von körperlichen Medienwerken</a>&ldquo; spezifiziert ist, welche Veröffentlichungen im Print-Bereich betroffen sind. Die Deutsche Nationalbibliothek stellt ein PDF-Heft der aktuellsten Kalenderwoche in den Reihen A und B ab (A für verlegerische Veröffentlichungen, B ohne Verlagsbeteiligung), wo die in den Bestand aufgenommenen Ersterscheinungen verzeichnet sind. Ferner besteht die Möglichkeit, den <a href="https://portal.dnb.de/opac.htm?method=showOptions#top">Online-Katalog</a> nach Bibelbuch-Autor, Thema (Bibel) oder Herausgeber (Eintrag &bdquo;Verleger/Firma, Ort&ldquo;) zu durchsuchen &ndash; wobei die Suchbegriffe oft eigenen Notationsschemata folgen.
+          </p>
+        </div>
+        <div>
+          <h2>Abschließende Bemerkung</h2>
+          <p>
+            Diese Hinweise für Entwickler sind nicht letztgültig, sondern als gängige Praxis und bewährte Konzepte zu verstehen. Obwohl es freilich jedermann offen steht, aufgrund der freien Lizenz-Politik seine eigene Umsetzung und Implementierung zu starten, sollen doch innerhalb des offiziellen Software-Pakets diese Empfehlungen berücksichtigt werden, um Inkompatibilität zu vermeiden. In jedem Fall ist eine offene Diskussion über mögliche Lösungen und Verfahrensweisen erwünscht, um mit der Zeit die Schwächen der hier vorgestellten Methoden zu beseitigen.
+          </p>
+        </div>
+        <div>
+          <h2>Fußnoten</h2>
+          <ol>
+            <li>
+              <a name="fussnote_1"></a>Natürlich sollte hierfür das Bild 1000 Pixel überschreiten, anderenfalls ist keine Skalierung notwendig (dann sollte das Bild aber auch nicht zu klein sein). <a href="#fussnote_1_verwendung_1">1</a>.
+            </li>
+          </ol>
+        </div>
+        <div>
+          <h2>Weiterführende Links</h2>
+          <ul>
+            <li>
+              Ein <a href="http://www.youtube.com/watch?v=nAFKrEiAHrU">kompletter Durchlauf vom Original zur Reproduktion</a> als Video auf youtube.com.
+            </li>
+          </ul>
+        </div>
+      </div>
+
+
+  </body>
+
+
+</html>

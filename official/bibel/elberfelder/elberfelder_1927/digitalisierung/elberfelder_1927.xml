@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XMLBIBLE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="haggai_20130620.xsd" biblename="Elberfelder 1927" status="v" version="haggai_20130620" revision="0">
+  <INFORMATION>
+    <title>Elberfelder 1927</title>
+    <creator>Stephan Kreutzer</creator>
+    <description>Elberfelder-Bibel von 1927</description>
+    <publisher>http://www.freie-bibel.de</publisher>
+    <contributor>John Nelson Darby</contributor>
+    <contributor>Julius Anton Eugen von Poseck</contributor>
+    <contributor>Carl Friedrich Wilhelm Brockhaus</contributor>
+    <contributor>Hermanus Cornelis Voorhoeve</contributor>
+    <contributor>Dr. Alfred Rochat</contributor>
+    <contributor>Dr. Emil Dönges</contributor>
+    <contributor>Rudolf Brockhaus</contributor>
+    <date>2012-08-25</date>
+    <type>Text</type>
+    <format>Haggai XML Bible Markup Language</format>
+    <identifier>elberfelder_1927</identifier>
+    <source>Elberfelder 1927 a)</source>
+    <language>de-DE</language>
+    <coverage>Johannes 1</coverage>
+    <rights>
+      Gemeinfrei seit 2003-01-01.
+    </rights>
+  </INFORMATION>
+  <BIBLEBOOK bnumber="43" bname="Johannes">
+    <CAPTION>Das Evangelium nach Johannes</CAPTION>
+    <CHAPTER cnumber="1">
+      <PARAGRAPH>
+        <VERSE vnumber="1">Im Anfang war das Wort, und das Wort war bei Gott, und das Wort war Gott.</VERSE>
+        <VERSE vnumber="2">Dieses<NOTE>O. Er.</NOTE> war im Anfang bei Gott.</VERSE>
+        <VERSE vnumber="3">Alles ward durch dasselbe<NOTE>O. ihn.</NOTE>, und ohne dasselbe<NOTE>O. ihn.</NOTE> ward auch nicht eines, das geworden ist.</VERSE>
+      </PARAGRAPH>
+      <PARAGRAPH>
+        <VERSE vnumber="4">In ihm war Leben, und das Leben war das Licht der Menschen.</VERSE>
+        <VERSE vnumber="5">Und das Licht scheint in der Finsternis, und die Finsternis hat es nicht erfaßt.</VERSE>
+      </PARAGRAPH>
+      <PARAGRAPH>
+        <VERSE vnumber="6">Da war ein Mensch, von Gott gesandt, sein Name Johannes.</VERSE>
+        <VERSE vnumber="7">Dieser kam zum Zeugnis, auf daß er zeugte von dem Lichte, damit alle durch ihn glaubten.</VERSE>
+        <VERSE vnumber="8"><STYLE fs="emphasis">Er</STYLE> war nicht das Licht, sondern auf daß er zeugte von dem Lichte.</VERSE>
+        <VERSE vnumber="9">Das war das wahrhaftige Licht, welches, in die Welt kommend, jeden Menschen erleuchtet<NOTE>d. h. jeden Menschen ins Licht stellt. And. üb.: welches jeden in die Welt kommenden Menschen erleuchtet.</NOTE>.</VERSE>
+        <VERSE vnumber="10">Er war in der Welt, und die Welt ward durch ihn, und die Welt kannte ihn nicht.</VERSE>
+        <VERSE vnumber="11">Er kam in das Seinige, und die Seinigen<NOTE>Eig. in das Eigene, und die Eigenen.</NOTE> nahmen ihn nicht an;</VERSE>
+        <VERSE vnumber="12">so viele ihn aber aufnahmen, denen gab er <STYLE fs="super">das</STYLE> Recht, Kinder Gottes zu werden, denen, die an seinen Namen glauben,</VERSE>
+        <VERSE vnumber="13">welche nicht aus Geblüt, noch aus dem Willen des Fleisches, noch aus dem Willen des Mannes, sondern aus Gott geboren sind.</VERSE>
+      </PARAGRAPH>
+      <PARAGRAPH>
+        <VERSE vnumber="14">Und das Wort ward Fleisch und wohnte<NOTE>Eig. zeltete.</NOTE> unter uns, (und wir haben seine Herrlichkeit angeschaut, eine Herrlichkeit als eines Eingeborenen vom Vater) voller Gnade und Wahrheit;</VERSE>
+        <VERSE vnumber="15">(Johannes zeugt von ihm und rief und sprach: Dieser war es, von dem ich sagte: Der nach mir Kommende ist mir vor<NOTE>W. vor geworden; so auch V. 30.</NOTE>, denn er war vor mir<NOTE>O. eher als ich.</NOTE>)</VERSE>
+        <VERSE vnumber="16">denn aus seiner Fülle haben <STYLE fs="emphasis">wir</STYLE> alle empfangen, und <STYLE fs="super">zwar</STYLE> Gnade um Gnade.</VERSE>
+        <VERSE vnumber="17">Denn das Gesetz wurde durch Moses gegeben; die Gnade und die Wahrheit ist durch Jesum Christum geworden.</VERSE>
+        <VERSE vnumber="18">Niemand hat Gott jemals gesehen; der eingeborene Sohn, der in des Vaters Schoß ist, der hat <STYLE fs="super">ihn</STYLE> kundgemacht.</VERSE>
+      </PARAGRAPH>
+      <PARAGRAPH>
+        <VERSE vnumber="19">Und dies ist das Zeugnis des Johannes, als die Juden aus Jerusalem Priester und Leviten sandten, damit sie ihn fragen sollten: Wer bist du?</VERSE>
+        <VERSE vnumber="20">Und er bekannte und leugnete nicht, und er bekannte: <STYLE fs="emphasis">Ich</STYLE> bin nicht der Christus.</VERSE>
+        <VERSE vnumber="21">Und sie fragten ihn: Was denn? Bist <STYLE fs="emphasis">du</STYLE> Elias? Und er sagt: Ich bin’s nicht. Bist <STYLE fs="emphasis">du</STYLE> der Prophet? Und er antwortete: Nein.</VERSE>
+        <VERSE vnumber="22">Sie sprachen nun zu ihm: Wer bist du? auf daß wir Antwort geben denen, die uns gesandt haben; was sagst du von dir selbst?</VERSE>
+        <VERSE vnumber="23">Er sprach: Ich <STYLE fs="super">bin die</STYLE> „Stimme eines Rufenden in der Wüste: Machet gerade den Weg <STYLE fs="super">des</STYLE> Herrn<NOTE>S. die Anm. zu Matth. 1, 20.</NOTE>“, wie Jesaias, der Prophet, gesagt hat.<NOTE>Jes. 40, 3.</NOTE></VERSE>
+        <VERSE vnumber="24">Und sie waren abgesandt von<NOTE>W. aus (aus der Mitte der).</NOTE> den Pharisäern.</VERSE>
+        <VERSE vnumber="25">Und sie fragten ihn und sprachen zu ihm: Was taufst du denn, wenn <STYLE fs="emphasis">du</STYLE> nicht der Christus bist, noch Elias, noch der Prophet?</VERSE>
+        <VERSE vnumber="26">Johannes antwortete ihnen und sprach: <STYLE fs="emphasis">Ich</STYLE> taufe mit<NOTE>W. in.</NOTE> Wasser; mitten unter euch steht, den <STYLE fs="emphasis">ihr</STYLE> nicht kennet,</VERSE>
+        <VERSE vnumber="27">der nach mir Kommende, dessen <STYLE fs="emphasis">ich</STYLE> nicht würdig bin, <STYLE fs="super">ihm</STYLE> den Riemen seiner Sandale zu lösen.</VERSE>
+        <VERSE vnumber="28">Dies geschah zu Bethanien, jenseit des Jordan, wo Johannes taufte.</VERSE>
+      </PARAGRAPH>
+      <PARAGRAPH>
+        <VERSE vnumber="29">Des folgenden Tages sieht er Jesum zu sich kommen und spricht: Siehe, das Lamm Gottes, welches die Sünde der Welt wegnimmt.</VERSE>
+        <VERSE vnumber="30">Dieser ist es, von dem <STYLE fs="emphasis">ich</STYLE> sagte: Nach mir kommt ein Mann, der mir vor ist, denn er war vor mir<NOTE>O. eher als ich.</NOTE>.</VERSE>
+        <VERSE vnumber="31">Und <STYLE fs="emphasis">ich</STYLE> kannte ihn nicht; aber auf daß er Israel offenbar werden möchte, deswegen bin ich gekommen, mit<NOTE>W. in.</NOTE> Wasser taufend.</VERSE>
+        <VERSE vnumber="32">Und Johannes zeugte und sprach: Ich schaute den Geist wie eine Taube aus dem Himmel herniederfahren, und er blieb auf ihm.</VERSE>
+        <VERSE vnumber="33">Und <STYLE fs="emphasis">ich</STYLE> kannte ihn nicht; aber der mich gesandt hat, mit<NOTE>W. in.</NOTE> Wasser zu taufen, der sprach zu mir: Auf welchen du sehen wirst den Geist herniederfahren und auf ihm bleiben, dieser ist es, der mit<NOTE>W. in.</NOTE> Heiligem Geiste tauft.</VERSE>
+        <VERSE vnumber="34">Und <STYLE fs="emphasis">ich</STYLE> habe gesehen und habe bezeugt, daß dieser der Sohn Gottes ist.</VERSE>
+      </PARAGRAPH>
+      <PARAGRAPH>
+        <VERSE vnumber="35">Des folgenden Tages stand wiederum Johannes und zwei von seinen Jüngern,</VERSE>
+        <VERSE vnumber="36">und hinblickend auf Jesum, der da wandelte, spricht er: Siehe, das Lamm Gottes!</VERSE>
+        <VERSE vnumber="37">Und es hörten ihn die zwei Jünger reden und folgten Jesu nach.</VERSE>
+        <VERSE vnumber="38">Jesus aber wandte sich um und sah sie nachfolgen und spricht zu ihnen: Was suchet ihr? <STYLE fs="emphasis">Sie</STYLE> aber sagten zu ihm: Rabbi, (was verdolmetscht heißt: Lehrer) wo hältst du dich auf?</VERSE>
+        <VERSE vnumber="39">Er spricht zu ihnen: Kommet und sehet!<NOTE>Nach and. Les.: und ihr werdet sehen.</NOTE> Sie kamen nun und sahen, wo er sich aufhielt, und blieben jenen Tag bei ihm. Es war um die zehnte Stunde.</VERSE>
+        <VERSE vnumber="40">Andreas, der Bruder des Simon Petrus, war einer von den zweien, die es von Johannes gehört hatten und ihm nachgefolgt waren.</VERSE>
+        <VERSE vnumber="41">Dieser findet zuerst seinen eigenen Bruder Simon und spricht zu ihm: Wir haben den Messias gefunden, (was verdolmetscht ist: Christus<NOTE>O. Gesalbter.</NOTE>).</VERSE>
+        <VERSE vnumber="42">Und er führte ihn zu Jesu. Jesus blickte ihn an und sprach: Du bist Simon, der Sohn Jonas’; du wirst Kephas heißen, (was verdolmetscht wird: Stein<NOTE>Griech.: Petros (Petrus).</NOTE>).</VERSE>
+      </PARAGRAPH>
+      <PARAGRAPH>
+        <VERSE vnumber="43">Des folgenden Tages wollte er aufbrechen nach Galiläa, und er findet Philippus; und Jesus spricht zu ihm: Folge mir nach.</VERSE>
+        <VERSE vnumber="44">Philippus aber war von Bethsaida, aus der Stadt des Andreas und Petrus.</VERSE>
+        <VERSE vnumber="45">Philippus findet den Nathanael und spricht zu ihm: Wir haben den gefunden, von welchem Moses in dem Gesetz geschrieben und die Propheten, Jesum, den Sohn des Joseph, den von Nazareth.</VERSE>
+        <VERSE vnumber="46">Und Nathanael sprach zu ihm: Kann aus Nazareth etwas Gutes kommen<NOTE>Eig. sein.</NOTE>? Philippus spricht zu ihm: Komm und sieh!</VERSE>
+        <VERSE vnumber="47">Jesus sah den Nathanael zu sich kommen und spricht von ihm: Siehe, wahrhaftig ein Israelit, in welchem kein Trug ist.</VERSE>
+        <VERSE vnumber="48">Nathanael spricht zu ihm: Woher kennst du mich? Jesus antwortete und sprach zu ihm: Ehe Philippus dich rief, als du unter dem Feigenbaum warst, sah ich dich.</VERSE>
+        <VERSE vnumber="49">Nathanael antwortete und sprach [zu ihm]: Rabbi, <STYLE fs="emphasis">du</STYLE> bist der Sohn Gottes, <STYLE fs="emphasis">du</STYLE> bist der König Israels.</VERSE>
+        <VERSE vnumber="50">Jesus antwortete und sprach zu ihm: Weil ich dir sagte: Ich sah dich unter dem Feigenbaum, glaubst du? Du wirst Größeres als dieses sehen.</VERSE>
+        <VERSE vnumber="51">Und er spricht zu ihm: Wahrlich, wahrlich, ich sage euch: [Von nun an] werdet ihr den Himmel geöffnet sehen und die Engel Gottes auf- und niedersteigen auf den Sohn des Menschen.</VERSE>
+      </PARAGRAPH>
+    </CHAPTER>
+  </BIBLEBOOK>
+</XMLBIBLE>

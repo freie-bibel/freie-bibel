@@ -1,0 +1,37 @@
+Freie Bibel is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License version 3 or any
+later version, as published by the Free Software Foundation.
+
+Freie Bibel is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License 3 for more details.
+
+You should have received a copy of the GNU General Public License
+along with Freie Bibel. If not, see <http://www.gnu.org/licenses/>.
+
+
+
+Details about how to use the Freie Bibel software package can be
+found in the $/projekt directory. See the $/projekt/*.html files for
+project description. Because the Freie Bibel package as distributed by
+http://www.freie-bibel.de is limited to German bible translations, all
+resources (except $/tools) are in German language. If help is needed or
+if you have any suggestions, please feel free to contact the authors via
+http://www.freie-bibel.de/forum/index.php or as stated in the $/AUTHORS file.
+However, we are not responsible for derived software packages that are
+maintained by someone else, so please check if you are working with the
+original one as from http://www.freie-bibel.de.
+
+Hinweise zur Verwendung des Freie-Bibel-Software-Pakets sind in $/projekt
+zu finden. Siehe die $/projekt/*.html-Dateien für die ausführliche
+Projekt-Beschreibung. Alle Dateien des Pakets wurden in deutscher Sprache
+gehalten, die Dateien unter $/tools jedoch in englischer Sprache (mit
+Ausnahme mancher Programm-Ausgaben). Falls Hilfe benötigt wird oder
+Vorschläge eingereicht werden sollen, sind die Autoren via
+http://www.freie-bibel.de/forum/index.php oder alternativ über die Angaben
+in der $/AUTHORS-Datei erreichbar. Allerdings sind wir nicht
+verantwortlich für abgeleitete Software-Pakete, die von jemand anderem
+gepflegt werden - deshalb bitte vorher überprüfen, ob es sich um das
+Original-Paket von http://www.freie-bibel.de handelt.
+
