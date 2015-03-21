@@ -1,14 +1,19 @@
 Freie Bibel is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License version 3 or any
-later version, as published by the Free Software Foundation.
+later version of the license at your option, and if stated otherwise,
+under the terms of the GNU Affero General Public License version 3 or
+any later version of the license at your option, both as published
+by the Free Software Foundation.
 
 Freie Bibel is distributed in the hope that it will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
-GNU General Public License 3 for more details.
+GNU General Public License 3 and GNU Affero General Public
+License 3 for more details.
 
 You should have received a copy of the GNU General Public License
-along with Freie Bibel. If not, see <http://www.gnu.org/licenses/>.
+and the GNU Affero General Public License along with Freie Bibel.
+If not, see <http://www.gnu.org/licenses/>.
 
 
 
@@ -21,7 +26,11 @@ if you have any suggestions, please feel free to contact the authors via
 http://www.freie-bibel.de/forum/index.php or as stated in the $/AUTHORS file.
 However, we are not responsible for derived software packages that are
 maintained by someone else, so please check if you are working with the
-original one as from http://www.freie-bibel.de.
+original one as from http://www.freie-bibel.de. The official public
+repository is https://github.com/freie-bibel/freie-bibel. The old repository
+with historical versions was
+http://sourceforge.net/p/freiebibel/code/138/tree/trunk/.
+For tool development, see http://www.free-scriptures.org.
 
 Hinweise zur Verwendung des Freie-Bibel-Software-Pakets sind in $/projekt
 zu finden. Siehe die $/projekt/*.html-Dateien für die ausführliche
@@ -33,5 +42,11 @@ http://www.freie-bibel.de/forum/index.php oder alternativ über die Angaben
 in der $/AUTHORS-Datei erreichbar. Allerdings sind wir nicht
 verantwortlich für abgeleitete Software-Pakete, die von jemand anderem
 gepflegt werden - deshalb bitte vorher überprüfen, ob es sich um das
-Original-Paket von http://www.freie-bibel.de handelt.
+Original-Paket von http://www.freie-bibel.de handelt. Das offizielle
+öffentliche Repository ist https://github.com/freie-bibel/freie-bibel. Das
+alte Repository mit historischen Versionen war
+http://sourceforge.net/p/freiebibel/code/138/tree/trunk/.
+Für die Entwicklung von Tools siehe http://www.free-scriptures.org.
+
+
 
