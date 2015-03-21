@@ -1,3 +1,6 @@
 [submodule "official/tools/free-scriptures"]
 	path = official/tools/free-scriptures
 	url = https://github.com/free-scriptures/free-scriptures
+[submodule "official/tools/offene_bibel/free-offene-bibel-converter"]
+	path = official/tools/offene_bibel/free-offene-bibel-converter
+	url = https://github.com/freie-bibel/free-offene-bibel-converter

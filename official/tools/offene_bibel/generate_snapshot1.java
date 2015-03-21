@@ -53,7 +53,7 @@ public class generate_snapshot1
 
         String programPath = generate_snapshot1.class.getProtectionDomain().getCodeSource().getLocation().getFile();
 
-        File cacheDirectory = new File(programPath + "converter" + File.separator + "install" + File.separator + "tmp" + File.separator + "pageCache");
+        File cacheDirectory = new File(programPath + "free-offene-bibel-converter" + File.separator + "install" + File.separator + "tmp" + File.separator + "pageCache");
 
         // This will trigger that the Wiki text gets retrieved from the Offene Bibel
         // website.
@@ -68,7 +68,7 @@ public class generate_snapshot1
         }
 
         // --lineGroupUnmilestoned is necessary for valid OSIS (see http://www.crosswire.org/wiki/OSIS_211_CR#milestoned_.3Clg.3E).
-        ProcessBuilder builder = new ProcessBuilder("java", "-cp", programPath + "converter" + File.separator + "install" + File.separator + "lib" + File.separator + "Parser-0.0.1-SNAPSHOT.jar", "offeneBibel.osisExporter.Exporter", "--continueOnError", "--skipGenerateWeb", "--lineGroupUnmilestoned");
+        ProcessBuilder builder = new ProcessBuilder("java", "-cp", programPath + "free-offene-bibel-converter" + File.separator + "install" + File.separator + "lib" + File.separator + "Parser-0.0.1-SNAPSHOT.jar", "offeneBibel.osisExporter.Exporter", "--continueOnError", "--skipGenerateWeb", "--lineGroupUnmilestoned");
         builder.directory(new File(programPath));
         builder.redirectErrorStream(true);
 
@@ -91,7 +91,7 @@ public class generate_snapshot1
             System.exit(-1);
         }
         
-        File lesefassungFile = new File(programPath + "converter" + File.separator + "install" + File.separator + "results" + File.separator + "offeneBibelLesefassungModule.osis");
+        File lesefassungFile = new File(programPath + "free-offene-bibel-converter" + File.separator + "install" + File.separator + "results" + File.separator + "offeneBibelLesefassungModule.osis");
 
         if (lesefassungFile.exists() != true)
         {
@@ -111,7 +111,7 @@ public class generate_snapshot1
             System.exit(-1);
         }
 
-        File studienfassungFile = new File(programPath + "converter" + File.separator + "install" + File.separator + "results" + File.separator + "offeneBibelStudienfassungModule.osis");
+        File studienfassungFile = new File(programPath + "free-offene-bibel-converter" + File.separator + "install" + File.separator + "results" + File.separator + "offeneBibelStudienfassungModule.osis");
 
         if (studienfassungFile.exists() != true)
         {
