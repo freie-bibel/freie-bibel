@@ -342,7 +342,7 @@ public class generate_snapshot1
                                      "osis2pdf1",
                                      snapshotDirectory.getAbsolutePath() + File.separator + "offene_bibel_" + now + "_lesefassung_osis.xml",
                                      "xelatex",
-                                     programPath + ".." + File.separator + "free-scriptures" + File.separator + "tools" + File.separator + "haggai2latex" + File.separator + "haggai2xelatex1.xsl",
+                                     programPath + ".." + File.separator + "free-scriptures" + File.separator + "tools" + File.separator + "haggai2latex" + File.separator + "haggai2xelatex1_variant1.xsl",
                                      programPath + "replacement_dictionary_lesefassung.xml",
                                      inofficialDirectory.getAbsolutePath());
         builder.directory(new File(programPath + ".." + File.separator + "free-scriptures" + File.separator + "tools" + File.separator + "workflows" + File.separator + "osis2pdf1"));
@@ -376,7 +376,7 @@ public class generate_snapshot1
                                      "osis2pdf1",
                                      snapshotDirectory.getAbsolutePath() + File.separator + "offene_bibel_" + now + "_studienfassung_osis.xml",
                                      "xelatex",
-                                     programPath + ".." + File.separator + "free-scriptures" + File.separator + "tools" + File.separator + "haggai2latex" + File.separator + "haggai2xelatex1.xsl",
+                                     programPath + ".." + File.separator + "free-scriptures" + File.separator + "tools" + File.separator + "haggai2latex" + File.separator + "haggai2xelatex1_variant1.xsl",
                                      programPath + "replacement_dictionary_studienfassung.xml",
                                      inofficialDirectory.getAbsolutePath());
         builder.directory(new File(programPath + ".." + File.separator + "free-scriptures" + File.separator + "tools" + File.separator + "workflows" + File.separator + "osis2pdf1"));
