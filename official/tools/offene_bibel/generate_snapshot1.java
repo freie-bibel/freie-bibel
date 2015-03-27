@@ -68,7 +68,7 @@ public class generate_snapshot1
         }
 
         // --lineGroupUnmilestoned is necessary for valid OSIS (see http://www.crosswire.org/wiki/OSIS_211_CR#milestoned_.3Clg.3E).
-        ProcessBuilder builder = new ProcessBuilder("java", "-cp", programPath + "free-offene-bibel-converter" + File.separator + "install" + File.separator + "lib" + File.separator + "Parser-0.0.1-SNAPSHOT.jar", "offeneBibel.osisExporter.Exporter", "--continueOnError", "--skipGenerateWeb", "--lineGroupUnmilestoned");
+        ProcessBuilder builder = new ProcessBuilder("java", "-cp", programPath + "free-offene-bibel-converter" + File.separator + "install" + File.separator + "lib" + File.separator + "Parser-0.0.1-SNAPSHOT.jar", "offeneBibel.osisExporter.Exporter", "--continueOnError", "--lineGroupUnmilestoned");
         builder.directory(new File(programPath));
         builder.redirectErrorStream(true);
 
