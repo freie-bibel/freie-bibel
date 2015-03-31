@@ -285,7 +285,7 @@ public class generate_snapshot1
                                      "osis2epub1",
                                      snapshotDirectory.getAbsolutePath() + File.separator + "offene_bibel_" + now + "_lesefassung_osis.xml",
                                      "html2epub1",
-                                     programPath + ".." + File.separator + "free-scriptures" + File.separator + "tools" + File.separator + "haggai2epub" + File.separator + "haggai2epub1",
+                                     programPath + "haggai2epub1",
                                      inofficialDirectory.getAbsolutePath() + File.separator + "offene_bibel_" + now + "_lesefassung_epub2.epub");
         builder.directory(new File(programPath + ".." + File.separator + "free-scriptures" + File.separator + "tools" + File.separator + "workflows" + File.separator + "osis2epub1"));
         builder.redirectErrorStream(true);
@@ -313,7 +313,7 @@ public class generate_snapshot1
                                      "osis2epub1",
                                      snapshotDirectory.getAbsolutePath() + File.separator + "offene_bibel_" + now + "_studienfassung_osis.xml",
                                      "html2epub1",
-                                     programPath + ".." + File.separator + "free-scriptures" + File.separator + "tools" + File.separator + "haggai2epub" + File.separator + "haggai2epub1",
+                                     programPath + "haggai2epub1",
                                      inofficialDirectory.getAbsolutePath() + File.separator + "offene_bibel_" + now + "_studienfassung_epub2.epub");
         builder.directory(new File(programPath + ".." + File.separator + "free-scriptures" + File.separator + "tools" + File.separator + "workflows" + File.separator + "osis2epub1"));
         builder.redirectErrorStream(true);
