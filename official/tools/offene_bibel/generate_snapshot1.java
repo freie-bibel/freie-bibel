@@ -176,6 +176,25 @@ public class generate_snapshot1
             System.exit(-1);
         }
 
+        snapshotDirectory = new File(snapshotDirectory.getAbsolutePath() + File.separator + "digitalisierung");
+        
+        if (snapshotDirectory.exists() != true)
+        {
+            if (snapshotDirectory.mkdir() != true)
+            {
+                System.out.print("generate_snapshot1 workflow: Couldn't create result directory '" + snapshotDirectory.getAbsolutePath() + "'.");
+                System.exit(-1);
+            }
+        }
+        else
+        {
+            if (snapshotDirectory.isDirectory() != true)
+            {
+                System.out.println("generate_snapshot1 workflow: Result path '" + snapshotDirectory.getAbsolutePath() + "' isn't a directory.");
+                System.exit(-1);
+            }
+        }
+
         CopyFileBinary(lesefassungFile, new File(snapshotDirectory.getAbsolutePath() + File.separator + "offene_bibel_" + now + "_lesefassung_osis.xml"));
         CopyFileBinary(studienfassungFile, new File(snapshotDirectory.getAbsolutePath() + File.separator + "offene_bibel_" + now + "_studienfassung_osis.xml"));
 
@@ -342,7 +361,7 @@ public class generate_snapshot1
                                      "osis2pdf1",
                                      snapshotDirectory.getAbsolutePath() + File.separator + "offene_bibel_" + now + "_lesefassung_osis.xml",
                                      "xelatex",
-                                     programPath + ".." + File.separator + "free-scriptures" + File.separator + "tools" + File.separator + "haggai2latex" + File.separator + "haggai2xelatex1_variant1.xsl",
+                                     programPath + ".." + File.separator + "free-scriptures" + File.separator + "tools" + File.separator + "haggai2latex" + File.separator + "haggai2xelatex2.xsl",
                                      programPath + "replacement_dictionary_lesefassung.xml",
                                      inofficialDirectory.getAbsolutePath());
         builder.directory(new File(programPath + ".." + File.separator + "free-scriptures" + File.separator + "tools" + File.separator + "workflows" + File.separator + "osis2pdf1"));
@@ -376,7 +395,7 @@ public class generate_snapshot1
                                      "osis2pdf1",
                                      snapshotDirectory.getAbsolutePath() + File.separator + "offene_bibel_" + now + "_studienfassung_osis.xml",
                                      "xelatex",
-                                     programPath + ".." + File.separator + "free-scriptures" + File.separator + "tools" + File.separator + "haggai2latex" + File.separator + "haggai2xelatex1_variant1.xsl",
+                                     programPath + ".." + File.separator + "free-scriptures" + File.separator + "tools" + File.separator + "haggai2latex" + File.separator + "haggai2xelatex2.xsl",
                                      programPath + "replacement_dictionary_studienfassung.xml",
                                      inofficialDirectory.getAbsolutePath());
         builder.directory(new File(programPath + ".." + File.separator + "free-scriptures" + File.separator + "tools" + File.separator + "workflows" + File.separator + "osis2pdf1"));
