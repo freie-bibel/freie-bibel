@@ -9,13 +9,13 @@
     <contributor>Julius Anton Eugen von Poseck</contributor>
     <contributor>Carl Friedrich Wilhelm Brockhaus</contributor>
     <contributor>Hermanus Cornelis Voorhoeve</contributor>
-    <date>2014-04-21</date>
+    <date>2016-02-29</date>
     <type>Text</type>
     <format>Haggai XML Bible Markup Language</format>
     <identifier>elberfelder_1871</identifier>
     <source>Elberfelder 1871, 3. durchgesehene Ausgabe NT</source>
     <language>de-DE</language>
-    <coverage>Matthäus, Johannes 1, Apostelgeschichte, Hebräer, Jakobus, Offenbarung 1-2</coverage>
+    <coverage>Matthäus, Johannes 1, Apostelgeschichte, 2. Korinther, Hebräer, Jakobus, Offenbarung 1-2</coverage>
     <rights>
       Gemeinfrei seit 1972-01-01.
     </rights>
@@ -2831,6 +2831,569 @@
       <PARAGRAPH>
         <VERSE vnumber="30">Er<NOTE type="variant"><STYLE fs="italic">T. r.</STYLE> Paulus.</NOTE> aber blieb zwei ganze Jahre in seinem eigenen gemietheten Hause und empfing alle, die zu ihm hinkamen,</VERSE>
         <VERSE vnumber="31">indem er das Reich Gottes predigte, und von dem Herrn Jesu Christo lehrte mit aller Freimüthigkeit ungehindert.</VERSE>
+      </PARAGRAPH>
+    </CHAPTER>
+  </BIBLEBOOK>
+  <!--BIBLEBOOK bnumber="46" bname="1. Korinther">
+    <CAPTION>Erste Epistel an die Korinther.</CAPTION>
+    <CHAPTER cnumber="1">
+      <PARAGRAPH>
+        <VERSE vnumber="1">Paulus, berufener Apostel Jesu Christi durch Gottes Willen, und Sosthenes, der Bruder,</VERSE>
+        <VERSE vnumber="2">der Versammlung Gottes, die in Korinth ist, den Geheiligten in Christo Jesu, den berufenen Heiligen, sammt allen, die an allen Orten anrufen den Namen unsers Herrn Jesu Christi, beides ihres und unsers.</VERSE>
+        <VERSE vnumber="3">Gnade euch und Friede von Gott, unserm Vater, und <STYLE fs="super">dem</STYLE> Herrn Jesu Christo!</VERSE>
+      </PARAGRAPH>
+      <PARAGRAPH>
+        <VERSE vnumber="4">Ich danke meinem Gott allezeit euerthalben für die Gnade Gottes, die euch gegeben ist in Christo Jesu,</VERSE>
+        <VERSE vnumber="5">daß ihr in ihm in allem reich gemacht worden seid, in allem Wort <STYLE fs="super">der Lehre</STYLE> und aller Erkenntniß,</VERSE>
+        <VERSE vnumber="6">wie das Zeugniß des Christus unter euch bestätigt worden ist,</VERSE>
+        <VERSE vnumber="7">so daß ihr in keiner Gnadengabe Mangel habt, indem ihr die Offenbarung unsers Herrn Jesu Christi erwartet,</VERSE>
+        <VERSE vnumber="8">welcher euch auch befestigen wird bis an’s Ende, <STYLE fs="super">daß ihr</STYLE> tadellos <STYLE fs="super">seid</STYLE> an dem Tage unsers Herrn Jesu Christi.</VERSE>
+        <VERSE vnumber="9">Gott ist treu, durch welchen ihr berufen seid in <STYLE fs="super">die</STYLE> Gemeinschaft seines Sohnes Jesu Christi, unsers Herrn.</VERSE>
+      </PARAGRAPH>
+      <PARAGRAPH>
+        <VERSE vnumber="10">Ich ermahne<NOTE>O. bitte.</NOTE> euch aber, Brüder, durch den Namen unsers Herrn Jesu Christi, daß ihr alle dasselbe redet, und nicht Spaltungen unter euch seien, sondern <STYLE fs="super">daß</STYLE> ihr in demselben Sinne und in derselben Meinung völlig zusammengefügt seid.</VERSE>
+        <VERSE vnumber="11">Denn es ist mir von euch kund geworden, meine Brüder, durch der Chloe <STYLE fs="super">Hausgenossen,</STYLE> daß Streitigkeiten unter euch sind.</VERSE>
+        <VERSE vnumber="12">Ich sage aber dieses, daß ein jeglicher von euch sagt: Ich bin <STYLE fs="super">des</STYLE> Paulus, und ich <STYLE fs="super">des</STYLE> Apollos, und ich <STYLE fs="super">des</STYLE> Kephas, und ich Christi.</VERSE>
+        <VERSE vnumber="13">Ist der Christus zertheilet? Ist Paulus für euch gekreuzigt, oder seid ihr auf Paulus Namen getauft worden?</VERSE>
+        <VERSE vnumber="14">Ich danke Gott, daß ich niemanden von euch getauft habe, außer Crispus und Gajus;</VERSE>
+        <VERSE vnumber="15">auf daß nicht jemand sage, daß ich auf meinen Namen getauft habe.</VERSE>
+        <VERSE vnumber="16">Ich habe aber auch das Haus des Stephanas getauft; sonst weiß ich nicht, ob ich jemand anders getauft habe.</VERSE>
+      </PARAGRAPH>
+      <PARAGRAPH>
+        <VERSE vnumber="17">Denn Christus hat mich nicht gesandt, zu taufen, sondern das Evangelium zu verkündigen; nicht in Redeweisheit, auf daß nicht das Kreuz Christi zu nichte gemacht werde.</VERSE>
+        <VERSE vnumber="18">Denn das Wort vom Kreuze ist denen, die verloren gehen, Thorheit; uns aber, die wir errettet werden, ist es Gottes Kraft.</VERSE>
+        <VERSE vnumber="19">Denn es steht geschrieben: „Ich will die Weisheit der Weisen zerstören, und den Verstand der Verständigen will ich wegthun“<NOTE>Jes. 29, 14.</NOTE>.</VERSE>
+        <VERSE vnumber="20">Wo <STYLE fs="super">ist der</STYLE> Weise? Wo <STYLE fs="super">der</STYLE> Schriftgelehrte? Wo <STYLE fs="super">der</STYLE> Schulstreiter dieses Zeitlaufs? Hat nicht Gott die Weisheit der<NOTE type="variant"><STYLE fs="italic">T. r.</STYLE> dieser.</NOTE> Welt zur Thorheit gemacht?</VERSE>
+        <VERSE vnumber="21">Denn sintemal in der Weisheit Gottes die Welt durch die Weisheit Gott nicht erkannt hat, so gefiel es Gott wohl, durch die Thorheit der Predigt die, welche glauben, zu erretten;</VERSE>
+        <VERSE vnumber="22">sintemal <STYLE fs="super">die</STYLE> Juden Zeichen<NOTE type="variant"><STYLE fs="italic">T. r.</STYLE> ein Zeichen.</NOTE> fordern, und <STYLE fs="super">die</STYLE> Griechen Weisheit suchen;</VERSE>
+        <VERSE vnumber="23">wir aber predigen Christum, den Gekreuzigten, <STYLE fs="super">den</STYLE> Juden ein Anstoß, und <STYLE fs="super">den</STYLE> Nationen<NOTE type="variant"><STYLE fs="italic">T. r.</STYLE> Griechen.</NOTE> eine Thorheit;</VERSE>
+        <VERSE vnumber="24">den Berufenen selbst aber, sowol Juden als Griechen, Christum, Gottes Kraft und Gottes Weisheit;</VERSE>
+        <VERSE vnumber="25">denn das Thörichte Gottes ist weiser als die Menschen, und das Schwache Gottes ist stärker als die Menschen.</VERSE>
+        <VERSE vnumber="26">Denn ihr sehet<NOTE>O. Sehet denn.</NOTE> eure Berufung, Brüder, daß nicht viele Weise nach <STYLE fs="super">dem</STYLE> Fleische, nicht viele Mächtige, nicht viele Edle <STYLE fs="super">sind,</STYLE></VERSE>
+        <VERSE vnumber="27">sondern das Thörichte der Welt hat Gott auserwählt, auf daß er die Weisen zu Schanden mache; und das Schwache der Welt hat Gott auserwählt, auf daß er das Starke zu Schanden mache;</VERSE>
+        <VERSE vnumber="28">und das Unedle der Welt und das Verachtete hat Gott auserwählt, und das, was nicht ist, auf daß er das, was ist, zu nichte mache,</VERSE>
+        <VERSE vnumber="29">daß sich vor Gott<NOTE type="variant"><STYLE fs="italic">T. r.</STYLE> ihm.</NOTE> kein Fleisch rühme.</VERSE>
+        <VERSE vnumber="30">Aus ihm aber seid <STYLE fs="emphasis">ihr</STYLE> in Christo Jesu, der uns geworden ist Weisheit von Gott<NOTE>O. von Gott zur W.</NOTE> und Gerechtigkeit und Heiligkeit und Erlösung;</VERSE>
+        <VERSE vnumber="31">auf daß, wie geschrieben steht: „Wer sich rühmt, der rühme sich in <STYLE fs="super">dem</STYLE> Herrn“<NOTE>(S. Note zu Matth. 1, 22.) Jer. 9, 23; Jes. 45, 25.</NOTE>.</VERSE>
+      </PARAGRAPH>
+    </CHAPTER>
+    <CHAPTER cnumber="2">
+      <PARAGRAPH>
+        <VERSE vnumber="1">Und ich, da ich zu euch kam, Brüder, kam nicht nach Vortrefflichkeit der Rede oder Weisheit, euch das Zeugniß Gottes verkündigend.</VERSE>
+        <VERSE vnumber="2">Denn ich hielt nicht <STYLE fs="super">für gut,</STYLE> etwas unter euch zu wissen, als nur Jesum Christum, und <STYLE fs="emphasis">ihn</STYLE> <STYLE fs="super">als</STYLE> Gekreuzigten.</VERSE>
+        <VERSE vnumber="3">Und ich war bei euch in Schwachheit und in Furcht und in vielem Zittern;</VERSE>
+        <VERSE vnumber="4">und meine Rede und meine Predigt war nicht in überredenden Worten der<NOTE type="variant"><STYLE fs="italic">T. r.</STYLE> f. h. menschlicher.</NOTE> Weisheit, sondern in Erweisung des Geistes und der Kraft,</VERSE>
+        <VERSE vnumber="5">auf daß euer Glaube nicht in Weisheit der Menschen, sondern in <STYLE fs="super">der</STYLE> Kraft Gottes sei.</VERSE>
+        <VERSE vnumber="6">Wir reden aber Weisheit unter den Vollkommenen, nicht aber Weisheit dieses Zeitlaufs, noch der Fürsten dieses Zeitlaufs, die zu nichte werden,</VERSE>
+        <VERSE vnumber="7">sondern wir reden Gottes Weisheit in einem Geheimniß, die verborgene, welche Gott zuvor bestimmt hat vor den Zeitaltern zu unserer Herrlichkeit,</VERSE>
+        <VERSE vnumber="8">welche keiner von den Fürsten dieses Zeitlaufs erkannt hat, (denn wenn sie <STYLE fs="super">diese</STYLE> erkannt hätten, so würden sie wol den Herrn der Herrlichkeit nicht gekreuzigt haben,)</VERSE>
+        <VERSE vnumber="9">sondern wie geschrieben steht: „Was kein Auge gesehen und kein Ohr gehört hat und in keines Menschen Herz gekommen ist, was Gott bereitet hat denen, die ihn lieben“<NOTE>Jes. 64, 4.</NOTE>.</VERSE>
+        <VERSE vnumber="10">Uns aber hat <STYLE fs="super">es</STYLE> Gott geoffenbart durch seinen Geist, denn der Geist erforschet alle Dinge, selbst die Tiefen Gottes.</VERSE>
+        <VERSE vnumber="11">Denn wer von den Menschen weiß, was des Menschen <STYLE fs="super">ist,</STYLE> als nur der Geist des Menschen, der in ihm <STYLE fs="super">ist?</STYLE> Also weiß auch niemand, was Gottes <STYLE fs="super">ist,</STYLE> als nur der Geist Gottes.</VERSE>
+        <VERSE vnumber="12">Wir aber haben nicht den Geist der Welt empfangen, sondern den Geist, der aus Gott <STYLE fs="super">ist,</STYLE> auf daß wir die Dinge wissen, die uns von Gott geschenkt sind;</VERSE>
+        <VERSE vnumber="13">welche wir auch reden, nicht in Worten, gelehrt durch menschliche Weisheit, sondern in <STYLE fs="super">Worten,</STYLE> gelehrt durch den<NOTE type="variant"><STYLE fs="italic">T. r.</STYLE> f. h. Heiligen.</NOTE> Geist, mittheilend<NOTE>O. verbindend.</NOTE> geistliche <STYLE fs="super">Dinge</STYLE> durch geistliche <STYLE fs="super">Mittel.</STYLE></VERSE>
+        <VERSE vnumber="14"><STYLE fs="super">Der</STYLE> natürliche<NOTE>O. seelische.</NOTE> Mensch aber nimmt nicht an<NOTE>O. faßt nicht.</NOTE>, was des Geistes Gottes <STYLE fs="super">ist,</STYLE> denn es ist ihm eine Thorheit, und er kann <STYLE fs="super">es</STYLE> nicht erkennen, denn es wird geistlich beurtheilt<NOTE>O. unterschieden.</NOTE>;</VERSE>
+        <VERSE vnumber="15">der Geistliche aber beurtheilt<NOTE>O. unterscheidet.</NOTE> alle Dinge, er selbst aber wird von niemandem beurtheilt<NOTE>O. unterschieden.</NOTE>;</VERSE>
+        <VERSE vnumber="16">denn „wer hat den Sinn <STYLE fs="super">des</STYLE> Herrn erkannt, der ihn unterweise“<NOTE>Jes. 40, 13. 14.</NOTE>? <STYLE fs="emphasis">Wir</STYLE> aber haben Christi Sinn.</VERSE>
+      </PARAGRAPH>
+    </CHAPTER>
+    <CHAPTER cnumber="3">
+      <PARAGRAPH>
+        <VERSE vnumber="1">Und ich, Brüder, konnte nicht zu euch reden, als zu Geistlichen, sondern als zu Fleischlichen, als zu Unmündigen in Christo.</VERSE>
+        <VERSE vnumber="2">Ich habe euch Milch zu trinken gegeben<NOTE type="variant"><STYLE fs="italic">T. r.</STYLE> f. h. und.</NOTE>, nicht Speise; denn ihr vermochtet es noch nicht, aber ihr vermöget es auch jetzt noch nicht,</VERSE>
+        <VERSE vnumber="3">denn ihr seid noch fleischlich. Denn da Eifer und Streit<NOTE type="variant"><STYLE fs="italic">T. r.</STYLE> f. h. und Zwietracht.</NOTE> unter euch <STYLE fs="super">ist,</STYLE> seid ihr nicht fleischlich, und wandelt nach Menschen<STYLE fs="super">weise?</STYLE></VERSE>
+        <VERSE vnumber="4">Denn wenn einer sagt: Ich bin des Paulus; der andere aber: Ich des Apollos; seid ihr nicht menschlich<NOTE>B. Menschen.</NOTE><NOTE type="variant"><STYLE fs="italic">T. r.</STYLE> fleischlich.</NOTE>?</VERSE>
+        <VERSE vnumber="5">Wer ist denn Apollos und wer Paulus<NOTE type="variant"><STYLE fs="italic">T. r.</STYLE> setzt Paulus vor Apollos.</NOTE>? Diener, durch welche ihr geglaubt habt, und <STYLE fs="super">zwar</STYLE> wie der Herr einem jeglichen gegeben hat.</VERSE>
+        <VERSE vnumber="6">Ich habe gepflanzt, Apollos hat begossen, Gott aber hat das Wachsthum gegeben.</VERSE>
+        <VERSE vnumber="7">Also ist weder, der da pflanzt, etwas, noch der da begießt, sondern Gott, der das Wachsthum giebt.</VERSE>
+        <VERSE vnumber="8">Der aber pflanzt und der begießt, sind eins; ein jeglicher aber wird seinen eigenen Lohn empfangen nach seiner eigenen Arbeit.</VERSE>
+        <VERSE vnumber="9">Denn wir sind Gottes Mitarbeiter; Gottes Ackerfeld<NOTE>O. Ackerwerk.</NOTE>, Gottes Gebäu seid ihr.</VERSE>
+        <VERSE vnumber="10">Nach der Gnade Gottes, die mir gegeben ist, habe ich als ein weiser Baumeister den Grund gelegt; ein anderer aber bauet darauf; ein jeglicher aber sehe zu, wie er darauf bauet.</VERSE>
+        <VERSE vnumber="11">Denn einen andern Grund kann niemand legen außer dem, der gelegt ist, welcher ist Jesus Christus<NOTE type="alternative"><STYLE fs="italic">T. r.</STYLE> Jesus der Christus.</NOTE>.</VERSE>
+        <VERSE vnumber="12">Wenn aber jemand auf diesen Grund bauet Gold, Silber, köstliche Steine, Holz, Heu, Stroh,</VERSE>
+        <VERSE vnumber="13">so wird das Werk eines jeglichen offenbar werden, denn der Tag wird <STYLE fs="super">es</STYLE> klar machen, weil er in Feuer<NOTE>O. es durch Feuer.</NOTE> geoffenbart wird; und das Feuer wird bewähren, welcherlei das Werk eines jeglichen ist.</VERSE>
+        <VERSE vnumber="14">Wenn das Werk jemandes bleiben wird<NOTE type="variant"><STYLE fs="italic">T. r.</STYLE> bleibt.</NOTE>, das er darauf gebaut hat, so wird er Lohn empfangen;</VERSE>
+        <VERSE vnumber="15">wenn das Werk jemandes verbrennen wird, so wird er Schaden leiden; er selbst aber wird errettet werden, doch so wie durch’s Feuer.</VERSE>
+      </PARAGRAPH>
+      <PARAGRAPH>
+        <VERSE vnumber="16">Wisset ihr nicht, daß ihr Gottes Tempel seid und der Geist Gottes unter euch wohnt?</VERSE>
+        <VERSE vnumber="17">Wenn jemand den Tempel Gottes verdirbt, diesen wird Gott verderben, denn der Tempel Gottes ist heilig, und solche seid ihr.</VERSE>
+        <VERSE vnumber="18">Niemand betrüge sich selbst. Wenn jemand unter euch sich dünkt<NOTE>O. den Anschein hat.</NOTE> weise zu sein in diesem Zeitlauf, der werde ein Narr, auf daß er weise werde.</VERSE>
+        <VERSE vnumber="19">Denn die Weisheit dieser Welt ist Thorheit bei Gott; denn es steht geschrieben: „Der die Weisen erhascht in ihrer Arglist“<NOTE>Hiob 5, 13.</NOTE>.</VERSE>
+        <VERSE vnumber="20">Und wiederum: „<STYLE fs="super">Der</STYLE> Herr kennet die Ueberlegungen der Weisen, daß sie eitel sind“<NOTE>Ps. 94, 11.</NOTE>.</VERSE>
+        <VERSE vnumber="21">So rühme sich denn niemand der Menschen, denn alles ist euer.</VERSE>
+        <VERSE vnumber="22">Es sei Paulus, oder Apollos, oder Kephas, oder <STYLE fs="super">die</STYLE> Welt, oder Leben, oder Tod, oder Gegenwärtiges, oder Zukünftiges: alles ist euer,</VERSE>
+        <VERSE vnumber="23">ihr aber Christi, Christus aber Gottes.</VERSE>
+      </PARAGRAPH>
+    </CHAPTER>
+    <CHAPTER cnumber="4">
+      <PARAGRAPH>
+        <VERSE vnumber="1">Dafür halte man uns – für Diener Christi und Verwalter der Geheimnisse Gottes.</VERSE>
+        <VERSE vnumber="2">Uebrigens sucht man hier<NOTE type="variant"><STYLE fs="italic">T. r.</STYLE> l. f. hier.</NOTE> an den Verwaltern, daß einer treu erfunden werde.</VERSE>
+        <VERSE vnumber="3">Mir aber ist es das Geringste, daß ich von euch beurtheilt werde, oder von einem menschlichen Tage<NOTE>d. h. Gerichts-Tage.</NOTE>; ich beurtheile mich aber auch selbst nicht.</VERSE>
+        <VERSE vnumber="4">Denn ich bin mir selbst nichts bewußt, aber dadurch bin ich nicht gerechtfertigt. Der mich aber beurtheilt, ist der Herr.</VERSE>
+        <VERSE vnumber="5">So urtheilt nun nicht etwas vor <STYLE fs="super">der</STYLE> Zeit, bis der Herr komme, welcher auch das Verborgene der Finsterniß an’s Licht bringen und<NOTE>O. sowol das V. … stellen, als auch …</NOTE> die Rathschläge der Herzen offenbaren wird; und dann wird jeglichem <STYLE fs="super">sein</STYLE> Lob werden von Gott.</VERSE>
+      </PARAGRAPH>
+      <PARAGRAPH>
+        <VERSE vnumber="6">Dieses aber, Brüder, habe ich auf mich und Apollos gedeutet um euertwillen, damit ihr an uns lernet, nicht über das hinauszudenken, was geschrieben ist, auf daß niemand sich aufblähen möge für den einen, wider den andern.</VERSE>
+        <VERSE vnumber="7">Denn wer unterscheidet dich? Was aber hast du, das du nicht empfangen hast? Wenn du es aber auch empfangen hast, was rühmest du dich, als hättest du <STYLE fs="super">es</STYLE> nicht empfangen?</VERSE>
+        <VERSE vnumber="8">Schon seid ihr satt geworden, schon seid ihr reich geworden, ihr habt ohne uns geherrscht, und ich wollte wol, daß ihr herrschtet, auf daß auch <STYLE fs="emphasis">wir</STYLE> mit euch herrschen möchten.</VERSE>
+        <VERSE vnumber="9">Denn mich dünkt, daß Gott uns, die Apostel, als die Letzten dargestellt hat, als zum Tode hingegeben; denn wir sind ein Schauspiel geworden der Welt, sowol Engeln als Menschen<NOTE>O. der Welt, beides Engeln und Menschen.</NOTE>.</VERSE>
+        <VERSE vnumber="10"><STYLE fs="emphasis">Wir</STYLE> <STYLE fs="super">sind</STYLE> Narren um Christi willen, <STYLE fs="emphasis">ihr</STYLE> aber seid klug in Christo; <STYLE fs="emphasis">wir</STYLE> schwach, <STYLE fs="emphasis">ihr</STYLE> aber stark; <STYLE fs="emphasis">ihr</STYLE> herrlich, <STYLE fs="emphasis">wir</STYLE> aber verachtet.</VERSE>
+        <VERSE vnumber="11">Bis auf die jetzige Stunde leiden wir sowol Hunger als Durst, und sind nackt, und werden mit Fäusten geschlagen, und haben keine bestimmte Wohnung,</VERSE>
+        <VERSE vnumber="12">und bemühen uns und arbeiten mit eigenen Händen. Geschmähet, segnen wir; verfolgt, dulden wir;</VERSE>
+        <VERSE vnumber="13">gelästert, bitten wir; als Auskehricht sind wir der Welt geworden, ein Auswurf aller bis jetzt.</VERSE>
+        <VERSE vnumber="14">Nicht euch zu beschämen, schreibe ich dieses, sondern ich ermahne <STYLE fs="super">euch</STYLE> als meine geliebten Kinder.</VERSE>
+        <VERSE vnumber="15">Denn wenn ihr zehntausend Zuchtmeister in Christo hättet, so doch nicht viele Väter; denn in Christo Jesu habe <STYLE fs="emphasis">ich</STYLE> euch gezeugt durch das Evangelium.</VERSE>
+        <VERSE vnumber="16">Darum bitte<NOTE>O. ermahne.</NOTE> ich euch, seid meine Nachahmer.</VERSE>
+      </PARAGRAPH>
+      <PARAGRAPH>
+        <VERSE vnumber="17">Deswegen habe ich euch Timotheus gesandt, der mein geliebtes und treues Kind ist in <STYLE fs="super">dem</STYLE> Herrn, der wird euch erinnern meiner Wege, die in Christo <STYLE fs="super">sind,</STYLE> gleichwie ich überall in jeder Versammlung lehre.</VERSE>
+        <VERSE vnumber="18">Etliche aber sind aufgeblasen, als ob ich nicht zu euch kommen würde.</VERSE>
+        <VERSE vnumber="19">Ich werde aber bald zu euch kommen, wenn der Herr will, und werde wissen, nicht das Wort der Aufgeblasenen, sondern die Kraft;</VERSE>
+        <VERSE vnumber="20">denn das Reich Gottes <STYLE fs="super">besteht</STYLE> nicht im Worte, sondern in Kraft.</VERSE>
+        <VERSE vnumber="21">Was wollt ihr? Soll ich mit <STYLE fs="super">der</STYLE> Ruthe zu euch kommen, oder in Liebe und im Geiste der Sanftmuth?</VERSE>
+      </PARAGRAPH>
+    </CHAPTER>
+    <CHAPTER cnumber="5">
+      <PARAGRAPH>
+        <VERSE vnumber="1">Es ist überall das Gerücht, <STYLE fs="super">daß</STYLE> Hurerei unter euch <STYLE fs="super">sei,</STYLE> und eine solche Hurerei, die selbst unter den Nationen nicht <STYLE fs="super">stattfindet</STYLE><NOTE type="variant"><STYLE fs="italic">T. r.</STYLE> genannt wird.</NOTE>; daß einer seines Vaters Weib habe.</VERSE>
+        <VERSE vnumber="2">Und <STYLE fs="emphasis">ihr</STYLE> seid aufgeblasen und habt nicht vielmehr Leid getragen, auf daß der, welcher diese That begangen, aus eurer Mitte hinweggethan würde.</VERSE>
+        <VERSE vnumber="3">Denn ich, zwar dem Leibe nach als abwesend, aber im Geiste gegenwärtig, habe schon, als gegenwärtig, geurtheilt, den, der dieses also verübt hat,</VERSE>
+        <VERSE vnumber="4">im Namen unsers Herrn Jesu Christi, (wenn ihr und mein Geist mit der Macht unsers Herrn Jesu Christi versammelt seid,)</VERSE>
+        <VERSE vnumber="5">einen solchen dem Satan zu überliefern zum Verderben des Fleisches, auf daß der Geist errettet werde am Tage des Herrn Jesu.</VERSE>
+        <VERSE vnumber="6">Euer Rühmen <STYLE fs="super">ist</STYLE> nicht gut. Wisset ihr nicht, daß ein wenig Sauerteig die ganze Masse durchsäuert?</VERSE>
+        <VERSE vnumber="7">Feget<NOTE type="variant"><STYLE fs="italic">T. r.</STYLE> f. h. nun.</NOTE> den alten Sauerteig aus, auf daß ihr eine neue Masse werdet, gleichwie ihr ungesäuert seid. Denn auch unser Passah, Christus, ist<NOTE type="variant"><STYLE fs="italic">T. r.</STYLE> f. h. für uns.</NOTE> geschlachtet.</VERSE>
+        <VERSE vnumber="8">Darum laßt uns Festfeier halten, nicht mit altem Sauerteig, noch mit Sauerteig der Bosheit und Schlechtigkeit, sondern mit ungesäuertem <STYLE fs="super">Brode</STYLE> der Lauterkeit und Wahrheit.</VERSE>
+      </PARAGRAPH>
+      <PARAGRAPH>
+        <VERSE vnumber="9">Ich habe euch in dem Briefe geschrieben, nicht mit Hurern Verkehr zu haben.</VERSE>
+        <VERSE vnumber="10"><NOTE type="variant"><STYLE fs="italic">T. r.</STYLE> f. h. und.</NOTE><STYLE fs="super">Ich meine</STYLE> nicht überhaupt mit den Hurern dieser Welt, oder den Habsüchtigen<NOTE>O. Gierigen.</NOTE>, und<NOTE type="variant"><STYLE fs="italic">T. r.</STYLE> oder.</NOTE> Räubern, oder Götzendienern, denn sonst müßtet ihr aus der Welt gehen.</VERSE>
+        <VERSE vnumber="11">Nun aber habe ich euch geschrieben, keinen Verkehr zu haben, wenn jemand, der Bruder genannt wird, ein Hurer ist, oder Habsüchtiger<NOTE>O. Gieriger.</NOTE>, oder Götzendiener, oder Lästerer, oder Trunkenbold, oder Räuber, mit einem solchen selbst nicht zu essen.</VERSE>
+        <VERSE vnumber="12">Denn was <STYLE fs="super">habe</STYLE> ich auch<NOTE>Viele Handschr. l. f. auch.</NOTE> mit dem Richten derer <STYLE fs="super">zu thun,</STYLE> die draußen <STYLE fs="super">sind?</STYLE> Ihr, richtet ihr nicht, die drinnen <STYLE fs="super">sind?</STYLE></VERSE>
+        <VERSE vnumber="13">Die aber draußen <STYLE fs="super">sind,</STYLE> wird Gott richten; thut<NOTE type="variant"><STYLE fs="italic">T. r.</STYLE> auch thut.</NOTE> den Bösen von euch selbst hinaus.</VERSE>
+      </PARAGRAPH>
+    </CHAPTER>
+    <CHAPTER cnumber="6">
+      <PARAGRAPH>
+        <VERSE vnumber="1">Darf jemand unter euch, der eine Sache wider den andern hat, rechten vor den Ungerechten und nicht vor den Heiligen?</VERSE>
+        <VERSE vnumber="2">Wisset ihr nicht, daß die Heiligen die Welt richten werden? Und wenn durch euch die Welt gerichtet wird, seid ihr für <STYLE fs="super">die</STYLE> geringsten Rechtssachen unfähig?</VERSE>
+        <VERSE vnumber="3">Wisset ihr nicht, daß wir Engel richten werden? und nicht einmal die Sachen dieses Lebens?</VERSE>
+        <VERSE vnumber="4">Wenn ihr nun Rechtssachen habt, die dieses Leben betreffen, so setzet dazu die gering Geachteten in der Versammlung.</VERSE>
+        <VERSE vnumber="5">Zur Beschämung sage ich <STYLE fs="super">es</STYLE> euch. Also ist nicht ein Weiser unter euch? auch nicht <STYLE fs="emphasis">einer</STYLE>, der fähig sei, zwischen Bruder <STYLE fs="super">und Bruder</STYLE> zu entscheiden;</VERSE>
+        <VERSE vnumber="6">sondern es rechtet Bruder mit Bruder und das vor Ungläubigen?</VERSE>
+        <VERSE vnumber="7">Es ist ja nun schon überhaupt ein Fehler an euch<NOTE type="variant"><STYLE fs="italic">T. r.</STYLE> unter euch.</NOTE>, daß ihr unter einander rechtet. Warum lasset ihr euch nicht lieber Unrecht thun? Warum lasset ihr euch nicht lieber übervortheilen?</VERSE>
+        <VERSE vnumber="8">Aber <STYLE fs="emphasis">ihr</STYLE> thut Unrecht und übervortheilt und das an Brüdern.</VERSE>
+        <VERSE vnumber="9">Wisset ihr nicht, daß die Ungerechten <STYLE fs="super">das</STYLE> Reich Gottes nicht ererben werden? Irret nicht. Weder Hurer, noch Götzendiener, noch Ehebrecher, noch Weichlinge, noch Knabenschänder,</VERSE>
+        <VERSE vnumber="10">noch Diebe, noch Habsüchtige, noch Trunkenbolde, noch Lästerer, noch Räuber werden <STYLE fs="super">das</STYLE> Reich Gottes ererben.</VERSE>
+        <VERSE vnumber="11">Und solche sind eurer etliche gewesen; aber ihr seid abgewaschen, aber ihr seid geheiligt, aber ihr seid gerechtfertigt in dem Namen unsers Herrn Jesu und durch den Geist unsers Gottes.</VERSE>
+      </PARAGRAPH>
+      <PARAGRAPH>
+        <VERSE vnumber="12">Alles ist mir erlaubt, aber nicht alles ist nützlich. Alles ist mir erlaubt, aber <STYLE fs="emphasis">ich</STYLE> will mich von keinem überwältigen lassen.</VERSE>
+        <VERSE vnumber="13">Die Speisen <STYLE fs="super">sind</STYLE> für den Bauch, und der Bauch für die Speisen; Gott aber wird beide, diesen und jene, zu nichte machen. Der Leib aber nicht für die Hurerei, sondern für den Herrn, und der Herr für den Leib.</VERSE>
+        <VERSE vnumber="14">Gott aber hat den Herrn auferweckt und wird uns auferwecken durch seine Macht.</VERSE>
+        <VERSE vnumber="15">Wisset ihr nicht, daß eure Leiber Glieder Christi sind? Soll ich denn die Glieder Christi nehmen und sie zu Gliedern einer Hure machen? Das sei ferne!</VERSE>
+        <VERSE vnumber="16">Wisset ihr nicht, daß, wer der Hure anhanget, ein Leib <STYLE fs="super">mit ihr</STYLE> ist? „Denn es werden,“ spricht er, „die zwei <STYLE fs="emphasis">ein</STYLE><NOTE>B. zu einem.</NOTE> Fleisch sein“<NOTE>1. Mose 2, 24.</NOTE>.</VERSE>
+        <VERSE vnumber="17">Wer aber dem Herrn anhanget, ist <STYLE fs="emphasis">ein</STYLE> Geist <STYLE fs="super">mit ihm.</STYLE></VERSE>
+        <VERSE vnumber="18">Fliehet <STYLE fs="super">die</STYLE> Hurerei! Jegliche Sünde, die ein Mensch begeht, ist außer dem Leibe; wer aber huret, der sündigt wider seinen eigenen Leib.</VERSE>
+        <VERSE vnumber="19">Wisset ihr nicht, daß euer Leib ein Tempel ist des Heiligen Geistes, der in euch <STYLE fs="super">ist,</STYLE> den ihr von Gott habt, und <STYLE fs="super">daß</STYLE> ihr nicht euer selbst seid?</VERSE>
+        <VERSE vnumber="20">Denn ihr seid um einen Preis erkauft; verherrlicht denn Gott an euerm Leibe<NOTE type="variant"><STYLE fs="italic">T. r.</STYLE> f. h. und in eurem Geiste, welche sind Gottes.</NOTE>.</VERSE>
+      </PARAGRAPH>
+    </CHAPTER>
+    <CHAPTER cnumber="7">
+      <PARAGRAPH>
+        <VERSE vnumber="1">Was aber das betrifft, wovon ihr mir geschrieben habt, <STYLE fs="super">so ist es</STYLE> für einen Menschen gut, kein Weib zu berühren.</VERSE>
+        <VERSE vnumber="2">Aber um der Hurerei willen habe ein jeglicher sein eigenes Weib und eine jegliche habe ihren eigenen Mann.</VERSE>
+        <VERSE vnumber="3">Der Mann leiste dem Weibe die <STYLE fs="super">eheliche</STYLE> Pflicht<NOTE type="variant"><STYLE fs="italic">T. r.</STYLE> f. h. Gewogenheit.</NOTE>, gleicherweise aber auch das Weib dem Manne.</VERSE>
+        <VERSE vnumber="4">Das Weib hat nicht Macht über ihren eigenen Leib, sondern der Mann; gleicherweise aber hat auch der Mann nicht Macht über seinen eigenen Leib, sondern das Weib.</VERSE>
+        <VERSE vnumber="5">Entziehet euch einander nicht, es sei denn aus beider Bewilligung eine Zeitlang, auf daß ihr zum<NOTE type="variant"><STYLE fs="italic">T. r.</STYLE> f. h. Fasten und.</NOTE> Beten Muße habet; und kommt<NOTE>B. seid.</NOTE><NOTE type="variant"><STYLE fs="italic">T. r.</STYLE> wiederum.</NOTE> zusammen, auf daß Satan euch nicht versuche wegen eurer Unenthaltsamkeit.</VERSE>
+        <VERSE vnumber="6">Dieses sage ich aber aus Nachsicht und nicht aus Gebot.</VERSE>
+        <VERSE vnumber="7">Ich wünsche nun<NOTE type="variant"><STYLE fs="italic">T. r.</STYLE> denn.</NOTE>, daß alle Menschen wären, wie auch ich selbst; aber ein jeglicher hat seine eigene Gnadengabe von Gott, der eine so, der andere so.</VERSE>
+      </PARAGRAPH>
+      <PARAGRAPH>
+        <VERSE vnumber="8">Ich sage aber den Unverheiratheten und den Witwen: Es ist gut für sie, wenn sie bleiben, wie auch ich.</VERSE>
+        <VERSE vnumber="9">Wenn sie sich aber nicht enthalten <STYLE fs="super">können</STYLE>, so lasset sie heirathen, denn es ist besser heirathen als Brunst leiden.</VERSE>
+        <VERSE vnumber="10">Den Verheiratheten aber gebiete nicht <STYLE fs="emphasis">ich</STYLE>, sondern der Herr, daß das Weib nicht von dem Manne geschieden werde.</VERSE>
+        <VERSE vnumber="11">Wenn sie aber auch geschieden ist, so bleibe sie unverheirathet oder versöhne sich wieder mit dem Manne; und daß <STYLE fs="super">der</STYLE> Mann <STYLE fs="super">das</STYLE> Weib nicht entlasse.</VERSE>
+      </PARAGRAPH>
+      <PARAGRAPH>
+        <VERSE vnumber="12">Den Uebrigen aber sage <STYLE fs="emphasis">ich</STYLE>, nicht der Herr: Wenn ein Bruder ein ungläubiges Weib hat, und es ist ihr wohlgefällig, bei ihm zu wohnen, so entlasse er sie nicht.</VERSE>
+        <VERSE vnumber="13">Und ein Weib, das einen ungläubigen Mann hat, und es ist ihm wohlgefällig, bei ihr zu wohnen, verlasse ihn nicht.</VERSE>
+        <VERSE vnumber="14">Denn der ungläubige Mann ist geheiligt durch das<NOTE>O. in dem.</NOTE> Weib, und das ungläubige Weib ist geheiligt durch den<NOTE>O. in dem.</NOTE> Mann; sonst wären ja eure Kinder unrein, nun aber sind sie heilig.</VERSE>
+        <VERSE vnumber="15">Wenn aber der Ungläubige sich trennt, so trenne er sich. Ein Bruder oder eine Schwester ist in solchen <STYLE fs="super">Fällen</STYLE> nicht gebunden; in Frieden aber hat uns Gott berufen.</VERSE>
+        <VERSE vnumber="16">Denn was weißt du, Weib, ob du den Mann erretten wirst? oder was weißt du, Mann, ob du das Weib erretten wirst?</VERSE>
+        <VERSE vnumber="17">Doch wie der Herr<NOTE type="variant"><STYLE fs="italic">T. r.</STYLE> Gott.</NOTE> einem jeglichen ausgetheilt hat, wie Gott<NOTE type="variant"><STYLE fs="italic">T. r.</STYLE> der Herr.</NOTE> einen jeglichen berufen hat, also wandle er; und also verordne ich in all den Versammlungen.</VERSE>
+      </PARAGRAPH>
+      <PARAGRAPH>
+        <VERSE vnumber="18">Ist jemand beschnitten berufen worden, so ziehe er keine Vorhaut; ist jemand in <STYLE fs="super">der</STYLE> Vorhaut berufen worden, so werde er nicht beschnitten.</VERSE>
+        <VERSE vnumber="19">Die Beschneidung ist nichts, und die Vorhaut ist nichts, sondern <STYLE fs="super">das</STYLE> Halten der Gebote Gottes.</VERSE>
+        <VERSE vnumber="20">Ein jeglicher bleibe in dem Berufe, in welchem er berufen worden ist.</VERSE>
+        <VERSE vnumber="21">Bist du <STYLE fs="super">als</STYLE> Sklave berufen worden, so laß es dir kein Kummer sein; wenn du aber auch frei werden kannst, so bediene dich <STYLE fs="super">dessen</STYLE> um so lieber.</VERSE>
+        <VERSE vnumber="22">Denn wer <STYLE fs="super">als</STYLE> Sklave im Herrn berufen ist, ist ein Freigelassener des Herrn; gleicherweise auch ist der <STYLE fs="super">als</STYLE> Freier Berufene ein Sklave Christi.</VERSE>
+        <VERSE vnumber="23">Ihr seid um einen Preis erkauft; werdet nicht der Menschen Sklaven.</VERSE>
+        <VERSE vnumber="24">Ein jeglicher, worin er berufen worden, Brüder, darin bleibe er bei Gott.</VERSE>
+      </PARAGRAPH>
+      <PARAGRAPH>
+        <VERSE vnumber="25">Was aber die Jungfrauen betrifft, so habe ich kein Gebot des Herrn; ich gebe aber eine Meinung, als vom Herrn begnadigt worden, getreu zu sein.</VERSE>
+        <VERSE vnumber="26">Ich meine nun, daß dieses gut sei, um der gegenwärtigen Noth willen, daß <STYLE fs="super">es</STYLE> dem Menschen gut <STYLE fs="super">sei,</STYLE> also zu sein.</VERSE>
+        <VERSE vnumber="27">Bist du an ein Weib gebunden, so suche nicht, los zu werden; bist du frei von einem Weibe, so suche kein Weib.</VERSE>
+        <VERSE vnumber="28">Wenn du aber auch heirathest, so hast du nicht gesündigt; und wenn die Jungfrau heirathet, so hat sie<NOTE>O. haben sie.</NOTE> nicht gesündigt; aber solche werden Trübsal im Fleische haben; ich aber schone euer.</VERSE>
+        <VERSE vnumber="29">Dieses aber sage ich, Brüder<NOTE type="variant"><STYLE fs="italic">T. r.</STYLE> l. daß die Zeit.</NOTE>: Die Zeit <STYLE fs="super">ist</STYLE> gedrängt. Uebrigens, daß<NOTE>O. gedrängt fortan; daß.</NOTE> auch die, so Weiber haben, seien, als hätten sie keine,</VERSE>
+        <VERSE vnumber="30">und die Weinenden, als nicht Weinende, und die sich Freuenden, als sich nicht Freuende, und die Kaufenden, als nicht Besitzende,</VERSE>
+        <VERSE vnumber="31">und die der<NOTE type="variant"><STYLE fs="italic">T. r.</STYLE> dieser.</NOTE> Welt Gebrauchenden, als <STYLE fs="super">ihrer</STYLE> nicht als Eigenthum Gebrauchende, denn die Gestalt dieser Welt vergeht.</VERSE>
+        <VERSE vnumber="32">Ich will aber, daß ihr ohne Sorge seid. Der Unverheirathete ist für die Dinge des Herrn besorgt, wie er dem Herrn gefallen möge;</VERSE>
+        <VERSE vnumber="33">der Verheirathete aber ist für die Dinge der Welt besorgt, wie er dem Weibe gefallen möge.</VERSE>
+        <VERSE vnumber="34">Es ist ein Unterschied zwischen dem Weibe und der Jungfrau. Die Unverheirathete ist für die Dinge des Herrn besorgt, auf daß sie heilig sei sowol an Leib als Geist; die Verheirathete aber ist für die Dinge der Welt besorgt, wie sie dem Manne gefallen möge.</VERSE>
+        <VERSE vnumber="35">Dieses aber sage ich zu euerm eigenen Nutzen, nicht daß ich euch eine Schlinge umwerfe, sondern zur Anständigkeit und zu ungetheiltem Anhangen an dem Herrn.</VERSE>
+        <VERSE vnumber="36">Wenn aber jemand denkt, daß er mit seiner Jungfrauschaft ungeziemend handle, wenn er über die Jahre der Blüthe hinausgeht, und daß es also sein muß, so thue er, was er will; er sündigt nicht: sie mögen heirathen.</VERSE>
+        <VERSE vnumber="37">Wer aber im Herzen feststeht und keine Noth, sondern Macht hat über seinen eigenen Willen und dieses in seinem Herzen beschlossen hat, seine Jungfrauschaft zu bewahren, der thut wohl.</VERSE>
+        <VERSE vnumber="38">Also, wer sich verheirathet, thut wohl, und<NOTE type="variant"><STYLE fs="italic">T. r.</STYLE> aber.</NOTE> wer nicht heirathet, thut besser.</VERSE>
+        <VERSE vnumber="39">Ein Weib ist gebunden<NOTE type="variant"><STYLE fs="italic">T. r.</STYLE> f. h. durch das Gesetz.</NOTE>, so lange Zeit ihr Mann lebt; wenn aber ihr Mann entschlafen ist, so ist sie frei, sich zu verheirathen, an wen sie will, nur im Herrn.</VERSE>
+        <VERSE vnumber="40">Glückseliger ist sie aber, wenn sie also bleibt, nach meiner Meinung; ich denke aber, daß auch <STYLE fs="emphasis">ich</STYLE> Gottes Geist habe.</VERSE>
+      </PARAGRAPH>
+    </CHAPTER>
+  </BIBLEBOOK-->
+  <BIBLEBOOK bnumber="47" bname="2. Korinther">
+    <CAPTION>Zweite Epistel an die Korinther.</CAPTION>
+    <CHAPTER cnumber="1">
+      <PARAGRAPH>
+        <VERSE vnumber="1">Paulus, Apostel Jesu Christi durch Gottes Willen, und Timotheus, der Bruder, der Versammlung Gottes, die in Korinth ist, sammt allen Heiligen, die in ganz Achaja sind:</VERSE>
+        <VERSE vnumber="2">Gnade euch und Friede von Gott, unserm Vater, und <STYLE fs="super">dem</STYLE> Herrn Jesu Christo!</VERSE>
+      </PARAGRAPH>
+      <PARAGRAPH>
+        <VERSE vnumber="3">Gepriesen<NOTE>B. Gesegnet.</NOTE> <STYLE fs="super">sei</STYLE> der Gott und Vater unsers Herrn Jesu Christi, der Vater der Erbarmungen und Gott alles Trostes,</VERSE>
+        <VERSE vnumber="4">der uns tröstet in all unserer Drangsal, auf daß wir die trösten können, die in allerlei Drangsal <STYLE fs="super">sind,</STYLE> durch den Trost, womit wir selbst von Gott getröstet werden;</VERSE>
+        <VERSE vnumber="5">weil, gleichwie die Leiden des Christus an uns überschwänglich sind, also auch unser Trost durch den<NOTE type="variant"><STYLE fs="italic">T. r.</STYLE> l. f. den.</NOTE> Christus überschwänglich ist.</VERSE>
+        <VERSE vnumber="6">Es sei aber, wir werden bedrängt, <STYLE fs="super">so ist es</STYLE> um euers Trostes und Heiles willen, das in Kraft bewirkt wird in dem Ausharren derselben Leiden, die auch wir leiden; (und unsere Hoffnung über euch ist fest;) es sei, wir werden getröstet, <STYLE fs="super">so ist es</STYLE> um euers Trostes und Heiles willen<NOTE type="variant"><STYLE fs="italic">T. r.</STYLE> giebt dem letzten Theile des 6. Verses eine andere Ordnung.</NOTE>,</VERSE>
+        <VERSE vnumber="7">indem wir wissen, daß, gleichwie ihr Theilhaber der Leiden seid, also auch des Trostes.</VERSE>
+      </PARAGRAPH>
+      <PARAGRAPH>
+        <VERSE vnumber="8">Denn wir wollen nicht, daß ihr unkundig seid, Brüder, was unsere Drangsal betrifft, die uns in Asien widerfahren ist, daß wir übermäßig beschwert wurden über Vermögen, daß wir selbst am Leben verzweifelten.</VERSE>
+        <VERSE vnumber="9">Wir selbst aber hatten das Urtheil des Todes in uns selbst, auf daß unser Vertrauen nicht auf uns selbst wäre, sondern auf Gott, der die Todten auferweckt,</VERSE>
+        <VERSE vnumber="10">welcher uns von so großem Tode errettet hat und errettet; auf welchen wir hoffen, daß er <STYLE fs="super">uns</STYLE> auch ferner erretten werde;</VERSE>
+        <VERSE vnumber="11">indem auch ihr durch das Flehen für uns mitwirkt, auf daß für die mittelst vieler Personen uns <STYLE fs="super">verliehene</STYLE> Gabe durch Viele für uns Danksagung dargebracht werde.</VERSE>
+        <VERSE vnumber="12">Denn unser Rühmen ist dieses, das Zeugniß unsers Gewissens, daß wir in Einfalt<NOTE>Viele l. Heiligkeit.</NOTE> und Lauterkeit Gottes, nicht in fleischlicher Weisheit, sondern in <STYLE fs="super">der</STYLE> Gnade Gottes unsern Verkehr in der Welt gehabt haben, am meisten<NOTE>B. überströmender.</NOTE> aber bei euch.</VERSE>
+        <VERSE vnumber="13">Denn wir schreiben euch nichts anderes, als was ihr kennet<NOTE>O. leset.</NOTE>, oder auch anerkennet<NOTE>O. wohl kennet.</NOTE>; ich hoffe aber, daß ihr <STYLE fs="super">es</STYLE> auch bis an’s Ende anerkennen<NOTE>O. wohl kennen.</NOTE> werdet,</VERSE>
+        <VERSE vnumber="14">gleichwie ihr auch uns zum Theil anerkannt habt, daß wir euer Ruhm sind, so wie auch ihr der unsrige <STYLE fs="super">seid</STYLE> an dem Tage des Herrn Jesu.</VERSE>
+        <VERSE vnumber="15">Und in diesem Vertrauen wollte ich vorher zu euch kommen, auf daß ihr eine zweite Gnade hättet,</VERSE>
+        <VERSE vnumber="16">und bei euch hindurch nach Macedonien reisen, und wiederum von Macedonien zu euch kommen und von euch nach Judäa geleitet werden.</VERSE>
+        <VERSE vnumber="17">Habe ich nun, dieses wollend<NOTE type="variant"><STYLE fs="italic">T. r.</STYLE> mir vornehmend.</NOTE>, mich einer Leichtfertigkeit bedient? oder was ich mir vornehme, nehme ich <STYLE fs="super">es</STYLE> mir nach <STYLE fs="super">dem</STYLE> Fleische vor, so daß bei mir Ja Ja und Nein Nein wäre?</VERSE>
+        <VERSE vnumber="18">Gott aber <STYLE fs="super">ist</STYLE> getreu, daß unser Wort an euch nicht Ja und Nein ist<NOTE type="variant"><STYLE fs="italic">T. r.</STYLE> war.</NOTE>.</VERSE>
+        <VERSE vnumber="19">Denn der Sohn Gottes, Jesus Christus, der unter euch durch uns gepredigt worden, durch mich und Silvanus und Timotheus, wurde nicht Ja und Nein, sondern es ist Ja in ihm.</VERSE>
+        <VERSE vnumber="20">Denn so viele der Verheißungen Gottes sind, in ihm ist das Ja und in ihm das Amen, Gott<NOTE>O. vor Gott.</NOTE> zur Herrlichkeit durch uns.</VERSE>
+        <VERSE vnumber="21">Der uns aber mit euch befestigt in Christum und uns gesalbt hat, <STYLE fs="super">ist</STYLE> Gott,</VERSE>
+        <VERSE vnumber="22">der uns auch versiegelt und das Pfand des Geistes in unsere Herzen gegeben hat.</VERSE>
+      </PARAGRAPH>
+      <PARAGRAPH>
+        <VERSE vnumber="23">Ich rufe aber Gott zum Zeugen an auf meine Seele, daß ich, um euch zu schonen, noch nicht nach Korinth gekommen bin.</VERSE>
+        <VERSE vnumber="24">Nicht daß wir herrschen über euern Glauben, sondern daß wir Mitarbeiter eurer Freude sind, denn ihr stehet durch den Glauben.</VERSE>
+      </PARAGRAPH>
+    </CHAPTER>
+    <CHAPTER cnumber="2">
+      <PARAGRAPH>
+        <VERSE vnumber="1">Ich habe aber bei mir selbst dieses beschlossen, nicht wieder in Traurigkeit zu euch zu kommen.</VERSE>
+        <VERSE vnumber="2">Denn wenn <STYLE fs="emphasis">ich</STYLE> euch traurig mache, wer ist es doch, der mich fröhlich mache, als nur der, welcher durch mich traurig gemacht wird?</VERSE>
+        <VERSE vnumber="3">Und eben dieses habe ich euch geschrieben, auf daß ich nicht, wenn ich komme, von denen Traurigkeit habe, deren ich mich freuen sollte; indem ich euch allen vertraue, daß meine Freude <STYLE fs="super">die</STYLE> euer aller ist.</VERSE>
+        <VERSE vnumber="4">Denn aus vieler Drangsal und Herzensangst schrieb ich euch mit vielen Thränen, nicht daß ihr traurig gemacht werden solltet, sondern daß ihr die Liebe erkennen möchtet, die ich überschwänglicher zu euch habe.</VERSE>
+      </PARAGRAPH>
+      <PARAGRAPH>
+        <VERSE vnumber="5">Wenn aber jemand traurig gemacht hat, der hat nicht mich traurig gemacht, sondern zum Theil (damit ich nicht beschwere) euch alle.</VERSE>
+        <VERSE vnumber="6">Genügend <STYLE fs="super">ist</STYLE> einem solchen diese Strafe, die von den vielen <STYLE fs="super"> ist,</STYLE></VERSE>
+        <VERSE vnumber="7">so daß ihr im Gegentheil vielmehr vergeben<NOTE>O. Gnade erzeigen.</NOTE> und ermuntern solltet, damit nicht etwa ein solcher durch übermäßige Traurigkeit verschlungen werde.</VERSE>
+        <VERSE vnumber="8">Deshalb ermahne ich euch, Liebe gegen ihn zu bethätigen.</VERSE>
+        <VERSE vnumber="9">Denn dazu habe ich auch geschrieben, damit ich eure Bewährung kennen lerne, ob ihr in allem gehorsam seid.</VERSE>
+        <VERSE vnumber="10">Wem ihr aber etwas vergebet, auch ich; denn auch ich, was ich vergeben, wenn ich etwas vergeben<NOTE type="variant"><STYLE fs="italic">T. r.</STYLE> wenn ich etwas vergeben, wem ich etwas vergeben habe.</NOTE>, <STYLE fs="super">habe ich</STYLE> um euertwillen <STYLE fs="super">vergeben</STYLE> in <STYLE fs="super">der</STYLE> Person Christi,</VERSE>
+        <VERSE vnumber="11">auf daß nicht der Satan einen Vortheil über uns gewinne, denn <STYLE fs="emphasis">seine</STYLE> Gedanken sind uns nicht unbekannt.</VERSE>
+      </PARAGRAPH>
+      <PARAGRAPH>
+        <VERSE vnumber="12">Als ich aber nach Troas kam für das Evangelium des Christus, und mir eine Thür aufgethan ward in <STYLE fs="super">dem</STYLE> Herrn,</VERSE>
+        <VERSE vnumber="13">hatte ich keine Ruhe in meinem Geiste, weil ich Titus, meinen Bruder, nicht fand, sondern ich nahm Abschied von ihnen und zog nach Macedonien.</VERSE>
+        <VERSE vnumber="14">Gott aber sei Dank, der uns allezeit im Triumphzuge umherführt in Christo und den Wohlgeruch seiner Erkenntniß an jedem Orte durch uns offenbart.</VERSE>
+        <VERSE vnumber="15">Denn wir sind Gott ein süßer Geruch Christi in denen, die errettet werden, und in denen, die verloren gehen;</VERSE>
+        <VERSE vnumber="16">den einen ein Wohlgeruch des Todes zum Tode, den andern aber ein Wohlgeruch des Lebens zum Leben. Und wer <STYLE fs="super">ist</STYLE> dazu tüchtig?</VERSE>
+        <VERSE vnumber="17">Denn wir verfälschen nicht, wie die Vielen, das Wort Gottes, sondern als aus Lauterkeit, sondern als aus Gott, vor Gott, reden wir in Christo.</VERSE>
+      </PARAGRAPH>
+    </CHAPTER>
+    <CHAPTER cnumber="3">
+      <PARAGRAPH>
+        <VERSE vnumber="1">Fangen wir wiederum an, uns selbst zu empfehlen? oder bedürfen wir, wie etliche, Empfehlungsbriefe an euch, oder Empfehlungsbriefe von euch?</VERSE>
+        <VERSE vnumber="2">Ihr seid unser Brief, eingeschrieben in unsere Herzen, gekannt und gelesen von allen Menschen;</VERSE>
+        <VERSE vnumber="3">die ihr offenbar geworden, daß ihr ein Brief Christi seid, angefertigt durch uns im Dienst<NOTE>B. durch uns bedient.</NOTE>, geschrieben nicht mit Tinte, sondern mit <STYLE fs="super">dem</STYLE> Geiste des lebendigen Gottes; nicht auf steinerne Tafeln, sondern auf fleischerne Tafeln des Herzens.</VERSE>
+        <VERSE vnumber="4">Solches Vertrauen aber haben wir durch Christum zu Gott:</VERSE>
+        <VERSE vnumber="5">nicht daß wir tüchtig sind von uns selbst, etwas zu denken, als aus uns selbst, sondern unsere Tüchtigkeit <STYLE fs="super">ist</STYLE> von Gott,</VERSE>
+        <VERSE vnumber="6">der uns auch tüchtig gemacht hat <STYLE fs="super">als</STYLE> Diener des neuen Bundes, nicht des Buchstabens, sondern des Geistes. Denn der Buchstabe tödtet, der Geist aber macht lebendig.</VERSE>
+        <VERSE vnumber="7">(Wenn aber der Dienst des Todes in Buchstaben, in Steine eingegraben, in Herrlichkeit ward, so daß die Kinder Israel das Angesicht Moses’ nicht unverrückt ansehen konnten wegen der Herrlichkeit seines Angesichts, die hinweggethan wird;</VERSE>
+        <VERSE vnumber="8">wie wird nicht vielmehr der Dienst des Geistes in Herrlichkeit sein?</VERSE>
+        <VERSE vnumber="9">Denn wenn der Dienst der Verdammniß Herrlichkeit <STYLE fs="super">ist, so</STYLE> ist viel mehr der Dienst der Gerechtigkeit überströmend in Herrlichkeit.</VERSE>
+        <VERSE vnumber="10">Denn auch das Verherrlichte ist<NOTE type="variant"><STYLE fs="italic">T. r.</STYLE> f. h. sogar.</NOTE> nicht in diesem Theil<NOTE>d. h. in dieser Beziehung.</NOTE> verherrlicht worden wegen der übertreffenden Herrlichkeit.</VERSE>
+        <VERSE vnumber="11">Denn wenn das, was hinweggethan wird, mit Herrlichkeit <STYLE fs="super">war,</STYLE> wie viel mehr <STYLE fs="super">wird</STYLE> das Bleibende in Herrlichkeit <STYLE fs="super">bestehen!</STYLE></VERSE>
+        <VERSE vnumber="12">Weil wir nun eine solche Hoffnung haben, so gebrauchen wir große Freimüthigkeit,</VERSE>
+        <VERSE vnumber="13">und <STYLE fs="super">thun</STYLE> nicht, gleichwie Moses, <STYLE fs="super">der</STYLE> eine Decke über sein Angesicht legte, auf daß die Kinder Israel nicht anschauen möchten das Ende dessen, was hinweggethan wird.</VERSE>
+        <VERSE vnumber="14">Aber ihr Sinn ist verstockt worden, denn bis auf den heutigen Tag bleibt beim Lesen des alten Bundes dieselbe Decke unaufgedeckt, die in Christo weggethan wird.</VERSE>
+        <VERSE vnumber="15">Aber bis auf den heutigen Tag, wenn Moses gelesen wird, liegt die Decke auf ihrem Herzen.</VERSE>
+        <VERSE vnumber="16">Wenn es aber zu <STYLE fs="super">dem</STYLE> Herrn umkehrt, so wird die Decke weggenommen.)</VERSE>
+        <VERSE vnumber="17">Der Herr aber ist der Geist, wo aber der Geist <STYLE fs="super">des</STYLE> Herrn <STYLE fs="super">ist, da<NOTE type="variant"><STYLE fs="italic">T. r.</STYLE> da.</NOTE> ist</STYLE> Freiheit.</VERSE>
+        <VERSE vnumber="18">Wir alle aber, mit aufgedecktem Angesicht die Herrlichkeit des Herrn anschauend, werden verwandelt nach demselben Bilde<NOTE>O. in dasselbe Bild.</NOTE> von Herrlichkeit zu Herrlichkeit, als durch <STYLE fs="super">den</STYLE> Herrn, <STYLE fs="super">den</STYLE> Geist<NOTE>O. durch <STYLE fs="super">den</STYLE> Herrn, der <STYLE fs="super">der</STYLE> Geist ist; od. durch <STYLE fs="super">den</STYLE> Herrn im Geiste; od. durch den Geist des Herrn.</NOTE>.</VERSE>
+      </PARAGRAPH>
+    </CHAPTER>
+    <CHAPTER cnumber="4">
+      <PARAGRAPH>
+        <VERSE vnumber="1">Darum, weil wir diesen Dienst haben, wie wir begnadigt worden, so ermatten wir nicht,</VERSE>
+        <VERSE vnumber="2">sondern wir haben den heimlichen <STYLE fs="super">Dingen</STYLE> der Schande entsagt, indem wir nicht wandeln in Arglist, noch das Wort Gottes verfälschen<NOTE>O. betrügerisch gebrauchen.</NOTE>, sondern durch die Offenbarung der Wahrheit uns selbst jedem Gewissen der Menschen empfehlen vor Gott.</VERSE>
+        <VERSE vnumber="3">Wenn aber auch unser Evangelium verdeckt ist, so ist es in denen verdeckt, die verloren gehen,</VERSE>
+        <VERSE vnumber="4">in welchen der Gott dieser Welt den Sinn der Ungläubigen verblendet hat, damit der Lichtglanz des Evangeliums der Herrlichkeit des Christus, welcher <STYLE fs="super">das</STYLE> Bild Gottes ist, nicht<NOTE type="variant"><STYLE fs="italic">T. r.</STYLE> ihnen nicht.</NOTE> ausstrahle.</VERSE>
+        <VERSE vnumber="5">Denn wir predigen nicht uns selbst, sondern Christum Jesum <STYLE fs="super">als</STYLE> den Herrn, uns selbst aber <STYLE fs="super">als</STYLE> eure Knechte um Jesu willen.</VERSE>
+        <VERSE vnumber="6">Denn der Gott, der aus der Finsterniß <STYLE fs="super">das</STYLE> Licht leuchten hieß, <STYLE fs="super">ist es,</STYLE> der in unsere Herzen geleuchtet hat zum Lichtglanz der Erkenntniß der Herrlichkeit Gottes im Angesicht Jesu Christi.</VERSE>
+      </PARAGRAPH>
+      <PARAGRAPH>
+        <VERSE vnumber="7">Wir haben aber diesen Schatz in irdenen Gefäßen, auf daß die Ueberschwänglichkeit der Macht sei Gottes, und nicht aus uns.</VERSE>
+        <VERSE vnumber="8">Allenthalben bedrängt, aber nicht verengt; keinen Ausweg sehend, aber nicht ohne Ausweg;</VERSE>
+        <VERSE vnumber="9">verfolgt, aber nicht verlassen; niedergeworfen, aber nicht umkommend;</VERSE>
+        <VERSE vnumber="10">allezeit das Sterben<NOTE>O. die Tödtung.</NOTE> <NOTE type="variant"><STYLE fs="italic">T. r.</STYLE> f. h. des Herrn.</NOTE>Jesu am Leibe umhertragend, auf daß auch das Leben Jesu an unserm Leibe offenbar werde.</VERSE>
+        <VERSE vnumber="11">Denn wir, die wir leben, werden allezeit <STYLE fs="super">dem</STYLE> Tode überliefert um Jesu willen, auf daß auch das Leben Jesu offenbar werde an unserm sterblichen Fleische.</VERSE>
+        <VERSE vnumber="12">So denn wirkt der Tod<NOTE type="variant"><STYLE fs="italic">T. r.</STYLE> f. h. zwar.</NOTE> in uns, das Leben aber in euch.</VERSE>
+        <VERSE vnumber="13">Da wir aber denselben Geist des Glaubens haben, (nach dem, was geschrieben steht: „Ich habe geglaubt, darum habe ich geredet“<NOTE>Ps. 116, 10.</NOTE>;) so glauben auch wir, darum reden wir auch;</VERSE>
+        <VERSE vnumber="14">da wir wissen, daß der, welcher den Herrn Jesum auferweckt hat, auch uns durch Jesum auferwecken und mit euch darstellen wird;</VERSE>
+        <VERSE vnumber="15">denn alles <STYLE fs="super">ist</STYLE> um euertwillen, damit die Gnade, überreich geworden durch die Vielen, die Danksagung<NOTE>O. damit die überreichliche Gnade, die Danksagung durch die Vielen…</NOTE> zur Herrlichkeit Gottes überströmen lasse.</VERSE>
+      </PARAGRAPH>
+      <PARAGRAPH>
+        <VERSE vnumber="16">Deshalb ermatten wir nicht, sondern wenn auch unser äußerer Mensch verfällt, so wird doch der innere erneuert von Tag zu Tag.</VERSE>
+        <VERSE vnumber="17">Denn das schnell vorübergehende Leichte unserer Drangsal bewirkt uns ein über die Maßen überschwängliches, ewiges Gewicht von Herrlichkeit,</VERSE>
+        <VERSE vnumber="18">indem wir nicht die <STYLE fs="super">Dinge</STYLE> anschauen, welche man sieht, sondern die, welche man nicht sieht; denn die, welche man sieht, <STYLE fs="super">sind</STYLE> zeitlich, die aber, welche man nicht sieht, ewig.</VERSE>
+      </PARAGRAPH>
+    </CHAPTER>
+    <CHAPTER cnumber="5">
+      <PARAGRAPH>
+        <VERSE vnumber="1">Denn wir wissen, daß, wenn unser irdisches Haus, dieser<NOTE>B. der.</NOTE> Hütte zerstört wird, wir einen Bau aus Gott haben, ein Haus, nicht mit Händen gemacht, ein ewiges, in den Himmeln.</VERSE>
+        <VERSE vnumber="2">Denn in diesem freilich seufzen wir, uns sehnend, mit unserer Behausung, die aus dem Himmel <STYLE fs="super">ist,</STYLE> überkleidet zu werden;</VERSE>
+        <VERSE vnumber="3">so wir anders, wenn wir auch bekleidet sind, nicht nackt erfunden werden.</VERSE>
+        <VERSE vnumber="4">Denn wir freilich, die in der Hütte sind, seufzen beschwert; wiewol wir nicht entkleidet, sondern überkleidet sein wollten, damit das Sterbliche verschlungen werde vom Leben.</VERSE>
+        <VERSE vnumber="5">Der uns aber eben hierzu bereitet<NOTE>B. bewirkt.</NOTE> hat, <STYLE fs="super">ist</STYLE> Gott, der uns auch<NOTE>Viele l. f. auch.</NOTE> das Unterpfand des Geistes gegeben.</VERSE>
+        <VERSE vnumber="6">Daher <STYLE fs="super">sind wir</STYLE> allezeit gutes Muthes und wissen, daß wir, weil einheimisch in dem Leibe von dem Herrn abwesend sind; (</VERSE>
+        <!-- Die Platzierung der öffnenden Klammer noch im vorhergehenden Vers hat zur Folge, dass hier zwischen den Versen kein implizites Leerzeichen kommen darf. -->
+        <VERSE vnumber="7">denn wir wandeln durch<NOTE>O. kraft des.</NOTE> Glauben, nicht durch Schauen;)</VERSE>
+        <VERSE vnumber="8">wir sind aber gutes Muthes und möchten lieber ausheimisch von dem Leibe und einheimisch bei dem Herrn sein.</VERSE>
+        <VERSE vnumber="9">Deshalb beeifern wir uns auch, ob einheimisch oder ausheimisch, ihm wohlgefällig zu sein.</VERSE>
+        <VERSE vnumber="10">Denn wir müssen alle geoffenbart werden vor dem Richterstuhl des Christus, auf daß jeglicher empfange, was er in dem<NOTE>O. durch den.</NOTE> Leibe <STYLE fs="super">gethan,</STYLE> nach dem er gehandelt hat, es sei Gutes oder Böses.</VERSE>
+      </PARAGRAPH>
+      <PARAGRAPH>
+        <VERSE vnumber="11">Da wir nun das Schrecken des Herrn kennen, so überreden wir <STYLE fs="super">die</STYLE> Menschen, Gott aber sind wir offenbar geworden; ich hoffe aber auch in euerm Gewissen offenbar geworden zu sein.</VERSE>
+        <VERSE vnumber="12">Denn wir empfehlen uns selbst euch nicht wiederum, sondern wir geben euch Anlaß zum Ruhme unserthalben, auf daß ihr <STYLE fs="super">ihn</STYLE> habet bei denen, die sich nach <STYLE fs="super">dem</STYLE> Ansehen rühmen und nicht nach <STYLE fs="super">dem</STYLE> Herzen.</VERSE>
+        <VERSE vnumber="13">Denn wenn wir außer uns sind, <STYLE fs="super">so sind wir es</STYLE> Gott<NOTE>O. für Gott.</NOTE>; wenn wir vernünftig sind – euch.</VERSE>
+        <VERSE vnumber="14">Denn die Liebe des Christus dringt uns, indem wir also urtheilen: daß, wenn einer für alle gestorben ist<NOTE>O. starb.</NOTE>, somit sie alle gestorben sind.</VERSE>
+        <VERSE vnumber="15">Und er ist für alle gestorben<NOTE>O. starb.</NOTE>, auf daß die, welche leben, nicht mehr sich selbst leben, sondern dem, der für sie gestorben und auferweckt ist.</VERSE>
+        <VERSE vnumber="16">So denn kennen wir von nun an niemanden nach <STYLE fs="super">dem</STYLE> Fleische; wenn wir aber auch Christum nach <STYLE fs="super">dem</STYLE> Fleische gekannt haben, so kennen wir <STYLE fs="super">ihn</STYLE> doch jetzt nicht mehr <STYLE fs="super">also.</STYLE></VERSE>
+        <VERSE vnumber="17">So denn, wenn jemand in Christo <STYLE fs="super">ist</STYLE> – eine neue Schöpfung. Das Alte ist vergangen, siehe, alles ist neu geworden.</VERSE>
+        <VERSE vnumber="18">Alles aber von dem Gott<NOTE>O. von Gott.</NOTE>, der uns mit sich selbst versöhnt hat durch Jesum Christum und uns den Dienst der Versöhnung gegeben:</VERSE>
+        <VERSE vnumber="19">nämlich, daß Gott in Christo war, die Welt mit sich selber versöhnend, ihnen ihre Uebertretungen nicht zurechnend, und in uns das Wort der Versöhnung legend.</VERSE>
+        <VERSE vnumber="20">So sind wir nun Gesandte für Christum<NOTE>O. an Christi Statt.</NOTE>, als ob Gott durch uns ermahnte. Wir bitten an Christi<NOTE>O. für Christum.</NOTE> Statt: Lasset euch versöhnen mit Gott!</VERSE>
+        <VERSE vnumber="21"><NOTE type="variant"><STYLE fs="italic">T. r.</STYLE> f. h. Denn.</NOTE>Ihn, der Sünde nicht kannte, hat er für uns zur Sünde gemacht, auf daß wir Gottes Gerechtigkeit würden in ihm.</VERSE>
+      </PARAGRAPH>
+    </CHAPTER>
+    <CHAPTER cnumber="6">
+      <PARAGRAPH>
+        <VERSE vnumber="1">Mitarbeitend<NOTE>(S. 1. Kor. 3. 9.)</NOTE> aber, ermahnen auch wir, daß ihr die Gnade Gottes nicht vergeblich empfangen habet;</VERSE>
+        <VERSE vnumber="2">(denn er spricht: „Zur Zeit der Annehmung habe ich dich erhört und am Tage des Heils habe ich dir geholfen“<NOTE>Jes. 49, 8.</NOTE>. Siehe, jetzt <STYLE fs="super">ist die</STYLE> Zeit der Annehmung; siehe, jetzt <STYLE fs="super">ist der</STYLE> Tag des Heils;)</VERSE>
+        <VERSE vnumber="3">indem wir in keiner Sache irgend einen Anstoß geben, auf daß der Dienst nicht verlästert werde,</VERSE>
+        <VERSE vnumber="4">sondern in allem uns erweisen als Gottes Diener in vielem Ausharren<NOTE>O. Geduld.</NOTE>, in Trübsalen, in Nöthen, in Drangsalen,</VERSE>
+        <VERSE vnumber="5">in Streichen, in Gefängnissen, in Empörungen, in Mühen, in Wachen, in Fasten;</VERSE>
+        <VERSE vnumber="6">in Reinheit, in Erkenntniß, in Langmuth, in Gütigkeit, im Heiligen Geiste, in ungeheuchelter Liebe;</VERSE>
+        <VERSE vnumber="7">im Worte der Wahrheit, in <STYLE fs="super">der</STYLE> Kraft Gottes; durch die Waffen der Gerechtigkeit zur Rechten und zur Linken;</VERSE>
+        <VERSE vnumber="8">durch Ehre und Unehre, durch böses Gerücht und gutes Gerücht, als Verführer und Wahrhaftige,</VERSE>
+        <VERSE vnumber="9">als Unbekannte und Wohlbekannte<NOTE>O. Erkannte.</NOTE>, als Sterbende, und siehe, wir leben, als Gezüchtigte und nicht getödtet,</VERSE>
+        <VERSE vnumber="10">als Traurige, aber allezeit uns freuend, als Arme, aber viele reich machend, als nichts habend und alles besitzend.</VERSE>
+      </PARAGRAPH>
+      <PARAGRAPH>
+        <VERSE vnumber="11">Unser Mund ist zu euch aufgethan, ihr Korinther; unser Herz ist weit geworden.</VERSE>
+        <VERSE vnumber="12">Ihr seid nicht verengt in uns, sondern ihr seid verengt in euren Herzen<NOTE>B. Eingeweide.</NOTE>.</VERSE>
+        <VERSE vnumber="13">Zur gleichen Vergeltung aber (ich rede als zu Kindern) werdet auch ihr weit.</VERSE>
+        <VERSE vnumber="14">Seid nicht in einem verschiedenen Joche mit Ungläubigen. Denn welche Genossenschaft <STYLE fs="super">hat</STYLE> Gerechtigkeit und Gesetzlosigkeit? oder<NOTE type="variant"><STYLE fs="italic">T. r.</STYLE> und.</NOTE> welche Gemeinschaft Licht mit Finsterniß?</VERSE>
+        <VERSE vnumber="15">und welche Uebereinstimmung Christus mit Belial? oder welches Theil <STYLE fs="super">der</STYLE> Gläubige mit <STYLE fs="super">dem</STYLE> Ungläubigen?</VERSE>
+        <VERSE vnumber="16">und welchen Zusammenhang <STYLE fs="super">der</STYLE> Tempel Gottes mit Götzenbildern? Denn <STYLE fs="emphasis">ihr</STYLE> seid <STYLE fs="super">der</STYLE> Tempel des lebendigen Gottes, wie Gott gesagt hat: „Ich will unter ihnen wohnen und wandeln, und ich werde ihr Gott sein, und <STYLE fs="emphasis">sie</STYLE> werden mein Volk sein“<NOTE>3. Mose 26, 11. 12.</NOTE>.</VERSE>
+        <VERSE vnumber="17">Deshalb gehet weg aus ihrer Mitte und sondert euch ab, spricht <STYLE fs="super">der</STYLE> Herr, und rühret Unreines nicht an, und <STYLE fs="emphasis">ich</STYLE> werde euch aufnehmen;</VERSE>
+        <VERSE vnumber="18">und ich werde euch zum Vater sein, und <STYLE fs="emphasis">ihr</STYLE> werdet mir zu Söhnen und Töchtern sein, spricht <STYLE fs="super">der</STYLE> Herr<NOTE>S. Matth. 1, 22.</NOTE>, <STYLE fs="super">der</STYLE> Allmächtige.</VERSE>
+        <!-- Der Absatz überspannt das Kapitel-Ende. -->
+      </PARAGRAPH>
+    </CHAPTER>
+    <CHAPTER cnumber="7">
+      <PARAGRAPH>
+        <!-- Der Absatz überspannt den Kapitel-Anfang. -->
+        <VERSE vnumber="1">Da wir nun diese Verheißungen haben, Geliebte, so laßt uns uns selbst reinigen von aller Befleckung des Fleisches und des Geistes und <STYLE fs="super">die</STYLE> Heiligkeit vollenden in <STYLE fs="super">der</STYLE> Furcht Gottes.</VERSE>
+      </PARAGRAPH>
+      <PARAGRAPH>
+        <VERSE vnumber="2">Nehmet uns auf; wir haben niemandem Unrecht gethan, wir haben niemanden verderbt, wir haben niemanden übervortheilt.</VERSE>
+        <VERSE vnumber="3">Nicht zur Verurtheilung rede ich; denn ich habe vorhin gesagt, daß ihr in unsern Herzen seid, um mit zu sterben und mit zu leben.</VERSE>
+        <VERSE vnumber="4">Groß <STYLE fs="super">ist</STYLE> meine Freimüthigkeit gegen euch, groß mein Rühmen euerthalben; ich bin mit Trost erfüllt, ich bin ganz überströmend in der Freude bei all unserer Trübsal.</VERSE>
+        <VERSE vnumber="5">Denn auch als wir nach Macedonien kamen, hatte unser Fleisch keine Ruhe, sondern allenthalben <STYLE fs="super">waren wir</STYLE> bedrängt; von außen Kampf, von innen Furcht.</VERSE>
+        <VERSE vnumber="6">Der aber die Niedrigen tröstet, Gott, tröstete uns durch die Ankunft des Titus.</VERSE>
+        <VERSE vnumber="7">Nicht allein aber durch seine Ankunft, sondern auch durch den Trost, womit er euerthalben getröstet ward, als er uns kund that euer Verlangen, eure Trauer<NOTE>O. Wehklage.</NOTE>, euern Eifer um mich, so daß ich mich desto mehr freute.</VERSE>
+        <VERSE vnumber="8">Denn wenn ich euch auch betrübt habe durch den Brief<NOTE>O. in dem B.</NOTE>, so reuet <STYLE fs="super">es</STYLE> mich nicht, wenn es mich auch gereuet hat; denn ich sehe, daß jener Brief, wenn auch nur für eine Zeit, euch betrübt hat.</VERSE>
+        <VERSE vnumber="9">Nun freue ich mich, nicht, daß ihr betrübt worden, sondern daß ihr betrübt worden zur Buße; denn ihr seid Gott gemäß betrübt worden, damit ihr in nichts von uns Schaden erlittet.</VERSE>
+        <VERSE vnumber="10">Denn die Betrübniß Gott gemäß bewirkt eine nie zu bereuende Buße zum Heil; aber die Betrübniß der Welt bewirkt <STYLE fs="super">den</STYLE> Tod.</VERSE>
+        <VERSE vnumber="11">Denn siehe, eben dieses, daß <STYLE fs="emphasis">ihr</STYLE> Gott gemäß betrübt worden seid, wie vielen<NOTE>O. welchen.</NOTE> Fleiß hat es bei euch bewirkt! sogar<NOTE>B. aber; so auch nachher.</NOTE> Verantwortung, sogar Unwillen, sogar Furcht, sogar Verlangen, sogar Eifer, sogar Ahndung. Ihr habt euch in allem dargestellt, daß ihr an der Sache rein seid.</VERSE>
+        <VERSE vnumber="12">So denn, wenn ich euch auch geschrieben habe, <STYLE fs="super">so geschah es</STYLE> nicht um deswillen, der beleidigt hat, noch um deswillen, der beleidigt worden ist, sondern um deswillen, damit unser Fleiß für euch bei euch offenbar werde vor Gott.</VERSE>
+        <VERSE vnumber="13">Deswegen sind wir getröstet worden; viel mehr aber freuten wir uns in unserm Troste noch<NOTE type="variant"><STYLE fs="italic">T. r.</STYLE> getröstet worden über euern Trost, und noch.</NOTE> überschwänglicher über die Freude des Titus, weil sein Geist durch<NOTE>O. an.</NOTE> euch alle erquickt worden ist.</VERSE>
+        <VERSE vnumber="14">Denn wenn ich ihm etwas über euch gerühmt habe, so bin ich nicht zu Schanden geworden; sondern wie wir alles in Wahrheit zu euch geredet haben, also ist auch unser Rühmen gegen Titus Wahrheit geworden;</VERSE>
+        <VERSE vnumber="15">und seine innerlichen Gefühle<NOTE>B. Eingeweide.</NOTE> sind überströmender gegen euch, indem er an euer aller Gehorsam gedenkt, wie ihr mit Furcht und Zittern ihn empfangen habt.</VERSE>
+        <VERSE vnumber="16">Ich freue mich, daß ich in allem Zuversicht zu euch habe.</VERSE>
+      </PARAGRAPH>
+    </CHAPTER>
+    <CHAPTER cnumber="8">
+      <PARAGRAPH>
+        <VERSE vnumber="1">Wir thun euch aber kund, Brüder, die Gnade Gottes, die in den Versammlungen Macedoniens gegeben ist.</VERSE>
+        <VERSE vnumber="2">Denn bei großer Prüfung der Drangsal ist die Ueberströmung ihrer Freude und ihre tiefe Armuth übergeströmt in den Reichthum ihrer Freigebigkeit.</VERSE>
+        <VERSE vnumber="3">Denn nach Vermögen, ich bezeuge <STYLE fs="super">es,</STYLE> und über Vermögen <STYLE fs="super">waren sie</STYLE> aus eigenem Antriebe willig,</VERSE>
+        <VERSE vnumber="4">mit vielem Zureden uns bittend,<NOTE type="variant"><STYLE fs="italic">T. r.</STYLE> f. h. daß wir annehmen möchten.</NOTE> die Gnade<NOTE>O. Gabe.</NOTE> und Gemeinschaft des Dienstes für die Heiligen <STYLE fs="super">zu bewerkstelligen</STYLE>.</VERSE>
+        <VERSE vnumber="5">Und nicht, wie wir hofften, sondern sie gaben sich selbst zuerst dem Herrn und uns durch Gottes Willen,</VERSE>
+        <VERSE vnumber="6">so daß wir Titus zugeredet haben, daß er, wie er zuvor angefangen, also auch bei<NOTE>O. in Bezug auf.</NOTE> euch auch diese Gnade vollbringen möchte.</VERSE>
+        <VERSE vnumber="7">Aber so wie ihr in allem überströmend seid: in Glauben und Wort und Erkenntniß und allem Fleiß und in eurer Liebe zu uns, daß ihr auch in dieser Gnade überströmend sein möget.</VERSE>
+        <VERSE vnumber="8">Nicht befehlsweise spreche ich, sondern wegen des Fleißes der andern, und indem ich die Aechtheit eurer Liebe prüfe.</VERSE>
+        <!-- Hier müsste es wohl heißen: "auf daß". -->
+        <VERSE vnumber="9">Denn ihr wisset die Gnade unsers Herrn Jesu Christi, daß er, da er reich war, um euertwillen arm wurde, auf das ihr durch <STYLE fs="emphasis">seine</STYLE> Armuth reich würdet.</VERSE>
+        <VERSE vnumber="10">Und ich gebe hierin eine Meinung; denn das ist euch nützlich, die ihr nicht allein das Thun, sondern auch das Wollen vorher angefangen habt seit vorigem Jahre.</VERSE>
+        <VERSE vnumber="11">Nun aber vollbringet auch das Thun, auf daß, gleichwie die Geneigtheit zum Wollen <STYLE fs="super">da war,</STYLE> also auch das Vollbringen von dem, was ihr habt.</VERSE>
+        <VERSE vnumber="12">Denn wenn die Geneigtheit da ist, <STYLE fs="super">so ist einer</STYLE><NOTE>O. so ist sie.</NOTE> annehmlich, nach dem er<NOTE type="variant"><STYLE fs="italic">T. r.</STYLE> jemand.</NOTE> hat, und nicht nach dem er nicht hat.</VERSE>
+        <VERSE vnumber="13">Denn nicht, damit andere Erleichterung haben, ihr aber Beschwerde, sondern nach<NOTE>B. aus.</NOTE> der Gleichheit</VERSE>
+        <VERSE vnumber="14">diene<NOTE>B. werde.</NOTE> in der jetzigen Zeit euer Ueberfluß für den Mangel jener, auf daß auch jener Ueberfluß für euern Mangel <STYLE fs="super">diene,</STYLE> damit Gleichheit werde;</VERSE>
+        <VERSE vnumber="15">wie geschrieben steht: „Wer viel <STYLE fs="super">sammelte,</STYLE> hatte nicht Ueberfluß, und wer wenig <STYLE fs="super">sammelte,</STYLE> hatte nicht Mangel“<NOTE>2. Mose 16, 18.</NOTE>.</VERSE>
+      </PARAGRAPH>
+      <PARAGRAPH>
+        <VERSE vnumber="16">Gott aber <STYLE fs="super">sei</STYLE> Dank, der denselben Eifer für euch in das Herz des Titus gegeben hat;</VERSE>
+        <VERSE vnumber="17">denn er nahm zwar das Zureden an, aber weil er sehr eifrig war, ist er aus eignem Antriebe zu euch gegangen.</VERSE>
+        <VERSE vnumber="18">Wir haben aber den Bruder mit ihm gesandt, dessen Lob am Evangelium in allen Versammlungen <STYLE fs="super">ist.</STYLE></VERSE>
+        <VERSE vnumber="19">Und nicht allein <STYLE fs="super">das,</STYLE> sondern er <STYLE fs="super">ist</STYLE> auch von den Versammlungen gewählt worden zu unserm Reisegefährten mit dieser Gnade, die von uns bedient wird zur Herrlichkeit des Herrn selbst, und <STYLE fs="super">als Beweis</STYLE> unserer<NOTE type="variant"><STYLE fs="italic">T. r.</STYLE> eurer.</NOTE> Geneigtheit;</VERSE>
+        <VERSE vnumber="20">indem wir dieses verhüten, daß uns nicht jemand übel nachrede dieser reichen Gabe halben, die von uns bedient wird;</VERSE>
+        <VERSE vnumber="21">denn wir sind vorsorglich für<NOTE type="variant"><STYLE fs="italic">T. r.</STYLE> indem wir vorsorglich sind; und l. f. für.</NOTE> <STYLE fs="super">das, was</STYLE> ehrbar <STYLE fs="super">ist,</STYLE> nicht allein vor <STYLE fs="super">dem</STYLE> Herrn, sondern auch vor <STYLE fs="super">den</STYLE> Menschen.</VERSE>
+        <VERSE vnumber="22">Wir haben aber unsern Bruder mit ihnen gesandt, den wir oft in vielen Stücken erprobt haben, daß er eifrig ist, nun aber noch viel eifriger durch große Zuversicht zu euch.</VERSE>
+        <VERSE vnumber="23">Es sei Titus halben, <STYLE fs="super">er ist</STYLE> mein Genosse und Mitarbeiter bei euch, oder unserer Brüder <STYLE fs="super">halben, sie sind</STYLE> Gesandte der Versammlungen, <STYLE fs="super">die</STYLE> Herrlichkeit Christi.</VERSE>
+        <VERSE vnumber="24">So erweiset ihnen nun vor<NOTE type="variant"><STYLE fs="italic">T. r.</STYLE> und vor.</NOTE> den Versammlungen den Beweis eurer Liebe und unsers Rühmens über euch.</VERSE>
+      </PARAGRAPH>
+    </CHAPTER>
+    <CHAPTER cnumber="9">
+      <PARAGRAPH>
+        <VERSE vnumber="1">Denn was den Dienst für die Heiligen betrifft, so ist es überflüssig für mich, euch zu schreiben.</VERSE>
+        <VERSE vnumber="2">Denn ich kenne eure Geneigtheit, welcher ich mich euerthalben rühme gegen die Macedonier, daß Achaja bereit gewesen seit vorigem Jahre; und der von euch <STYLE fs="super">ausgegangene</STYLE> Eifer hat viele<NOTE>Eig. die Masse (der Brüder).</NOTE> angereizt.</VERSE>
+        <VERSE vnumber="3">Ich habe aber die Brüder gesandt, auf daß nicht unser Rühmen von euch zu nichte würde in dieser Beziehung, auf daß ihr, wie ich gesagt habe, bereit seid,</VERSE>
+        <VERSE vnumber="4">damit nicht etwa, wenn <STYLE fs="super">die</STYLE> Macedonier mit mir kommen und euch unbereit finden, <STYLE fs="emphasis">wir</STYLE>, daß wir nicht sagen, <STYLE fs="emphasis">ihr</STYLE>, in dieser Zuversicht<NOTE type="variant"><STYLE fs="italic">T. r.</STYLE> f. h. des Rühmens.</NOTE> zu Schanden würden.</VERSE>
+        <VERSE vnumber="5">Ich hielt es daher für nöthig, die Brüder zu bitten, daß sie zu euch voraus zögen und diesen euern zuvor angekündigten Segen vorher zubereiteten, daß er also bereit sei als Segen, und nicht als Geiz.</VERSE>
+        <VERSE vnumber="6">Dieses aber <STYLE fs="super">ist wahr:</STYLE> Wer sparsam säet, wird auch sparsam ernten, und wer im Segen säet, wird auch im Segen ernten.</VERSE>
+        <VERSE vnumber="7">Jeglicher, wie er sich in seinem Herzen vorsetzt; nicht mit Verdruß oder aus Zwang, denn einen fröhlichen Geber hat Gott lieb.</VERSE>
+        <VERSE vnumber="8">Gott aber ist mächtig, jegliche Gnade<NOTE>O. Gabe, od. Wohlthat.</NOTE> auf euch überströmen zu lassen, auf daß ihr in allem, allezeit alle Genüge habend, überströmend seid zu jeglichem guten Werke;</VERSE>
+        <VERSE vnumber="9">wie geschrieben steht: „Er hat ausgestreut, er hat den Armen gegeben; seine Gerechtigkeit bleibt in Ewigkeit“<NOTE>Ps. 112, 9.</NOTE>.</VERSE>
+        <VERSE vnumber="10">Er aber, der Samen darreicht dem Säemann und Brod zur Speise, wird<NOTE type="variant"><STYLE fs="italic">T. r.</STYLE> l. f. wird.</NOTE> eure Saat darreichen und überströmend machen<NOTE>O. darreicht dem Säemann, wird beides, Brod zur Speise darreichen und eure Saat vermehren.</NOTE> und die Früchte eurer Gerechtigkeit wachsen lassen,</VERSE>
+        <VERSE vnumber="11">damit ihr in allem reich werdet<NOTE>B. reich geworden.</NOTE> zu aller Freigebigkeit, welche durch uns Gott Danksagung bewirkt.</VERSE>
+        <VERSE vnumber="12">Denn die Ausrichtung dieses Dienstes ist nicht nur eine Erfüllung des Mangels der Heiligen, sondern ist auch überströmend durch viele Danksagungen gegen Gott;</VERSE>
+        <VERSE vnumber="13">indem sie durch die Bewährung dieses Dienstes Gott verherrlichen wegen eurer Unterwürfigkeit des Bekenntnisses zum Evangelium des Christus und <STYLE fs="super">der</STYLE> Freigebigkeit der Mittheilung gegen sie und gegen alle,</VERSE>
+        <VERSE vnumber="14">und in ihrem Gebet für euch, die sich nach euch sehnen wegen der überschwänglichen Gnade Gottes an euch.</VERSE>
+        <VERSE vnumber="15">Gott aber <STYLE fs="super">sei</STYLE> Dank für seine unaussprechliche Gabe.</VERSE>
+      </PARAGRAPH>
+    </CHAPTER>
+    <CHAPTER cnumber="10">
+      <PARAGRAPH>
+        <VERSE vnumber="1">Ich selbst aber, Paulus, ermahne euch durch die Sanftmuth und Gelindigkeit des Christus; der ich persönlich<NOTE>B. nach dem Angesicht.</NOTE> unter euch gering, abwesend aber kühn gegen euch bin.</VERSE>
+        <VERSE vnumber="2">Ich flehe aber, daß ich anwesend nicht kühn sein müsse mit der Zuversicht, mit welcher ich gedenke, gegen etliche dreist zu sein, die uns, als nach <STYLE fs="super">dem</STYLE> Fleische wandelnd, achten.</VERSE>
+        <VERSE vnumber="3">Denn obwol wir in <STYLE fs="super">dem</STYLE> Fleische wandeln, so kämpfen wir nicht nach <STYLE fs="super">dem</STYLE> Fleische;</VERSE>
+        <VERSE vnumber="4">denn die Waffen unsers Kampfes <STYLE fs="super">sind</STYLE> nicht fleischlich, sondern göttlich mächtig<NOTE>O. mächtig gemäß Gott.</NOTE>, zur Zerstörung der Festungen;</VERSE>
+        <VERSE vnumber="5">indem wir <STYLE fs="super">die</STYLE> Vernunftschlüsse zerstören und jegliche Höhe, die sich erhebt wider die Erkenntniß Gottes, und jeglichen Gedanken gefangen nehmen unter den Gehorsam des Christus<NOTE>O. Christi.</NOTE>,</VERSE>
+        <VERSE vnumber="6">und bereit stehen, allen Ungehorsam zu rächen, wenn euer Gehorsam erfüllt sein wird.</VERSE>
+        <VERSE vnumber="7">Sehet ihr auf das, was vor Augen ist? Wenn jemand sich selbst zutraut, daß er Christi sei, der denke dieses wiederum bei sich selbst, daß, gleichwie er Christi <STYLE fs="super">ist,</STYLE> also auch wir<NOTE type="variant"><STYLE fs="italic">T. r.</STYLE> f. h. Christi sind.</NOTE>.</VERSE>
+        <VERSE vnumber="8">Denn wenn ich auch etwas mehr über unsere Gewalt rühmen wollte, die uns der Herr zur Erbauung und nicht zu eurer Zerstörung gegeben hat, so werde ich nicht zu Schanden werden;</VERSE>
+        <VERSE vnumber="9">auf daß ich nicht scheine, als wolle ich euch durch die Briefe schrecken.</VERSE>
+        <VERSE vnumber="10">Denn die Briefe, sagt man, <STYLE fs="super">sind</STYLE> gewichtig und kräftig, aber die Gegenwart des Leibes <STYLE fs="super">ist</STYLE> schwach und die Rede verächtlich.</VERSE>
+        <VERSE vnumber="11">Ein solcher denke dieses, daß, wie wir abwesend im Worte durch Briefe sind, solche auch anwesend in der That <STYLE fs="super">sein werden.</STYLE></VERSE>
+        <VERSE vnumber="12">Denn wir wagen nicht, uns selbst beizuzählen oder zu vergleichen etlichen derer, die sich selbst empfehlen; sie aber, indem sie sich an sich selbst messen und sich mit sich selbst vergleichen, sind nicht verständig.</VERSE>
+        <VERSE vnumber="13"><STYLE fs="emphasis">Wir</STYLE> aber wollen uns nicht in’s Maßlose rühmen, sondern nach dem Maß des Wirkungskreises<NOTE>B. Maßstab.</NOTE>, den der Gott des Maßes uns zugetheilt hat, um<NOTE>O. uns Gott ausgetheilt hat das Maß, um…</NOTE> auch bis zu euch zu gelangen.</VERSE>
+        <VERSE vnumber="14">Denn wir strecken uns selbst nicht zu weit aus, als wären wir nicht bis zu euch gelangt, (denn wir sind auch bis zu euch gekommen in dem Evangelium des Christus;)</VERSE>
+        <VERSE vnumber="15">indem wir uns nicht in’s Maßlose rühmen in fremden Arbeiten, aber Hoffnung haben, wenn euer Glaube wächst, unter euch vergrößert zu werden nach unserm Wirkungskreise<NOTE>B. Maßstab.</NOTE>,</VERSE>
+        <VERSE vnumber="16">um noch überströmender das Evangelium weiter über euch hinaus zu verkündigen, nicht mich dessen zu rühmen, was im Wirkungskreise<NOTE>B. Maßstab.</NOTE> der andern bereit ist.</VERSE>
+        <VERSE vnumber="17">„Wer sich aber rühmt, der rühme sich des<NOTE>B. in <STYLE fs="super">dem.</STYLE></NOTE> Herrn“<NOTE>Jer. 9, 24.</NOTE>.</VERSE>
+        <VERSE vnumber="18">Denn nicht, wer sich selbst empfiehlt, der ist bewährt, sondern den der Herr empfiehlt.</VERSE>
+      </PARAGRAPH>
+    </CHAPTER>
+    <CHAPTER cnumber="11">
+      <PARAGRAPH>
+        <VERSE vnumber="1">Ich wollte, ihr möchtet mich ein wenig <STYLE fs="super">in der</STYLE> Thorheit ertragen; doch ertraget mich auch.</VERSE>
+        <VERSE vnumber="2">Denn ich eifere um euch mit Gottes Eifer, denn ich habe euch einem Manne verlobt, um <STYLE fs="super">euch als</STYLE> eine keusche Jungfrau Christo darzustellen.</VERSE>
+        <VERSE vnumber="3">Ich fürchte aber, daß, wie die Schlange Eva verführte durch ihre List, also auch etwa euer Sinn verdorben <STYLE fs="super">und abgewandt</STYLE> werde von der Einfalt gegen Christum.</VERSE>
+        <VERSE vnumber="4">Denn wenn der, welcher kommt, einen andern Jesus predigt, den wir nicht gepredigt haben, oder ihr einen andern Geist empfangt, den ihr nicht empfangen habt oder ein anderes Evangelium, das ihr nicht angenommen habt, so ertrüget ihr’s wohl.</VERSE>
+        <VERSE vnumber="5">Denn ich achte, daß ich in nichts den vornehmsten Aposteln nachstehe.</VERSE>
+        <VERSE vnumber="6">Wenn <STYLE fs="super">ich</STYLE> aber auch ein Unkundiger <STYLE fs="super">bin</STYLE> in der Rede, <STYLE fs="super">so</STYLE> doch nicht in der Erkenntniß; sondern in jeder Weise sind wir in allen Stücken bei euch<NOTE>O. vor euch.</NOTE> offenbar geworden.</VERSE>
+        <VERSE vnumber="7">Habe ich eine Sünde gethan, daß ich mich selbst erniedrigte, auf daß ihr erhöht würdet, weil ich euch das Evangelium Gottes umsonst verkündigt habe?</VERSE>
+        <VERSE vnumber="8">Ich habe andere Versammlungen beraubt, Lohn empfangen zu eurer Bedienung.</VERSE>
+        <VERSE vnumber="9">Und als ich bei euch anwesend war und Mangel hatte, fiel ich niemandem zur Last, denn meinen Mangel erstatteten die Brüder, die aus Macedonien kamen; und ich habe mich in allem euch unbeschwerlich gehalten, und werde mich <STYLE fs="super">also</STYLE> halten.</VERSE>
+        <VERSE vnumber="10"><STYLE fs="super">So gewiß die</STYLE> Wahrheit Christi in mir ist, soll mir dieses Rühmen nicht genommen werden in den Gegenden Achaja’s.</VERSE>
+        <VERSE vnumber="11">Warum? Weil ich euch nicht liebe? Gott weiß es.</VERSE>
+        <VERSE vnumber="12">Was ich aber thue, <STYLE fs="super">das</STYLE> werde ich auch thun, damit ich denen die Gelegenheit abschneide, die eine Gelegenheit wollen, damit sie, worin sie sich rühmen, ebenso erfunden werden wie wir.</VERSE>
+        <VERSE vnumber="13">Denn solche <STYLE fs="super">sind</STYLE> falsche Apostel, betrügerische Arbeiter, welche die Gestalt von Aposteln Christi annehmen.</VERSE>
+        <VERSE vnumber="14">Und kein Wunder, denn Satan selbst nimmt die Gestalt eines Engels des Lichts an;</VERSE>
+        <VERSE vnumber="15">es ist daher nichts Großes, wenn auch seine Diener die Gestalt als Diener der Gerechtigkeit annehmen, deren Ende sein wird nach ihren Werken.</VERSE>
+      </PARAGRAPH>
+      <PARAGRAPH>
+        <VERSE vnumber="16">Wiederum sage ich: Niemand halte mich für thöricht; wenn aber nicht, so nehmet mich auf als einen Thörichten, auf daß auch <STYLE fs="emphasis">ich</STYLE> mich ein wenig rühmen möge.</VERSE>
+        <VERSE vnumber="17">Was ich rede, rede ich nicht nach <STYLE fs="super">dem</STYLE> Herrn, sondern als in Thorheit, in dieser Zuversicht des Rühmens.</VERSE>
+        <VERSE vnumber="18">Weil viele sich nach dem Fleische rühmen, so will auch ich mich rühmen.</VERSE>
+        <VERSE vnumber="19">Denn ihr ertraget gern die Thoren, da ihr weise seid.</VERSE>
+        <VERSE vnumber="20">Denn ihr ertraget’s, wenn jemand euch zu Knechten macht, wenn jemand <STYLE fs="super">euch</STYLE> aufzehrt, wenn jemand <STYLE fs="super">von euch</STYLE> nimmt, wenn jemand sich überhebt, wenn jemand euch in’s Gesicht schlägt.</VERSE>
+        <VERSE vnumber="21">Ich rede in Bezug auf die Unehre, als ob <STYLE fs="emphasis">wir</STYLE> schwach gewesen wären. Worin aber irgend jemand dreist ist, (ich rede in Thorheit) bin auch <STYLE fs="emphasis">ich</STYLE> dreist.</VERSE>
+        <VERSE vnumber="22">Sind sie Hebräer? ich auch. Sind sie Israeliten? ich auch. Sind sie Abrahams Samen? ich auch.</VERSE>
+        <VERSE vnumber="23">Sind sie Diener Christi? (ich rede als von Sinnen) ich bin mehr. In Mühen überschwänglicher, in Schlägen über die Maßen, in Gefängnissen überschwänglicher, in Todes<STYLE fs="super">gefahren</STYLE> oft.</VERSE>
+        <VERSE vnumber="24">Von den Juden habe ich empfangen fünf mal vierzig <STYLE fs="super">Streiche,</STYLE> weniger einen.</VERSE>
+        <VERSE vnumber="25">Dreimal bin ich mit Ruthen geschlagen, einmal gesteinigt worden, dreimal habe ich Schiffbruch erlitten, einen Tag und eine Nacht habe ich in der Tiefe zugebracht;</VERSE>
+        <VERSE vnumber="26">oft auf Reisen, in Gefahren auf Flüssen, in Gefahren von Räubern, in Gefahren von <STYLE fs="super">meinem</STYLE> Geschlecht, in Gefahren von <STYLE fs="super">den</STYLE> Nationen, in Gefahren in <STYLE fs="super">der</STYLE> Stadt, in Gefahren in <STYLE fs="super">der</STYLE> Wüste, in Gefahren auf <STYLE fs="super">dem</STYLE> Meere, in Gefahren unter falschen Brüdern;</VERSE>
+        <VERSE vnumber="27">in Arbeit und Mühe, in Wachen oft, in Hunger und Durst, in Fasten oft, in Kälte und Blöße;</VERSE>
+        <VERSE vnumber="28">ohne, was außergewöhnlich ist, <STYLE fs="super">noch</STYLE> der tägliche Anlauf an mich, die Sorge für alle Versammlungen.</VERSE>
+        <VERSE vnumber="29">Wer ist schwach, und ich bin nicht schwach? Wer wird geärgert, und ich brenne nicht?</VERSE>
+        <VERSE vnumber="30">Wenn es gerühmt sein muß, so will ich mich meiner Schwachheit rühmen.</VERSE>
+        <VERSE vnumber="31">Der Gott und Vater unsers Herrn Jesu<NOTE type="variant"><STYLE fs="italic">T. r.</STYLE> u. a. f. h. Christi.</NOTE>, der gepriesen ist in die Zeitalter, weiß, daß ich nicht lüge.</VERSE>
+        <VERSE vnumber="32">In Damaskus verwahrte der Landpfleger des Königs Aretas die Stadt der Damascener, indem er mich greifen wollte,</VERSE>
+        <VERSE vnumber="33">und ich ward durch ein Fenster in einem Korbe an<NOTE>O. durch.</NOTE> der Mauer hinabgelassen und entrann seinen Händen.</VERSE>
+      </PARAGRAPH>
+    </CHAPTER>
+    <CHAPTER cnumber="12">
+      <PARAGRAPH>
+        <VERSE vnumber="1">Zu rühmen nützt mir wahrlich nicht; denn ich will auf Gesichte und Offenbarungen <STYLE fs="super">des</STYLE> Herrn kommen.</VERSE>
+        <VERSE vnumber="2">Ich kenne einen Menschen in Christo, vor vierzehn Jahren, (ob im Leibe, weiß ich nicht, oder außer dem Leibe, weiß ich nicht; Gott weiß <STYLE fs="super">es)</STYLE> derselbe ward entrückt bis in <STYLE fs="super">den</STYLE> dritten Himmel.</VERSE>
+        <VERSE vnumber="3">Und ich kenne einen solchen Menschen, (ob im Leibe, oder außer dem Leibe, weiß ich nicht; Gott weiß <STYLE fs="super">es)</STYLE></VERSE>
+        <VERSE vnumber="4">daß er in das Paradies entrückt ward und unaussprechliche Worte hörte, welche der Mensch nicht sagen darf<NOTE>O. dem Menschen nicht zustehen zu sagen.</NOTE>.</VERSE>
+        <VERSE vnumber="5">Ueber solches werde ich mich rühmen, über mich selbst aber werde ich mich nicht rühmen, es sei denn meiner Schwachheiten.</VERSE>
+        <VERSE vnumber="6">Denn wenn ich mich rühmen werde, so werde ich nicht thöricht sein, denn ich werde <STYLE fs="super">die</STYLE> Wahrheit sagen. Ich enthalte mich aber <STYLE fs="super">dessen,</STYLE> auf daß nicht jemand höher von mir denke, als was er an mir sieht, oder was er von mir hört.</VERSE>
+        <VERSE vnumber="7">Und auf daß ich mich nicht durch die Ueberschwänglichkeit der Offenbarungen überhebe, ward mir ein Dorn für das Fleisch gegeben, ein Engel des Satans, daß er mich mit Fäusten schlage, damit ich mich nicht überhebe.</VERSE>
+        <VERSE vnumber="8">Für dieses habe ich dreimal zum Herrn gefleht, daß er von mir abstehen möchte.</VERSE>
+        <VERSE vnumber="9">Und er hat zu mir gesagt: Meine Gnade ist dir genug, denn <STYLE fs="super">meine</STYLE><NOTE type="variant"><STYLE fs="italic">T. r.</STYLE> u. a. meine.</NOTE> Kraft wird in Schwachheit vollbracht. Darum will ich am allerliebsten mich vielmehr meiner Schwachheiten rühmen, auf daß die Kraft des Christus<NOTE>O. Christi.</NOTE> mir einwohne.</VERSE>
+        <VERSE vnumber="10">Deshalb habe ich Wohlgefallen an Schwachheiten, an Schmähungen, an Nöthen, an Verfolgungen, an Drangsalen um Christi willen; denn wenn ich schwach bin, dann bin ich mächtig.</VERSE>
+        <!-- Im Original ist in der Endnote der Punkt nach "r" extrem schwach gedruckt, eigentlich kaum sichtbar. -->
+        <VERSE vnumber="11">Ich bin ein Thor geworden<NOTE type="variant"><STYLE fs="italic">T. r.</STYLE> f. h. im Rühmen.</NOTE>; ihr habt mich gezwungen. Denn ich sollte von euch empfohlen werden, denn ich habe in nichts den vornehmsten Aposteln nachgestanden, wenn ich auch nichts bin.</VERSE>
+        <VERSE vnumber="12">Die Zeichen des Apostels sind ja unter euch gewirkt worden in allem Ausharren, <STYLE fs="super">in</STYLE><NOTE type="variant"><STYLE fs="italic">T. r.</STYLE> in.</NOTE> Zeichen und Wundern und mächtigen Thaten.</VERSE>
+        <VERSE vnumber="13">Denn worin ist es, daß ihr verkürzt worden seid gegen die andern Versammlungen, es sei denn, daß ich selbst euch nicht zur Last gefallen bin? Verzeiht mir dieses Unrecht.</VERSE>
+        <VERSE vnumber="14">Siehe, das dritte Mal stehe ich bereit, zu euch zu kommen und werde<NOTE type="variant"><STYLE fs="italic">T. r.</STYLE> f. h. euch.</NOTE> nicht zur Last fallen, denn ich suche nicht das Eure, sondern euch. Denn die Kinder sollen nicht für die Eltern Schätze sammeln, sondern die Eltern für die Kinder.</VERSE>
+        <VERSE vnumber="15">Ich will aber sehr gerne <STYLE fs="super">alles</STYLE> verwenden und verwendet werden für eure Seelen, wenn ich auch, je überschwänglicher ich euch liebe, um so weniger geliebt werde.</VERSE>
+      </PARAGRAPH>
+      <PARAGRAPH>
+        <VERSE vnumber="16">Doch es sei so, <STYLE fs="emphasis">ich</STYLE> habe euch nicht beschwert; weil ich aber listig bin, so habe ich euch mit Hinterlist gefangen.</VERSE>
+        <VERSE vnumber="17">Habe ich euch übervortheilt durch einen von denen, die ich zu euch gesandt habe?</VERSE>
+        <VERSE vnumber="18">Ich habe Titus gebeten und den Bruder mit <STYLE fs="super">ihm</STYLE> gesandt; hat etwa Titus euch übervortheilt? Haben wir nicht in demselben Geiste gewandelt? nicht in denselben Fußstapfen?</VERSE>
+        <VERSE vnumber="19">Ihr seid lange der Meinung gewesen<NOTE type="variant"><STYLE fs="italic">T. r.</STYLE> wiederum, meinet ihr …?</NOTE>, daß wir uns vor euch verantworten. Wir reden vor Gott in Christo, alles aber, Geliebte, zu eurer Auferbauung.</VERSE>
+        <VERSE vnumber="20">Denn ich fürchte, daß ich, wenn ich komme, euch etwa nicht als solche finde, wie ich will, und daß ich von euch als solcher erfunden werde, wie ihr nicht wollt: daß etwa Streitigkeiten, Eifer, Zorn, Zwietracht, Verläumdungen, Ohrenbläsereien, Aufblähen, Empörungen <STYLE fs="super">da seien;</STYLE></VERSE>
+        <VERSE vnumber="21">daß, wenn ich wieder komme, mein Gott mich euerthalben<NOTE>O. unter od. bei euch.</NOTE> demüthige, und ich über viele trauern müsse, die zuvor gesündigt und nicht Buße gethan haben über die Unreinigkeit und Hurerei und Unzucht, die sie getrieben haben.</VERSE>
+      </PARAGRAPH>
+    </CHAPTER>
+    <CHAPTER cnumber="13">
+      <PARAGRAPH>
+        <VERSE vnumber="1">Dieses dritte Mal komme ich zu euch; auf zweier oder dreier Zeugen Mund wird jede Sache bestätigt werden.</VERSE>
+        <VERSE vnumber="2">Ich habe <STYLE fs="super">es</STYLE> zuvor gesagt, und ich sage <STYLE fs="super">es</STYLE> zuvor, als wie das zweite Mal anwesend, und jetzt abwesend<NOTE type="variant"><STYLE fs="italic">T. r.</STYLE> f. h. schreibe ich.</NOTE>, denen, die zuvor gesündigt haben und den übrigen allen, daß, wenn ich wiederum komme, ich nicht schonen werde.</VERSE>
+        <VERSE vnumber="3">Weil ihr einen Beweis sucht, daß Christus in mir spreche, (der gegen euch nicht schwach ist, sondern mächtig unter euch;</VERSE>
+        <VERSE vnumber="4">denn wiewol er in Schwachheit gekreuzigt worden, so lebt er doch durch <STYLE fs="super">die</STYLE> Kraft Gottes; denn<NOTE type="variant"><STYLE fs="italic">T. r.</STYLE> f. h. auch.</NOTE> auch wir sind schwach in ihm, aber wir werden mit ihm leben durch <STYLE fs="super">die</STYLE> Kraft Gottes gegen euch)</VERSE>
+        <VERSE vnumber="5">so prüfet euch selbst, ob ihr im Glauben seid, untersuchet euch selbst; oder erkennet ihr euch selbst nicht, daß Jesus Christus in euch ist? es sei denn, daß ihr etwa unbewährt seid.</VERSE>
+        <VERSE vnumber="6">Ich hoffe aber, daß ihr erkennen werdet, daß <STYLE fs="emphasis">wir</STYLE> nicht unbewährt sind.</VERSE>
+        <VERSE vnumber="7">Wir beten<NOTE type="variant"><STYLE fs="italic">T. r.</STYLE> Ich bete.</NOTE> aber zu Gott, daß <STYLE fs="emphasis">ihr</STYLE> nichts Uebels thut; nicht auf daß <STYLE fs="emphasis">wir</STYLE> bewährt erscheinen, sondern damit ihr thut, was recht ist, wir aber als Unbewährte seien.</VERSE>
+        <VERSE vnumber="8">Denn wir können nichts wider die Wahrheit, sondern für die Wahrheit.</VERSE>
+        <VERSE vnumber="9">Denn wir freuen uns, wenn wir schwach sind, ihr aber mächtig seid; dies aber wünschen wir auch, eure Vervollkommnung.</VERSE>
+        <VERSE vnumber="10">Deswegen schreibe ich dieses abwesend, auf daß ich anwesend nicht Strenge gebrauchen müsse, nach der Gewalt<NOTE>O. Macht.</NOTE>, die der Herr mir gegeben hat zur Auferbauung und nicht zur Zerstörung.</VERSE>
+      </PARAGRAPH>
+      <PARAGRAPH>
+        <VERSE vnumber="11">Uebrigens, Brüder, freuet euch, seid vollkommen, seid getrost, seid <STYLE fs="emphasis">eines</STYLE> Sinnes, seid friedfertig, und der Gott der Liebe und des Friedens wird mit euch sein.</VERSE>
+        <VERSE vnumber="12">Grüßet einander mit heiligem Kuß. Es grüßen euch alle die Heiligen.</VERSE>
+        <VERSE vnumber="13">Die Gnade des Herrn Jesu Christi und die Liebe Gottes und die Gemeinschaft des Heiligen Geistes <STYLE fs="super">sei</STYLE> mit euch allen!<NOTE type="variant"><STYLE fs="italic">T. r.</STYLE> f. h. Amen.</NOTE></VERSE>
       </PARAGRAPH>
     </CHAPTER>
   </BIBLEBOOK>
