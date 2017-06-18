@@ -9,13 +9,13 @@
     <contributor>Julius Anton Eugen von Poseck</contributor>
     <contributor>Carl Friedrich Wilhelm Brockhaus</contributor>
     <contributor>Hermanus Cornelis Voorhoeve</contributor>
-    <date>2016-03-27</date>
+    <date>2017-06-17</date>
     <type>Text</type>
     <format>Haggai XML Bible Markup Language</format>
     <identifier>elberfelder_1871</identifier>
     <source>Elberfelder 1871, 3. durchgesehene Ausgabe NT</source>
-    <language>de-DE</language>
-    <coverage>Matthäus, Johannes 1, Apostelgeschichte, 2. Korinther, Hebräer, Jakobus, Offenbarung 1-2</coverage>
+    <language>de_DE</language>
+    <coverage>Matthäus, Johannes 1, Apostelgeschichte, 2. Korinther, 1. Thessalonicher, 2. Thessalonicher, Hebräer, Jakobus, Offenbarung 1-2</coverage>
     <rights>
       Gemeinfrei seit 1972-01-01.
     </rights>
@@ -1154,8 +1154,8 @@
         <VERSE vnumber="12">und wegen des Ueberhandnehmens der Gesetzlosigkeit wird die Liebe vieler<NOTE>B. der vielen, d. i. der Menge (der Bekenner).</NOTE> erkalten;</VERSE>
         <VERSE vnumber="13">wer aber ausharret bis an’s Ende, dieser wird errettet werden.</VERSE>
         <VERSE vnumber="14">Und diese gute Botschaft des Reiches wird gepredigt werden auf dem ganzen Erdkreise zu einem Zeugnisse allen Nationen, und dann wird das Ende kommen.</VERSE>
-        <!-- Hier fehlt im Original die schließende Klammer. -->
-        <VERSE vnumber="15">Wenn ihr nun sehen werdet den Gräuel der Verwüstung – wovon durch Daniel, den Propheten, geredet ist – stehend an heiligem Orte, (wer es lieset, der beachte es<NOTE>O. verstehe es.</NOTE>,</VERSE>
+        <!-- Die schließende Klammer der Einklammerung als auch die schließende Klammer des Fußnotenbuchstabens sind im Original als eine einzige schließende Klammer wiedergegeben. -->
+        <VERSE vnumber="15">Wenn ihr nun sehen werdet den Gräuel der Verwüstung – wovon durch Daniel, den Propheten, geredet ist – stehend an heiligem Orte, (wer es lieset, der beachte es<NOTE>O. verstehe es.</NOTE>),</VERSE>
         <VERSE vnumber="16">daß alsdann, die in Judäa sind, auf die Berge fliehen,</VERSE>
         <VERSE vnumber="17">wer auf dem Dache<NOTE>O. Hause.</NOTE> ist, nicht hinab steige, um die Sachen<NOTE type="variant"><STYLE fs="italic">T. r.</STYLE> etwas.</NOTE> aus seinem Hause zu holen;</VERSE>
         <VERSE vnumber="18">und wer auf dem Felde ist, nicht zurückkehre, um sein Kleid<NOTE type="variant"><STYLE fs="italic">T. r.</STYLE> seine Kleider.</NOTE> zu holen.</VERSE>
@@ -3394,6 +3394,206 @@
         <VERSE vnumber="11">Uebrigens, Brüder, freuet euch, seid vollkommen, seid getrost, seid <STYLE fs="emphasis">eines</STYLE> Sinnes, seid friedfertig, und der Gott der Liebe und des Friedens wird mit euch sein.</VERSE>
         <VERSE vnumber="12">Grüßet einander mit heiligem Kuß. Es grüßen euch alle die Heiligen.</VERSE>
         <VERSE vnumber="13">Die Gnade des Herrn Jesu Christi und die Liebe Gottes und die Gemeinschaft des Heiligen Geistes <STYLE fs="super">sei</STYLE> mit euch allen!<NOTE type="variant"><STYLE fs="italic">T. r.</STYLE> f. h. Amen.</NOTE></VERSE>
+      </PARAGRAPH>
+    </CHAPTER>
+  </BIBLEBOOK>
+  <BIBLEBOOK bnumber="52" bname="1. Thessalonicher">
+    <CAPTION>Erste Epistel an die Thessalonicher.</CAPTION>
+    <CHAPTER cnumber="1">
+      <PARAGRAPH>
+        <VERSE vnumber="1">Paulus und Silvanus und Timotheus der Versammlung der Thessalonicher in Gott, <STYLE fs="super">dem</STYLE> Vater, und <STYLE fs="super">dem</STYLE> Herrn Jesu Christo: Gnade euch und Friede<NOTE>Viele Handschr. f. h. von Gott, unserm Vater, und dem Herrn Jesu Christo!</NOTE>.</VERSE>
+      </PARAGRAPH>
+      <PARAGRAPH>
+        <VERSE vnumber="2">Wir danken Gott allezeit für euch alle, eurer in unsern Gebeten erwähnend,</VERSE>
+        <VERSE vnumber="3">unablässig eingedenk euers Werkes des Glaubens und der Bemühung der Liebe und des Ausharrens der Hoffnung auf unsern<NOTE>B. unsers.</NOTE> Herrn Jesum Christum, vor unserm Gott und Vater,</VERSE>
+        <VERSE vnumber="4">wissend, von Gott geliebte Brüder, eure Auserwählung<NOTE>O. gel. B. eure A. von Gott.</NOTE>.</VERSE>
+        <VERSE vnumber="5">Denn unser Evangelium war nicht bei euch<NOTE>O. war nicht gekommen zu euch.</NOTE> im Worte allein, sondern auch in Kraft und in <STYLE fs="super">dem</STYLE> Heiligen Geiste und in großer Gewißheit, wie ihr wisset, was wir um euertwillen unter euch waren.</VERSE>
+        <VERSE vnumber="6">Und ihr seid unsere Nachahmer geworden und des Herrn, indem ihr das Wort empfangen habt in vieler Bedrängniß mit Freude <STYLE fs="super">des</STYLE> Heiligen Geistes,</VERSE>
+        <VERSE vnumber="7">so daß ihr Vorbilder geworden seid allen Gläubigen in Macedonien und Achaja.</VERSE>
+        <VERSE vnumber="8">Denn von euch aus ist das Wort des Herrn erschollen, nicht allein in Macedonien und in<NOTE type="variant"><STYLE fs="italic">T. r.</STYLE> l. f. in.</NOTE> Achaja, sondern<NOTE type="variant"><STYLE fs="italic">T. r.</STYLE> u. v. a. f. h. auch.</NOTE> an jedem Orte ist euer Glaube an Gott ausgebreitet worden, so daß wir nicht nöthig haben, etwas zu sagen.</VERSE>
+        <VERSE vnumber="9">Denn sie selbst verkündigen von uns, welchen Eingang wir bei euch hatten<NOTE type="variant"><STYLE fs="italic">T. r.</STYLE> haben.</NOTE>, und wie ihr euch von den Götzenbildern zu Gott bekehrt habt, zu dienen dem lebendigen und wahren Gott,</VERSE>
+        <VERSE vnumber="10">und zu erwarten seinen Sohn aus den Himmeln, den er auferweckt hat aus den<NOTE type="variant"><STYLE fs="italic">T. r.</STYLE> l. f. den.</NOTE> Todten – Jesum, der uns errettet von dem kommenden Zorn.</VERSE>
+      </PARAGRAPH>
+    </CHAPTER>
+    <CHAPTER cnumber="2">
+      <PARAGRAPH>
+        <VERSE vnumber="1">Denn ihr selbst wisset, Brüder, unsern Eingang bei euch, daß er nicht vergeblich war,</VERSE>
+        <VERSE vnumber="2">sondern obschon wir zuvor gelitten hatten und<NOTE type="variant"><STYLE fs="italic">T. r.</STYLE> f. h. auch.</NOTE> geschmäht worden waren, wie ihr wisset, zu Philippi, so waren wir <STYLE fs="super">doch</STYLE> voll Muth in unserm Gott, zu euch das Evangelium Gottes zu reden unter großem Kampf<NOTE>O. Anstrengung.</NOTE>.</VERSE>
+        <VERSE vnumber="3">Denn unsere Ermahnung <STYLE fs="super">war</STYLE> nicht aus Betrug, noch aus Unreinigkeit, noch mit List;</VERSE>
+        <VERSE vnumber="4">sondern wie wir von Gott bewährt worden sind, mit dem Evangelium betraut zu werden, also reden wir, nicht um<NOTE>B. als M. Gefallende.</NOTE> Menschen zu gefallen, sondern Gott, der unsere Herzen prüft.</VERSE>
+        <VERSE vnumber="5">Denn niemals sind wir mit einschmeichelnden Worten umgegangen, wie ihr wisset, noch mit Vorwand der Habsucht, Gott <STYLE fs="super">ist</STYLE> Zeuge.</VERSE>
+        <VERSE vnumber="6">Auch suchten wir nicht Ehre von Menschen, weder von euch, noch von andern, wiewol wir als Christi Apostel <STYLE fs="super">euch</STYLE> zur Last sein konnten.</VERSE>
+        <VERSE vnumber="7">Wir sind aber in eurer Mitte zart gewesen, wie eine säugende Mutter ihre eigenen Kinder pflegt.</VERSE>
+        <VERSE vnumber="8">Also, da wir ein sehnliches Verlangen zu euch haben, gefiel es uns wohl, euch nicht allein das Evangelium Gottes, sondern auch unser eigenes Leben mitzutheilen, weil ihr uns lieb geworden waret.</VERSE>
+        <!-- Hier ist die Variantennote dem Wort "Nacht" zugeordnet. -->
+        <VERSE vnumber="9">Denn ihr gedenket, Brüder, an unsere Arbeit und Mühe: <NOTE type="variant"><STYLE fs="italic">T. r.</STYLE> f. h. Denn.</NOTE>Nacht und Tag arbeitend, um niemandem unter euch lästig zu werden, haben wir euch das Evangelium Gottes gepredigt.</VERSE>
+        <VERSE vnumber="10">Ihr <STYLE fs="super">seid</STYLE> Zeugen und Gott, wie göttlich und gerecht und untadelig wir gegen euch, die Glaubenden, waren;</VERSE>
+        <VERSE vnumber="11">wie ihr wisset, in welcher Weise wir einen jeglichen unter euch, wie ein Vater seine eigenen Kinder, euch ermahnt und getröstet und bezeugt haben,</VERSE>
+        <VERSE vnumber="12">daß ihr wandeln solltet würdig des Gottes, der euch zu seinem eigenen Reiche und <STYLE fs="super">seiner eigenen</STYLE> Herrlichkeit beruft.</VERSE>
+        <VERSE vnumber="13">Deshalb danken wir auch Gott unablässig, daß, als ihr von uns empfinget <STYLE fs="super">das</STYLE> Wort der Kunde Gottes, ihr <STYLE fs="super">es</STYLE> nicht als Menschenwort aufnahmet, sondern, wie es wahrhaftig ist, als Gottes Wort, welches auch in euch, den Glaubenden, wirkt.</VERSE>
+        <VERSE vnumber="14">Denn, Brüder, ihr seid Nachahmer geworden der Versammlungen Gottes, die in Judäa sind in Christo Jesu, weil auch ihr dasselbe von den eigenen Landsleuten erlitten habt, wie auch jene von den Juden,</VERSE>
+        <VERSE vnumber="15">welche sowol den Herrn Jesum, als auch die<NOTE type="variant"><STYLE fs="italic">T. r.</STYLE> ihre eigenen.</NOTE> Propheten getödtet und uns durch Verfolgung weggetrieben haben, und Gott nicht gefallen, und allen Menschen entgegen <STYLE fs="super">sind,</STYLE></VERSE>
+        <VERSE vnumber="16">und uns wehren, zu den Nationen zu reden, auf daß sie errettet werden, damit sie ihre Sünden allezeit erfüllen; aber der Zorn ist völlig über sie gekommen.</VERSE>
+      </PARAGRAPH>
+      <PARAGRAPH>
+        <VERSE vnumber="17">Wir aber, Brüder, da wir von euch verwaist waren für kurze Zeit, <STYLE fs="super">dem</STYLE> Angesichte, nicht <STYLE fs="super">dem</STYLE> Herzen nach, haben um so mehr Fleiß angewandt, euer Angesicht zu sehen mit großer Begierde.</VERSE>
+        <VERSE vnumber="18">Deshalb wollten wir zu euch kommen (ich Paulus nämlich) ein Mal und zum zweiten Mal, und der Satan hat uns verhindert.</VERSE>
+        <VERSE vnumber="19">Denn wer <STYLE fs="super">ist</STYLE> unsere Hoffnung, oder Freude, oder Krone des Ruhms? Nicht auch ihr, vor unserm Herrn Jesu<NOTE type="variant"><STYLE fs="italic">T. r.</STYLE> f. h. Christo.</NOTE> bei seiner Ankunft?</VERSE>
+        <VERSE vnumber="20">Denn ihr seid unsere Herrlichkeit und Freude.</VERSE>
+      </PARAGRAPH>
+    </CHAPTER>
+    <CHAPTER cnumber="3">
+      <PARAGRAPH>
+        <VERSE vnumber="1">Deshalb, da wir es nicht länger aushalten konnten, gefiel es uns, zu Athen allein gelassen zu werden,</VERSE>
+        <!-- Die erste Varianten-Endnoten-Zahl ist nicht "9", sondern "8a". -->
+        <VERSE vnumber="2">und sandten Timotheus, unsern Bruder und Diener Gottes<NOTE type="variant"><STYLE fs="italic">T. r.</STYLE> u. a. f. h. und unsern Mitarbeiter.</NOTE> an<NOTE>O. unsern Bruder und Mitarbeiter unter Gott. (Die Lesart ist sehr unklar).</NOTE> dem Evangelium des Christus, um euch zu befestigen und<NOTE type="variant"><STYLE fs="italic">T. r.</STYLE> f. h. euch.</NOTE> zu trösten euers Glaubens halben,</VERSE>
+        <VERSE vnumber="3">auf daß niemand wankend werde in diesen Trübsalen. (Denn ihr selbst wisset, daß wir dazu gesetzt sind;</VERSE>
+        <VERSE vnumber="4">denn auch als wir bei euch waren, sagten wir euch vorher, daß wir Trübsale haben würden, wie es auch geschehen ist und ihr wisset.)</VERSE>
+        <VERSE vnumber="5">Deswegen auch, da ich es nicht länger aushalten konnte, sandte ich, um euern Glauben zu wissen, ob nicht etwa der Versucher euch versucht habe und unsere Arbeit erfolglos gewesen sei.</VERSE>
+        <VERSE vnumber="6">Aber da jetzt<NOTE>O. Aber jetzt, da.</NOTE> Timotheus von euch zu uns gekommen und uns die gute Botschaft verkündigt hat von euerm Glauben und eurer Liebe, und daß ihr uns allezeit in gutem Andenken habt und sehr<NOTE>O. stets.</NOTE> verlangt, uns zu sehen, gleichwie wir auch euch;</VERSE>
+        <VERSE vnumber="7">deswegen, Brüder, sind wir über euch in all unserer Noth und Trübsal<NOTE type="variant"><STYLE fs="italic">T. r.</STYLE> Trübsal und Noth.</NOTE> getröstet worden durch euern Glauben;</VERSE>
+        <VERSE vnumber="8">denn nun leben wir, wenn ihr im Herrn feststehet.</VERSE>
+        <VERSE vnumber="9">Denn was für Dank können wir Gott für euch vergelten über all der Freude, womit wir uns euertwegen freuen vor unserm Gott.</VERSE>
+        <VERSE vnumber="10">Nacht und Tag über die Maßen flehend, daß wir euer Angesicht sehen und vollenden mögen, was an euerm Glauben mangelt.</VERSE>
+        <VERSE vnumber="11">Unser Gott und Vater selbst aber und unser Herr Jesus<NOTE type="variant"><STYLE fs="italic">T. r.</STYLE> f. h. Christus.</NOTE> richte unsern Weg zu euch.</VERSE>
+        <VERSE vnumber="12">Euch aber mache der Herr völlig und überströmend in der Liebe gegen einander und gegen alle, (so wie auch wir gegen euch <STYLE fs="super">sind,)</STYLE></VERSE>
+        <VERSE vnumber="13">um eure Herzen tadellos in Heiligkeit zu befestigen vor unserm Gott und Vater, bei der Ankunft unsers Herrn Jesu Christi mit allen seinen Heiligen.</VERSE>
+      </PARAGRAPH>
+    </CHAPTER>
+    <CHAPTER cnumber="4">
+      <PARAGRAPH>
+        <VERSE vnumber="1">Uebrigens denn, Brüder, bitten und ermahnen wir euch in <STYLE fs="super">dem</STYLE> Herrn Jesu, wie ihr von uns empfangen habt, in welcher Weise ihr wandeln und Gott gefallen sollt, wie ihr auch wandelt<NOTE type="variant"><STYLE fs="italic">T. r.</STYLE> l. f. wie ihr auch wandelt.</NOTE>, daß ihr immer reichlicher zunehmet.</VERSE>
+        <VERSE vnumber="2">Denn ihr wisset, welche Gebote wir euch gegeben haben durch den Herrn Jesum.</VERSE>
+        <VERSE vnumber="3">Denn dies ist <STYLE fs="super">der</STYLE> Wille Gottes, eure Heiligkeit, daß ihr euch der Hurerei enthaltet,</VERSE>
+        <VERSE vnumber="4">daß jeglicher von euch sein eigenes Gefäß zu besitzen wisse in Heiligkeit und Ehrbarkeit,</VERSE>
+        <VERSE vnumber="5">nicht in Leidenschaft der Lust, wie auch die Nationen, die Gott nicht kennen;</VERSE>
+        <VERSE vnumber="6">daß er seinen Bruder nicht übersehe<NOTE>B. übertrete, (seines Bruders Rechte nicht überschreite).</NOTE> noch hintergehe in der Sache, weil der Herr Rächer <STYLE fs="super">ist</STYLE> über dieses alles, wie wir euch auch vorher gesagt und bezeugt haben.</VERSE>
+        <VERSE vnumber="7">Denn Gott hat uns nicht zur Unreinigkeit berufen, sondern zur<NOTE>B. in.</NOTE> Heiligkeit.</VERSE>
+        <VERSE vnumber="8">So nun, wer <STYLE fs="super">dieses</STYLE> verachtet, der verachtet nicht einen Menschen, sondern Gott, der auch seinen Heiligen Geist euch<NOTE type="variant"><STYLE fs="italic">T. r.</STYLE> l. uns.</NOTE> gegeben hat.</VERSE>
+      </PARAGRAPH>
+      <PARAGRAPH>
+        <VERSE vnumber="9">Was die Bruderliebe betrifft, so habt ihr nicht nöthig, daß wir euch schreiben, denn ihr selbst seid von Gott gelehrt, einander zu lieben;</VERSE>
+        <VERSE vnumber="10">denn das thut ihr auch gegen alle die Brüder in ganz Macedonien. Wir ermahnen euch aber, Brüder, immer reichlicher zuzunehmen,</VERSE>
+        <VERSE vnumber="11">und euch zu befleißigen, stille zu sein und eure eigenen <STYLE fs="super">Geschäfte</STYLE> zu thun und mit euren eigenen Händen zu arbeiten, so wie wir euch befohlen haben,</VERSE>
+        <VERSE vnumber="12">auf daß ihr ehrbarlich wandelt gegen die, welche draußen <STYLE fs="super">sind,</STYLE> und niemandes<NOTE>O. nichts.</NOTE> bedürfet.</VERSE>
+      </PARAGRAPH>
+      <PARAGRAPH>
+        <VERSE vnumber="13">Wir wollen<NOTE type="variant"><STYLE fs="italic">T. r.</STYLE> ich will.</NOTE> aber nicht, Brüder, daß ihr, was die Entschlafenen betrifft, unkundig seid, auf daß ihr euch nicht betrübt, wie auch die übrigen, die keine Hoffnung haben.</VERSE>
+        <VERSE vnumber="14">Denn wenn wir glauben, daß Jesus gestorben und wieder auferstanden ist, also wird auch Gott die Entschlafenen durch Jesum mit ihm bringen.</VERSE>
+        <VERSE vnumber="15">Denn dieses sagen wir euch im Worte <STYLE fs="super">des</STYLE> Herrn, daß wir, die Lebenden, die übrig bleiben bis zur Ankunft des Herrn, den Entschlafenen durchaus nicht zuvorkommen werden.</VERSE>
+        <VERSE vnumber="16">Denn der Herr selbst wird mit gebietendem Zuruf, mit <STYLE fs="super">der</STYLE> Stimme des Erzengels und mit <STYLE fs="super">der</STYLE> Posaune Gottes herniederkommen vom Himmel, und die Todten in Christo werden zuerst auferstehen;</VERSE>
+        <VERSE vnumber="17">darnach werden wir, die Lebenden, die übrig bleiben<NOTE>O. die übrig gebliebenen Lebenden.</NOTE>, zugleich mit ihnen entrückt werden in Wolken dem Herrn entgegen in <STYLE fs="super">die</STYLE> Luft; und also werden wir allezeit bei <STYLE fs="super">dem</STYLE> Herrn sein.</VERSE>
+        <VERSE vnumber="18">So ermuntert nun einander mit diesen Worten.</VERSE>
+      </PARAGRAPH>
+    </CHAPTER>
+    <CHAPTER cnumber="5">
+      <PARAGRAPH>
+        <VERSE vnumber="1">Was aber, Brüder, Zeit und Zeiten betrifft, so habt ihr nicht nöthig, daß euch geschrieben werde.</VERSE>
+        <VERSE vnumber="2">Denn ihr selbst wisset genau, daß der Tag <STYLE fs="super">des</STYLE> Herrn also kommt wie ein Dieb in <STYLE fs="super">der</STYLE> Nacht.</VERSE>
+        <!-- Hier leitet die Varianten-Endnote den Vers ein. -->
+        <VERSE vnumber="3"><NOTE type="variant"><STYLE fs="italic">T. r.</STYLE> f. h. Denn.</NOTE>Wenn sie sagen werden: Friede und Sicherheit! dann kommt ein plötzliches Verderben auf sie, wie die Geburtswehen auf die Schwangere; und sie werden nicht entfliehen.</VERSE>
+      </PARAGRAPH>
+      <PARAGRAPH>
+        <VERSE vnumber="4">Ihr aber, Brüder, seid nicht in Finsterniß, daß euch der Tag wie ein Dieb ergreife;</VERSE>
+        <VERSE vnumber="5">denn<NOTE type="variant"><STYLE fs="italic">T. r.</STYLE> l. f. denn.</NOTE> ihr alle seid Söhne des Lichts und Söhne des Tages; wir sind nicht von <STYLE fs="super">der</STYLE> Nacht, noch von <STYLE fs="super">der</STYLE> Finsterniß.</VERSE>
+        <VERSE vnumber="6">So lasset uns denn nicht schlafen, wie die übrigen, sondern wachen und nüchtern sein.</VERSE>
+        <VERSE vnumber="7">Denn die da schlafen, schlafen <STYLE fs="super">des</STYLE> Nachts, und die da trunken sind, sind <STYLE fs="super">des</STYLE> Nachts trunken.</VERSE>
+        <VERSE vnumber="8">Wir aber, die von <STYLE fs="super">dem</STYLE> Tage sind, lasset uns nüchtern sein, angethan mit <STYLE fs="super">dem</STYLE> Brustharnisch des Glaubens und der Liebe und mit <STYLE fs="super">dem</STYLE> Helm der Hoffnung der Seligkeit.</VERSE>
+        <VERSE vnumber="9">Denn Gott hat uns nicht gestellt zum Zorn, sondern zur Erlangung der Seligkeit durch unsern Herrn Jesum Christum,</VERSE>
+        <VERSE vnumber="10">der für uns gestorben ist, damit wir, sei es daß wir wachen oder schlafen, zusammen mit ihm leben.</VERSE>
+        <VERSE vnumber="11">Deshalb ermuntert einander und erbauet ein jeder den andern, wie ihr auch thut.</VERSE>
+      </PARAGRAPH>
+      <PARAGRAPH>
+        <VERSE vnumber="12">Wir bitten euch aber, Brüder, daß ihr die erkennet, die unter euch arbeiten und euch vorstehen im Herrn und euch zurecht weisen;</VERSE>
+        <VERSE vnumber="13">und daß ihr sie über die Maßen in Liebe achtet, um ihres Werkes willen. Seid in Frieden unter einander.</VERSE>
+        <VERSE vnumber="14">Wir ermahnen euch aber, Brüder: Weiset die Unordentlichen zurecht, tröstet die Kleinmüthigen, nehmet euch der Schwachen an, seid langmüthig gegen alle.</VERSE>
+        <VERSE vnumber="15">Sehet zu, daß niemand Böses mit Bösem jemandem vergelte, sondern strebet allezeit dem Guten nach gegen einander und gegen alle.</VERSE>
+        <VERSE vnumber="16">Freuet euch allezeit.</VERSE>
+        <!-- Diese Zeile enthält im Original zwei Versanfänge. -->
+        <VERSE vnumber="17">Betet unablässig.</VERSE>
+        <VERSE vnumber="18">Danksaget in allem, denn dieses <STYLE fs="super">ist der</STYLE> Wille Gottes in Christo Jesu gegen euch.</VERSE>
+        <VERSE vnumber="19">Löschet den Geist nicht aus.</VERSE>
+        <VERSE vnumber="20">Verachtet nicht <STYLE fs="super">die</STYLE> Weissagungen.</VERSE>
+        <VERSE vnumber="21">Prüfet aber<NOTE type="variant"><STYLE fs="italic">T. r.</STYLE> l. f. aber.</NOTE> alles, haltet fest das Gute;</VERSE>
+        <VERSE vnumber="22">haltet euch fern von aller Art des Bösen.</VERSE>
+        <VERSE vnumber="23">Er selbst aber, der Gott des Friedens, heilige euch völlig; und euer ganzer Geist und Seele und Leib werde untadelig bewahrt bei der Ankunft unsers Herrn Jesu Christi.</VERSE>
+        <VERSE vnumber="24">Treu <STYLE fs="super">ist</STYLE> er, der euch ruft, der wird <STYLE fs="super">es</STYLE> auch thun.</VERSE>
+      </PARAGRAPH>
+      <PARAGRAPH>
+        <VERSE vnumber="25">Brüder, betet für uns.</VERSE>
+        <!-- Diese Zeile enthält im Original zwei Versanfänge. -->
+        <VERSE vnumber="26">Grüßet alle die Brüder mit heiligem Kuß.</VERSE>
+        <VERSE vnumber="27">Ich beschwöre euch beim Herrn, daß der Brief vor allen heiligen Brüdern gelesen werde.</VERSE>
+        <VERSE vnumber="28">Die Gnade unsers Herrn Jesu Christi <STYLE fs="super">sei</STYLE> mit euch!<NOTE type="variant"><STYLE fs="italic">T. r.</STYLE> f. h. Amen.</NOTE></VERSE>
+      </PARAGRAPH>
+    </CHAPTER>
+  </BIBLEBOOK>
+  <BIBLEBOOK bnumber="53" bname="2. Thessalonicher">
+    <CAPTION>Zweite Epistel an die Thessalonicher.</CAPTION>
+    <CHAPTER cnumber="1">
+      <PARAGRAPH>
+        <VERSE vnumber="1">Paulus und Silvanus und Timotheus der Versammlung der Thessalonicher in Gott, unserm Vater, und <STYLE fs="super">dem</STYLE> Herrn Jesu Christo:</VERSE>
+        <VERSE vnumber="2">Gnade euch und Friede von Gott, unserm Vater, und <STYLE fs="super">dem</STYLE> Herrn Jesu Christo.</VERSE>
+      </PARAGRAPH>
+      <PARAGRAPH>
+        <VERSE vnumber="3">Wir sind schuldig, Brüder, Gott allezeit für euch zu danken, wie es billig ist, weil euer Glaube sehr wächst, und die Liebe eines jeglichen von euch allen gegen einander überströmend ist,</VERSE>
+        <VERSE vnumber="4">so daß wir selbst uns eurer rühmen in den Versammlungen Gottes wegen euers Ausharrens und Glaubens in all euren Verfolgungen und Trübsalen, die ihr erduldet;</VERSE>
+        <VERSE vnumber="5">ein offenbares Zeichen<NOTE>O. ein Beweis.</NOTE> des gerechten Gerichts Gottes, daß ihr würdig geachtet werdet des Reiches Gottes, um dessen willen ihr auch leidet;</VERSE>
+        <VERSE vnumber="6">sintemal <STYLE fs="super">es</STYLE> bei Gott gerecht <STYLE fs="super">ist,</STYLE> Drangsal zu vergelten denen, die euch bedrängen,</VERSE>
+        <!-- Zwischen den Wörtern "der Offenbarung" ist nur wenig Leerraum gesetzt. -->
+        <VERSE vnumber="7">und euch, die ihr bedrängt werdet, Ruhe mit uns in der Offenbarung des Herrn Jesu vom Himmel, mit <STYLE fs="super">den</STYLE> Engeln seiner Macht,</VERSE>
+        <VERSE vnumber="8">in flammendem Feuer, um Vergeltung zu geben denen, die Gott nicht kennen, und denen, die dem Evangelium unsers Herrn Jesu Christi nicht gehorchen;</VERSE>
+        <VERSE vnumber="9">welche Strafe leiden werden, ewiges Verderben vom Angesicht des Herrn und von der Herrlichkeit seiner Stärke,</VERSE>
+        <VERSE vnumber="10">wenn er kommen wird, verherrlicht zu werden in seinen Heiligen und bewundert in allen denen, die geglaubt haben<NOTE type="variant"><STYLE fs="italic">T. r.</STYLE> welche glauben.</NOTE> (denn unser Zeugniß bei euch ist geglaubt worden) an jenem Tage.</VERSE>
+        <VERSE vnumber="11">Weshalb wir auch allezeit für euch beten, daß unser Gott euch würdig achte der Berufung und erfülle alles Wohlgefallen <STYLE fs="super">seiner</STYLE> Gütigkeit und <STYLE fs="super">das</STYLE> Werk des Glaubens in Macht,</VERSE>
+        <VERSE vnumber="12">daß der Name unsers Herrn Jesu Christi<NOTE>Viele l. f. Christi.</NOTE> verherrlicht werde in euch, und ihr in ihm, nach der Gnade unsers Gottes und <STYLE fs="super">des</STYLE> Herrn Jesu Christi.</VERSE>
+      </PARAGRAPH>
+    </CHAPTER>
+    <CHAPTER cnumber="2">
+      <PARAGRAPH>
+        <VERSE vnumber="1">Wir bitten euch aber, Brüder, um der Ankunft unsers Herrn Jesu Christi willen und unserer Versammlung zu ihm,</VERSE>
+        <VERSE vnumber="2">daß ihr nicht schnell erschüttert werdet in der Gesinnung, noch bestürzt, weder durch Geist, noch durch Wort, noch durch Brief als durch uns, als ob der Tag des Herrn<NOTE type="variant"><STYLE fs="italic">T. r.</STYLE> Christi.</NOTE> da sei.</VERSE>
+        <VERSE vnumber="3">Lasset euch von niemandem auf irgend eine Weise verführen, denn <STYLE fs="super">er kommt nicht,</STYLE> es sei denn, daß zuerst der Abfall komme und geoffenbart sei der Mensch der Sünde, der Sohn des Verderbens,</VERSE>
+        <VERSE vnumber="4">welcher widerstehet und sich selbst erhöhet über<NOTE>O. gegen.</NOTE> alles, was Gott heißt, oder ein Gegenstand der Verehrung ist, so daß er sich in den Tempel Gottes setzt<NOTE type="variant"><STYLE fs="italic">T. r.</STYLE> f. h. wie Gott.</NOTE> und stellt sich selbst dar, daß er Gott sei.</VERSE>
+        <VERSE vnumber="5">Erinnert ihr euch nicht, daß ich dieses zu euch sagte, da ich noch bei euch war?</VERSE>
+        <VERSE vnumber="6">Und nun wisset ihr, was zurückhält, daß er geoffenbart werde zu seiner Zeit.</VERSE>
+        <VERSE vnumber="7">Denn schon ist das Geheimniß der Gesetzlosigkeit wirksam; nur <STYLE fs="super">ist</STYLE> jetzt der, welcher zurückhält, bis er aus dem Wege ist,</VERSE>
+        <VERSE vnumber="8">und dann wird geoffenbart werden der Gesetzlose, den der Herr Jesus<NOTE type="variant"><STYLE fs="italic">T. r.</STYLE> l. f. Jesus.</NOTE> verzehren<NOTE>O. zerstören.</NOTE> wird durch den Hauch<NOTE>O. Geist.</NOTE> seines Mundes und vernichten durch die Erscheinung seiner Ankunft,</VERSE>
+        <VERSE vnumber="9"><STYLE fs="super">ihn,</STYLE> dessen Ankunft nach <STYLE fs="super">der</STYLE> Wirkung des Satans ist, in aller Macht und Zeichen und Wundern der Lüge</VERSE>
+        <VERSE vnumber="10">und in allem Betrug der Ungerechtigkeit<NOTE type="variant"><STYLE fs="italic">T. r.</STYLE> f. h. in.</NOTE> denen, die verloren gehen, darum daß sie die Liebe zur<NOTE>B. der.</NOTE> Wahrheit nicht annahmen, damit sie errettet würden.</VERSE>
+        <VERSE vnumber="11">Und deshalb sendet<NOTE type="variant"><STYLE fs="italic">T. r.</STYLE> wird senden.</NOTE> ihnen Gott eine Wirkung des Irrthums, daß sie der Lüge glauben,</VERSE>
+        <VERSE vnumber="12">auf daß alle gerichtet werden, die der Wahrheit nicht geglaubt, sondern Wohlgefallen gefunden haben an der Ungerechtigkeit.</VERSE>
+      </PARAGRAPH>
+      <PARAGRAPH>
+        <VERSE vnumber="13">Wir aber sind schuldig, Gott allezeit zu danken für euch, vom Herrn geliebte Brüder, daß euch Gott von Anfang erwählt hat zur Seligkeit in Heiligkeit <STYLE fs="super">des</STYLE> Geistes und im Glauben an <STYLE fs="super">die</STYLE> Wahrheit,</VERSE>
+        <VERSE vnumber="14">wozu er euch berufen hat durch unser Evangelium, zur Erlangung der Herrlichkeit unsers Herrn Jesu Christi.</VERSE>
+        <VERSE vnumber="15">So stehet denn nun fest, Brüder, und haltet die Ueberlieferungen, die ihr gelehrt worden, sei es durch Wort oder durch Brief von uns.</VERSE>
+        <VERSE vnumber="16">Unser Herr Jesus Christus selbst aber, und unser Gott und Vater, der uns geliebt und ewigen Trost und gute Hoffnung gegeben hat durch <STYLE fs="super">die</STYLE> Gnade,</VERSE>
+        <VERSE vnumber="17">tröste eure Herzen und befestige euch in allem guten Werke und Wort<NOTE type="variant"><STYLE fs="italic">T. r.</STYLE> Worte und Werke.</NOTE>.</VERSE>
+      </PARAGRAPH>
+    </CHAPTER>
+    <CHAPTER cnumber="3">
+      <PARAGRAPH>
+        <VERSE vnumber="1">Uebrigens, Brüder, betet für uns, daß das Wort des Herrn laufe und verherrlicht werde, wie auch bei euch,</VERSE>
+        <VERSE vnumber="2">und daß wir errettet werden von den unvernünftigen und bösen Menschen; denn der Glaube <STYLE fs="super">ist</STYLE> nicht aller <STYLE fs="super">Theil.</STYLE></VERSE>
+        <VERSE vnumber="3">Der Herr aber ist treu, der euch befestigen und vor dem Bösen bewahren wird.</VERSE>
+        <VERSE vnumber="4">Wir haben aber im Herrn das Vertrauen zu euch, daß ihr, was wir<NOTE type="variant"><STYLE fs="italic">T. r.</STYLE> u. v. a. f. h. euch.</NOTE> gebieten, auch thut und thun werdet.</VERSE>
+        <VERSE vnumber="5">Der Herr aber richte eure Herzen zu der Liebe Gottes und zu <STYLE fs="super">dem</STYLE> Ausharren des Christus!</VERSE>
+        <VERSE vnumber="6">Wir gebieten euch aber, Brüder, im Namen unsers Herrn Jesu Christi, daß ihr euch entziehet von jedem Bruder, der unordentlich wandelt, und nicht nach der Ueberlieferung, die er von uns empfangen hat.</VERSE>
+        <VERSE vnumber="7">Denn ihr selbst wisset, wie man uns nachahmen soll; denn wir haben nicht unordentlich unter euch gewandelt,</VERSE>
+        <VERSE vnumber="8">noch haben wir von jemandem das Brod umsonst gegessen, sondern haben mit Mühe und Beschwerde Nacht und Tag gearbeitet, um nicht jemandem von euch beschwerlich zu fallen.</VERSE>
+        <VERSE vnumber="9">Nicht daß wir nicht das Recht <STYLE fs="super">dazu</STYLE> haben, sondern damit wir uns selbst euch zum Muster gäben, um uns nachzuahmen.</VERSE>
+        <VERSE vnumber="10">Denn auch, als wir bei euch waren, geboten wir euch dieses: daß, wenn jemand nicht arbeiten will, er auch nicht essen soll.</VERSE>
+        <VERSE vnumber="11">Denn wir hören, daß etliche unter euch unordentlich wandeln, indem sie nichts arbeiten, sondern fremde Dinge treiben.</VERSE>
+        <VERSE vnumber="12">Solchen aber gebieten wir und ermahnen in dem<NOTE type="variant"><STYLE fs="italic">T. r.</STYLE> durch unsern.</NOTE> Herrn Jesu Christi, daß sie, in der Stille arbeitend, ihr eigenes Brod essen.</VERSE>
+        <VERSE vnumber="13">Ihr aber, Brüder, ermattet nicht im Gutesthun.</VERSE>
+        <VERSE vnumber="14">Wenn aber jemand unserm Worte durch den Brief nicht gehorcht, den bezeichnet und habt keinen Umgang mit ihm, auf daß er beschämt werde;</VERSE>
+        <VERSE vnumber="15">und haltet <STYLE fs="super">ihn</STYLE> nicht als Feind, sondern weiset <STYLE fs="super">ihn</STYLE> zurecht als einen Bruder.</VERSE>
+        <VERSE vnumber="16">Er selbst aber, der Herr des Friedens, gebe euch den Frieden immerdar auf allerlei Weise. Der Herr <STYLE fs="super">sei</STYLE> mit euch allen!</VERSE>
+      </PARAGRAPH>
+      <PARAGRAPH>
+        <VERSE vnumber="17">Der Gruß mit meiner, des Paulus, Hand, welches <STYLE fs="super">das</STYLE> Zeichen ist in jedem Briefe, so schreibe ich.</VERSE>
+        <VERSE vnumber="18">Die Gnade unsers Herrn Jesu Christi <STYLE fs="super">sei</STYLE> mit euch allen!<NOTE type="variant"><STYLE fs="italic">T. r.</STYLE> f. h. Amen.</NOTE></VERSE>
       </PARAGRAPH>
     </CHAPTER>
   </BIBLEBOOK>
