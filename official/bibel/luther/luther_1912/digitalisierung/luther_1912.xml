@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XMLBIBLE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="haggai_20150516.xsd" biblename="Luther 1912" status="v" version="haggai_20150516" revision="0">
+  <INFORMATION>
+    <title>Luther 1912</title>
+    <creator>Stephan Kreutzer, mybible.zone</creator>
+    <description>Luther-Bibel von 1912</description>
+    <publisher>http://www.freie-bibel.de</publisher>
+    <!-- contributor>TODO</contributor -->
+    <date>2018-02-11</date>
+    <type>Text</type>
+    <format>Haggai XML Bible Markup Language</format>
+    <identifier>luther_1912</identifier>
+    <source>Luther 1913, neu durchgesehen nach dem vom Deutschen Evangelischen Kirchenausschuß genehmigten Text, Mitteloktav-Ausgabe der Preußischen Haupt-Bibelgesellschaft</source>
+    <language>de_DE</language>
+    <coverage>1. Chronik 1</coverage>
+    <rights>Gemeinfrei laut Bestätigung der Deutschen Bibelgesellschaft vom 2014-01-21.</rights>
+  </INFORMATION>
+  <BIBLEBOOK bnumber="13" bname="1. Chronik">
+    <CAPTION>Das erste Buch der Chronik</CAPTION>
+    <CHAPTER cnumber="1">
+      <VERSE vnumber="1">Adam, Seth, Enos,</VERSE>
+      <VERSE vnumber="2">Kenan, Mahalaleel, Jared,</VERSE>
+      <VERSE vnumber="3">Henoch, Methusalah, Lamech,</VERSE>
+      <VERSE vnumber="4">Noah, Sem, Ham, Japheth.</VERSE>
+      <VERSE vnumber="5">Die Kinder Japheths sind diese: Gomer, Magog, Madai, Javan, Thubal, Mesech, Thiras.</VERSE>
+      <VERSE vnumber="6">Die Kinder aber Gomers sind: Askenas, Riphath, Thogarma.</VERSE>
+      <VERSE vnumber="7">Die Kinder Javans sind: Elisa, Tharsisa, die Chittiter, die Dodaniter.</VERSE>
+      <VERSE vnumber="8">Die Kinder Hams sind: Chus, Mizraim, Put, Kanaan.</VERSE>
+      <VERSE vnumber="9">Die Kinder aber von Chus sind: Seba, Hevila, Sabtha, Ragma, Sabthecha. Die Kinder aber Ragmas sind: Saba und Dedan.</VERSE>
+      <VERSE vnumber="10">Chus aber zeugte Nimrod; der fing an gewaltig zu sein auf Erden.</VERSE>
+      <VERSE vnumber="11">Mizraim zeugte die Luditer, die Anamiter, die Lehabiter, die Naphthuhiter,</VERSE>
+      <VERSE vnumber="12">Die Pathrusiter, die Kasluhiter, von welchen sind ausgegangen die Philister, und die Kaphthoriter.</VERSE>
+      <VERSE vnumber="13">Kanaan aber zeugte Sidon, seinen ersten Sohn, und Heth,</VERSE>
+      <VERSE vnumber="14">Den Jebusiter, den Amoriter, den Girgasiter,</VERSE>
+      <VERSE vnumber="15">Den Heviter, den Arkiter, den Siniter,</VERSE>
+      <VERSE vnumber="16">Den Arvaditer, den Zemariter und den Hamathiter.</VERSE>
+      <VERSE vnumber="17">Die Kinder Sems sind diese: Elam, Assur, Arphachsad, Lud, Aram, Uz, Hul, Gether und Mesech.</VERSE>
+      <VERSE vnumber="18">Arphachsad aber zeugte Salah; Salah zeugte Eber,</VERSE>
+      <VERSE vnumber="19">Eber aber wurden zwei Söhne geboren: der eine hieß Peleg, darum daß zu seiner Zeit das Land zerteilt ward, und sein Bruder hieß Joktan.</VERSE>
+      <VERSE vnumber="20">Joktan aber zeugte Almodad, Saleph, Hazarmaveth, Jarah,</VERSE>
+      <VERSE vnumber="21">Hadoram, Usal, Dikla,</VERSE>
+      <VERSE vnumber="22">Ebal, Abimael, Saba,</VERSE>
+      <VERSE vnumber="23">Ophir, Hevila und Jobab. Diese alle sind Kinder Joktans.</VERSE>
+      <VERSE vnumber="24">Sem, Arphachsad, Salah,</VERSE>
+      <VERSE vnumber="25">Eber, Peleg, Regu,</VERSE>
+      <VERSE vnumber="26">Serug, Nahor, Tharah,</VERSE>
+      <VERSE vnumber="27">Abram, das ist Abraham.</VERSE>
+      <VERSE vnumber="28">Die Kinder aber Abrahams sind: Isaak und Ismael.</VERSE>
+      <VERSE vnumber="29">Dies ist ihr Geschlecht: der erste Sohn Ismaels Nebajoth, Kedar, Adbeel, Mibsam,</VERSE>
+      <VERSE vnumber="30">Misma, Duma, Massa, Hadad, Thema,</VERSE>
+      <VERSE vnumber="31">Jetur, Naphis, Kedma. Das sind die Kinder Ismaels.</VERSE>
+      <VERSE vnumber="32">Die Kinder aber Keturas, des Kebsweibes Abrahams: die gebar Simran, Joksan, Medan, Midian, Jesbak, Suah. Aber die Kinder Joksans sind: Saba und Dedan.</VERSE>
+      <VERSE vnumber="33">Und die Kinder Midians sind: Epha, Epher, Hanoch, Abida, Eldaa. Diese alle sind Kinder der Ketura.</VERSE>
+      <VERSE vnumber="34">Abraham zeugte Isaak. Die Kinder aber Isaaks sind: Esau und Israel.</VERSE>
+      <VERSE vnumber="35">Die Kinder Esaus sind: Eliphas, Reguel, Jeus, Jaelam, Korah.</VERSE>
+      <VERSE vnumber="36">Die Kinder des Eliphas sind: Theman, Omar, Zephi, Gaetham, Kenas, Thimna, Amalek.</VERSE>
+      <VERSE vnumber="37">Die Kinder Reguels sind: Nahath, Serah, Samma und Missa.</VERSE>
+      <VERSE vnumber="38">Die Kinder Seirs sind: Lotan, Sobal, Zibeon, Ana, Dison, Ezer, Disan.</VERSE>
+      <VERSE vnumber="39">Die Kinder Lotans sind: Hori, Homam; und Thimna war eine Schwester Lotans.</VERSE>
+      <VERSE vnumber="40">Die Kinder Sobals sind: Aljan, Manahath, Ebal, Sephi, Onam. Die Kinder Zibeons sind: Aja und Ana.</VERSE>
+      <VERSE vnumber="41">Die Kinder Anas: Dison. Die Kinder Disons sind: Hamran, Esban, Jethran, Cheran.</VERSE>
+      <VERSE vnumber="42">Die Kinder Ezers sind: Bilhan, Saawan, Jaakan. Die Kinder Disans sind: Uz und Aran.</VERSE>
+      <VERSE vnumber="43">Dies sind die Könige, die regiert haben im Lande Edom, ehe denn ein König regierte unter den Kindern Israel: Bela, der Sohn Beors; und seine Stadt hieß Dinhaba.</VERSE>
+      <VERSE vnumber="44">Und da Bela starb, ward König an seiner Statt Jobab, der Sohn Serahs von Bozra.</VERSE>
+      <VERSE vnumber="45">Und da Jobab starb, ward König an seiner Statt Husam aus der Themaniter Lande.</VERSE>
+      <VERSE vnumber="46">Da Husam starb, ward König an seiner Statt Hadad, der Sohn Bedads, der die Midianiter schlug in der Moabiter Feld; und seine Stadt hieß Awith.</VERSE>
+      <VERSE vnumber="47">Da Hadad starb, ward König an seiner Statt Samla von Masrek.</VERSE>
+      <VERSE vnumber="48">Da Samla starb, ward König an seiner Statt Saul von Rehoboth am Strom.</VERSE>
+      <VERSE vnumber="49">Da Saul starb, ward König an seiner Statt Baal-Hanan, der Sohn Achbors.</VERSE>
+      <VERSE vnumber="50">Da Baal-Hanan starb, ward König an seiner Statt Hadad, und seine Stadt hieß Pagi; und sein Weib hieß Mehetabeel, eine Tochter Matreds, die Mesahabs Tochter war.</VERSE>
+      <VERSE vnumber="51">Da aber Hadad starb, wurden Fürsten zu Edom: Fürst Thimna, Fürst Alwa, Fürst Jetheth,</VERSE>
+      <VERSE vnumber="52">Fürst Oholibama, Fürst Ela, Fürst Pinon,</VERSE>
+      <VERSE vnumber="53">Fürst Kenas, Fürst Theman, Fürst Mibzar,</VERSE>
+      <VERSE vnumber="54">Fürst Magdiel, Fürst Iram. Das sind die Fürsten zu Edom.</VERSE>
+    </CHAPTER>
+  </BIBLEBOOK>
+</XMLBIBLE>
